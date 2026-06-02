@@ -16,7 +16,6 @@ export function ContactForm({ id = "contact-form" }: { id?: string }) {
     const data = Object.fromEntries(new FormData(form)) as Record<string, string>;
 
     const result = await submitToFormspree("contact", {
-      _subject: "Contact form — Smile Dental Arts Centre",
       fullName: data.fullName,
       email: data.email,
       phone: data.phone,

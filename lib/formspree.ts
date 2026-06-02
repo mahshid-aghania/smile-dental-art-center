@@ -1,21 +1,29 @@
-export type FormspreeFormKey = "appointment" | "contact" | "patientIntake";
+export type FormspreeFormType = "appointment" | "contact" | "patientIntake";
 
-const ENV_KEYS: Record<FormspreeFormKey, string[]> = {
-  appointment: ["NEXT_PUBLIC_FORMSPREE_APPOINTMENT_ID", "FORMSPREE_APPOINTMENT_ID"],
-  contact: ["NEXT_PUBLIC_FORMSPREE_CONTACT_ID", "FORMSPREE_CONTACT_ID"],
-  patientIntake: ["NEXT_PUBLIC_FORMSPREE_PATIENT_INTAKE_ID", "FORMSPREE_PATIENT_INTAKE_ID"],
+const FORM_TYPE_LABELS: Record<FormspreeFormType, string> = {
+  appointment: "Appointment request",
+  contact: "Contact message",
+  patientIntake: "AI smile preview intake",
 };
 
-export function getFormspreeId(key: FormspreeFormKey): string | undefined {
-  for (const envKey of ENV_KEYS[key]) {
+const FORM_ID_ENV_KEYS = [
+  "NEXT_PUBLIC_FORMSPREE_FORM_ID",
+  "FORMSPREE_FORM_ID",
+  // Legacy (all map to the same endpoint if set)
+  "NEXT_PUBLIC_FORMSPREE_APPOINTMENT_ID",
+  "FORMSPREE_APPOINTMENT_ID",
+];
+
+export function getFormspreeId(): string | undefined {
+  for (const envKey of FORM_ID_ENV_KEYS) {
     const value = process.env[envKey]?.trim();
     if (value) return value;
   }
   return undefined;
 }
 
-export function getFormspreeEndpoint(key: FormspreeFormKey): string | null {
-  const id = getFormspreeId(key);
+export function getFormspreeEndpoint(): string | null {
+  const id = getFormspreeId();
   return id ? `https://formspree.io/f/${id}` : null;
 }
 
@@ -24,21 +32,25 @@ export type FormspreeResult =
   | { ok: false; message: string; status?: number };
 
 export async function submitToFormspree(
-  key: FormspreeFormKey,
+  formType: FormspreeFormType,
   fields: Record<string, string | number | boolean | undefined | null>
 ): Promise<FormspreeResult> {
-  const endpoint = getFormspreeEndpoint(key);
+  const endpoint = getFormspreeEndpoint();
   if (!endpoint) {
     return {
       ok: false,
       message:
-        "Form submissions are not configured yet. Add your Formspree form IDs to .env.local (see README).",
+        "Form submissions are not configured yet. Add NEXT_PUBLIC_FORMSPREE_FORM_ID to .env.local (see README).",
     };
   }
 
-  const body: Record<string, string> = {};
+  const body: Record<string, string> = {
+    formType,
+    _subject: `${FORM_TYPE_LABELS[formType]} — Smile Dental Arts Centre`,
+  };
   for (const [k, v] of Object.entries(fields)) {
     if (v === undefined || v === null) continue;
+    if (k === "_subject") continue;
     body[k] = String(v);
   }
 

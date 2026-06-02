@@ -20,10 +20,8 @@ A modern Next.js (App Router) app with two experiences:
 
 2. Set `REPLICATE_API_TOKEN` in `.env.local` (never commit real tokens).
 
-3. **Formspree (forms):** Create three forms at [Formspree](https://formspree.io) and add their IDs to `.env.local`:
-   - `NEXT_PUBLIC_FORMSPREE_APPOINTMENT_ID` — appointment request (homepage + `/appointments`)
-   - `NEXT_PUBLIC_FORMSPREE_CONTACT_ID` — contact form (`/contact-us`)
-   - `NEXT_PUBLIC_FORMSPREE_PATIENT_INTAKE_ID` — AI wizard intake (sent after a successful preview generation)
+3. **Formspree (forms):** Add your form ID to `.env.local` (from `https://formspree.io/f/your-id`):
+   - `NEXT_PUBLIC_FORMSPREE_FORM_ID=xpqnbrbk` — used for appointment, contact, and AI intake (each submission includes a `formType` field so you can tell them apart in email)
 
 4. Optionally set `REPLICATE_MODEL` to a model slug you control. The default integration targets **`black-forest-labs/flux-kontext-max`** with inputs:
 

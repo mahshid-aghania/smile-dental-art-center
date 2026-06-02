@@ -61,8 +61,7 @@ export function PatientInfoForm({ value, onChange, disabled }: PatientInfoFormPr
         </div>
       </div>
       <p className="text-xs leading-relaxed text-[var(--foreground-muted)]">
-        Your details are sent securely via Formspree when you generate your AI preview (configure
-        form IDs in <code className="text-emerald-600/90">.env.local</code>).
+        Your details are sent via Formspree when you generate your AI preview.
       </p>
     </div>
   );

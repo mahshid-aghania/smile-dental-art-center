@@ -26,7 +26,6 @@ export function AppointmentForm({ id = "appointment" }: { id?: string }) {
     const data = Object.fromEntries(new FormData(form)) as Record<string, string>;
 
     const result = await submitToFormspree("appointment", {
-      _subject: "Appointment request — Smile Dental Arts Centre",
       fullName: data.fullName,
       email: data.email,
       phone: data.phone,

@@ -11,7 +11,6 @@ export async function forwardPatientIntakeToWebhook(payload: {
   previewImageUrl: string;
 }): Promise<void> {
   const result = await submitToFormspree("patientIntake", {
-    _subject: "AI smile preview intake",
     fullName: payload.patient.fullName,
     email: payload.patient.email,
     phone: payload.patient.phone,
