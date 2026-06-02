@@ -148,7 +148,7 @@ export default function Home() {
               <CardHeader className="space-y-2">
                 <CardTitle className="text-xl font-medium tracking-tight">Your information</CardTitle>
                 <CardDescription className="text-[var(--foreground-muted)]">
-                  Demo fields only—nothing is saved in this sample unless you add a webhook.
+                  We will email your intake details via Formspree when your preview is generated.
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">

@@ -22,7 +22,7 @@ export function HeroCarousel() {
   const slide = HERO_SLIDES[index];
 
   return (
-    <section className="relative min-h-[min(72vh,720px)] w-full overflow-hidden bg-slate-900">
+    <section className="relative min-h-[min(72vh,720px)] w-full overflow-hidden bg-black">
       {HERO_SLIDES.map((s, i) => (
         <div
           key={s.image}

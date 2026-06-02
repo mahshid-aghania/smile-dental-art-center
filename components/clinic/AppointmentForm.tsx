@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 
+import { submitToFormspree } from "@/lib/formspree";
+
 const DAYS = ["Any Day", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const TIMES = ["Any Time", "Morning", "Afternoon"];
 const REASONS = [
@@ -21,27 +23,29 @@ export function AppointmentForm({ id = "appointment" }: { id?: string }) {
     setStatus("loading");
     setMessage(null);
     const form = e.currentTarget;
-    const data = Object.fromEntries(new FormData(form));
+    const data = Object.fromEntries(new FormData(form)) as Record<string, string>;
 
-    try {
-      const res = await fetch("/api/appointment-request", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
-      const json = (await res.json()) as { message?: string; error?: string };
-      if (!res.ok) {
-        setStatus("error");
-        setMessage(json.error ?? "Could not submit request.");
-        return;
-      }
-      setStatus("success");
-      setMessage(json.message ?? "Thank you! We will contact you shortly.");
-      form.reset();
-    } catch {
+    const result = await submitToFormspree("appointment", {
+      _subject: "Appointment request — Smile Dental Arts Centre",
+      fullName: data.fullName,
+      email: data.email,
+      phone: data.phone,
+      currentPatient: data.currentPatient,
+      preferredDays: data.preferredDays,
+      preferredTime: data.preferredTime,
+      reason: data.reason,
+      details: data.details,
+    });
+
+    if (!result.ok) {
       setStatus("error");
-      setMessage("Network error. Please try again or call the clinic.");
+      setMessage(result.message);
+      return;
     }
+
+    setStatus("success");
+    setMessage("Thank you! Your appointment request has been received. Our team will contact you shortly.");
+    form.reset();
   }
 
   return (
@@ -59,7 +63,7 @@ export function AppointmentForm({ id = "appointment" }: { id?: string }) {
             name="fullName"
             required
             placeholder="Enter your full name"
-            className="w-full rounded-md border border-[var(--clinic-border)] px-3 py-2 text-sm outline-none focus:border-[var(--clinic-gold)] focus:ring-1 focus:ring-[var(--clinic-gold)]"
+            className="w-full rounded-md border border-[var(--clinic-border)] bg-white px-3 py-2 text-sm text-[var(--clinic-text)] outline-none placeholder:text-slate-400 focus:border-[var(--clinic-gold)] focus:ring-1 focus:ring-[var(--clinic-gold)]"
           />
         </label>
         <label className="block space-y-1.5">
@@ -71,7 +75,7 @@ export function AppointmentForm({ id = "appointment" }: { id?: string }) {
             type="email"
             required
             placeholder="Email Address"
-            className="w-full rounded-md border border-[var(--clinic-border)] px-3 py-2 text-sm outline-none focus:border-[var(--clinic-gold)] focus:ring-1 focus:ring-[var(--clinic-gold)]"
+            className="w-full rounded-md border border-[var(--clinic-border)] bg-white px-3 py-2 text-sm text-[var(--clinic-text)] outline-none placeholder:text-slate-400 focus:border-[var(--clinic-gold)] focus:ring-1 focus:ring-[var(--clinic-gold)]"
           />
         </label>
         <label className="block space-y-1.5">
@@ -83,7 +87,7 @@ export function AppointmentForm({ id = "appointment" }: { id?: string }) {
             type="tel"
             required
             placeholder="Mobile Number"
-            className="w-full rounded-md border border-[var(--clinic-border)] px-3 py-2 text-sm outline-none focus:border-[var(--clinic-gold)] focus:ring-1 focus:ring-[var(--clinic-gold)]"
+            className="w-full rounded-md border border-[var(--clinic-border)] bg-white px-3 py-2 text-sm text-[var(--clinic-text)] outline-none placeholder:text-slate-400 focus:border-[var(--clinic-gold)] focus:ring-1 focus:ring-[var(--clinic-gold)]"
           />
         </label>
         <label className="block space-y-1.5">
@@ -91,7 +95,7 @@ export function AppointmentForm({ id = "appointment" }: { id?: string }) {
           <select
             name="currentPatient"
             defaultValue=""
-            className="w-full rounded-md border border-[var(--clinic-border)] px-3 py-2 text-sm outline-none focus:border-[var(--clinic-gold)]"
+            className="w-full rounded-md border border-[var(--clinic-border)] bg-white px-3 py-2 text-sm text-[var(--clinic-text)] outline-none focus:border-[var(--clinic-gold)]"
           >
             <option value="">- Select -</option>
             <option value="yes">Yes</option>
@@ -105,7 +109,7 @@ export function AppointmentForm({ id = "appointment" }: { id?: string }) {
           <select
             name="preferredDays"
             defaultValue="Any Day"
-            className="w-full rounded-md border border-[var(--clinic-border)] px-3 py-2 text-sm"
+            className="w-full rounded-md border border-[var(--clinic-border)] bg-white px-3 py-2 text-sm text-[var(--clinic-text)]"
           >
             {DAYS.map((d) => (
               <option key={d} value={d}>
@@ -122,7 +126,7 @@ export function AppointmentForm({ id = "appointment" }: { id?: string }) {
             name="preferredTime"
             required
             defaultValue="Any Time"
-            className="w-full rounded-md border border-[var(--clinic-border)] px-3 py-2 text-sm"
+            className="w-full rounded-md border border-[var(--clinic-border)] bg-white px-3 py-2 text-sm text-[var(--clinic-text)]"
           >
             {TIMES.map((t) => (
               <option key={t} value={t}>
@@ -139,7 +143,7 @@ export function AppointmentForm({ id = "appointment" }: { id?: string }) {
             name="reason"
             required
             defaultValue="Exam & Cleaning"
-            className="w-full rounded-md border border-[var(--clinic-border)] px-3 py-2 text-sm"
+            className="w-full rounded-md border border-[var(--clinic-border)] bg-white px-3 py-2 text-sm text-[var(--clinic-text)]"
           >
             {REASONS.map((r) => (
               <option key={r} value={r}>
@@ -155,7 +159,7 @@ export function AppointmentForm({ id = "appointment" }: { id?: string }) {
           <textarea
             name="details"
             rows={4}
-            className="w-full rounded-md border border-[var(--clinic-border)] px-3 py-2 text-sm outline-none focus:border-[var(--clinic-gold)] focus:ring-1 focus:ring-[var(--clinic-gold)]"
+            className="w-full rounded-md border border-[var(--clinic-border)] bg-white px-3 py-2 text-sm text-[var(--clinic-text)] outline-none placeholder:text-slate-400 focus:border-[var(--clinic-gold)] focus:ring-1 focus:ring-[var(--clinic-gold)]"
           />
         </label>
       </div>

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 import { CLINIC, FOOTER_LINKS } from "@/lib/clinic/content";
 
@@ -53,9 +53,9 @@ export function ClinicFooter() {
           <ul className="space-y-2 text-sm text-slate-200">
             {FOOTER_LINKS.about.map((link) => (
               <li key={link.label}>
-                <a href={link.href} className="hover:text-white" target="_blank" rel="noopener noreferrer">
+                <Link href={link.href} className="hover:text-white">
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -68,9 +68,9 @@ export function ClinicFooter() {
           <ul className="space-y-2 text-sm text-slate-200">
             {FOOTER_LINKS.services.map((link) => (
               <li key={link.label}>
-                <a href={link.href} className="hover:text-white" target="_blank" rel="noopener noreferrer">
+                <Link href={link.href} className="hover:text-white">
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -92,7 +92,7 @@ export function ClinicFooter() {
               className="rounded-full border border-white/20 p-2 hover:bg-white/10"
               aria-label="Facebook"
             >
-              <Facebook className="size-5" />
+              <span className="inline-flex size-5 items-center justify-center text-xs font-bold">f</span>
             </a>
             <a
               href={CLINIC.social.instagram}
@@ -101,7 +101,7 @@ export function ClinicFooter() {
               className="rounded-full border border-white/20 p-2 hover:bg-white/10"
               aria-label="Instagram"
             >
-              <Instagram className="size-5" />
+              <span className="inline-flex size-5 items-center justify-center text-[10px] font-bold">IG</span>
             </a>
             <a
               href={CLINIC.social.linkedin}
@@ -110,7 +110,7 @@ export function ClinicFooter() {
               className="rounded-full border border-white/20 p-2 hover:bg-white/10"
               aria-label="LinkedIn"
             >
-              <Linkedin className="size-5" />
+              <span className="inline-flex size-5 items-center justify-center text-[10px] font-bold">in</span>
             </a>
           </div>
         </div>

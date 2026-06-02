@@ -37,18 +37,8 @@
 }
 
 :root {
-  --background: #070a09;
-  --surface: #0e1311;
-  --surface-elevated: #141c19;
-  --foreground: #ecfdf5;
-  --foreground-muted: #94a3b8;
-  --primary: #10b981;
-  --primary-hover: #059669;
-  --primary-active: #047857;
-  --primary-glow: rgba(16, 185, 129, 0.22);
-  --ring: #34d399;
-  --border: rgba(16, 185, 129, 0.14);
-  --border-subtle: rgba(255, 255, 255, 0.06);
+  --background: #ffffff;
+  --foreground: #1e293b;
 }
 
 @theme inline {

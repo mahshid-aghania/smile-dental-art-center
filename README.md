@@ -2,7 +2,7 @@
 
 A modern Next.js (App Router) app with two experiences:
 
-1. **Clinic site clone** (`/`) — Smile Dental Arts Centre homepage (hero, services, appointment form, testimonials, map) on branch `clone/smile-dental-arts-centre`
+1. **Clinic site clone** (`/`) — Full Smile Dental Arts Centre mirror: homepage plus **76 internal pages** (services, about, CDCP, FAQ, contact, appointments, etc.) with scraped copy from the live site
 2. **AI smile preview** (`/smile-preview`) — capture a selfie, choose a treatment direction, and call **Replicate** to generate an edited preview image
 
 ## Prerequisites
@@ -20,7 +20,10 @@ A modern Next.js (App Router) app with two experiences:
 
 2. Set `REPLICATE_API_TOKEN` in `.env.local` (never commit real tokens).
 
-3. **Patient intake (demo):** The form collects name, email, and phone for a realistic flow. Values are sent with the generate request and validated on the server; nothing is stored unless you set optional **`PATIENT_INTAKE_WEBHOOK_URL`** (e.g. Zapier) for your own demo backend.
+3. **Formspree (forms):** Create three forms at [Formspree](https://formspree.io) and add their IDs to `.env.local`:
+   - `NEXT_PUBLIC_FORMSPREE_APPOINTMENT_ID` — appointment request (homepage + `/appointments`)
+   - `NEXT_PUBLIC_FORMSPREE_CONTACT_ID` — contact form (`/contact-us`)
+   - `NEXT_PUBLIC_FORMSPREE_PATIENT_INTAKE_ID` — AI wizard intake (sent after a successful preview generation)
 
 4. Optionally set `REPLICATE_MODEL` to a model slug you control. The default integration targets **`black-forest-labs/flux-kontext-max`** with inputs:
 
@@ -50,10 +53,14 @@ Open [http://localhost:3000](http://localhost:3000) for the clinic homepage, or 
 
 ## Project structure
 
-- `app/(clinic)/page.tsx` — Clinic homepage clone (Smile Dental Arts Centre)
+- `app/(clinic)/page.tsx` — Clinic homepage
+- `app/(clinic)/[...slug]/page.tsx` — All other cloned pages (services, about, FAQ, etc.)
 - `app/(clinic)/layout.tsx` — Clinic header, footer, CDCP banner
-- `components/clinic/` — Hero carousel, sections, appointment form, testimonials
-- `lib/clinic/content.ts` — Site copy, nav, and service data
+- `components/clinic/` — Hero carousel, sections, appointment & contact forms, testimonials
+- `lib/clinic/content.ts` — Nav, service cards, clinic contact info
+- `lib/clinic/scraped-pages.json` — Page copy scraped from smiledentalartscentre.com
+- `lib/clinic/pages.ts` — Page lookup and related-service helpers
+- `lib/formspree.ts` — Formspree submit helper
 - `app/smile-preview/page.tsx` — Wizard flow: patient intake → treatment → camera → preview + generate
 - `app/api/generate-smile/route.ts` — Validates patient + image; runs Replicate; optional intake webhook
 - `components/PatientInfoForm.tsx` — Name, email, phone fields
@@ -65,7 +72,7 @@ Open [http://localhost:3000](http://localhost:3000) for the clinic homepage, or 
 - `components/LoadingState.tsx` — Generation loading copy
 - `components/ErrorMessage.tsx` — Inline errors (camera, API, env)
 - `lib/patient-intake.ts` — Patient object type + validation
-- `lib/patient-webhook.ts` — Optional demo webhook (`PATIENT_INTAKE_WEBHOOK_URL`)
+- `lib/patient-webhook.ts` — Sends AI intake to Formspree after generation
 - `lib/replicate-smile.ts` — Replicate file upload + `replicate.run`
 - `lib/treatment-prompts.ts` — Treatment IDs and exact prompts
 

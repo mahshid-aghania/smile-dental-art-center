@@ -40,7 +40,7 @@ export function CdcpBanner() {
         We are accepting Canadian Dental Care Plan
       </p>
       <p className="mt-2 text-sm">
-        <Link href={CLINIC.external.cdcp} className="clinic-link font-medium" target="_blank">
+        <Link href={CLINIC.pages.cdcp} className="clinic-link font-medium">
           Click Here
         </Link>{" "}
         to learn more!

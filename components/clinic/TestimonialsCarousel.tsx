@@ -43,7 +43,7 @@ export function TestimonialsCarousel() {
             <button
               type="button"
               onClick={prev}
-              className="rounded-full border border-[var(--clinic-border)] p-2 hover:bg-[var(--clinic-surface)]"
+              className="rounded-full border border-[var(--clinic-border)] p-2 text-[var(--clinic-navy)] hover:bg-[var(--clinic-surface)]"
               aria-label="Previous testimonial"
             >
               <ChevronLeft className="size-5" />
@@ -64,7 +64,7 @@ export function TestimonialsCarousel() {
             <button
               type="button"
               onClick={next}
-              className="rounded-full border border-[var(--clinic-border)] p-2 hover:bg-[var(--clinic-surface)]"
+              className="rounded-full border border-[var(--clinic-border)] p-2 text-[var(--clinic-navy)] hover:bg-[var(--clinic-surface)]"
               aria-label="Next testimonial"
             >
               <ChevronRight className="size-5" />

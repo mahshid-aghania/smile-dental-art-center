@@ -1,5 +1,6 @@
 import type { ComponentType } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import {
   Activity,
   AlertCircle,
@@ -80,9 +81,9 @@ export function HighlightServicesSection() {
         </div>
         <p className="mt-10 text-center text-sm text-[var(--clinic-muted)]">
           Learn more about our treatments on our{" "}
-          <a href={CLINIC.external.services} className="clinic-link" target="_blank" rel="noopener noreferrer">
+          <Link href={CLINIC.pages.services} className="clinic-link">
             Services
-          </a>{" "}
+          </Link>{" "}
           page.
         </p>
       </div>
@@ -199,14 +200,9 @@ export function ServiceCardsSection() {
                 <p className="mt-2 line-clamp-4 text-xs leading-relaxed text-[var(--clinic-muted)]">
                   {card.description}
                 </p>
-                <a
-                  href={CLINIC.external.services}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="clinic-link mt-3 inline-block text-xs font-semibold"
-                >
+                <Link href={card.href} className="clinic-link mt-3 inline-block text-xs font-semibold">
                   Read More
-                </a>
+                </Link>
               </div>
             </article>
           ))}
@@ -226,28 +222,26 @@ export function ServiceIconsSection() {
         <p className="mx-auto mt-4 max-w-2xl text-slate-300">
           Our clients are our priority. More details about our services by clicking on each icon.
         </p>
-        <a
-          href="#appointment"
+        <Link
+          href={CLINIC.pages.appointments}
           className="clinic-btn-primary mt-8 inline-block px-8 py-3 text-sm"
         >
           Request Appoinment
-        </a>
+        </Link>
         <div className="mt-12 grid grid-cols-2 gap-6 sm:grid-cols-4">
-          {SERVICE_ICONS.map(({ label, slug }) => {
+          {SERVICE_ICONS.map(({ label, slug, href }) => {
             const Icon = ICON_MAP[slug] ?? Stethoscope;
             return (
-              <a
+              <Link
                 key={slug}
-                href={CLINIC.external.services}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={href}
                 className="flex flex-col items-center gap-3 rounded-xl border border-white/10 p-6 transition hover:bg-white/5"
               >
                 <span className="flex size-16 items-center justify-center rounded-full border-2 border-[var(--clinic-gold)] text-[var(--clinic-gold)]">
                   <Icon className="size-8" aria-hidden />
                 </span>
                 <span className="text-xs font-bold uppercase tracking-wide">{label}</span>
-              </a>
+              </Link>
             );
           })}
         </div>

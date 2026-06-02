@@ -17,12 +17,19 @@ export const CLINIC = {
     instagram: "https://www.instagram.com/",
     linkedin: "https://www.linkedin.com/",
   },
+  pages: {
+    services: "/dental-services",
+    cdcp: "/canadian-dental-care-plan-cdcp",
+    drKadivar: "/about-us/dr-neda-kadivar",
+    team: "/about-us",
+    faq: "/dental-faq-guide",
+    gallery: "/gallery",
+    contact: "/contact-us",
+    appointments: "/appointments",
+    blog: "/blog",
+    news: "/news",
+  },
   external: {
-    services: "https://smiledentalartscentre.com/dental-services/",
-    cdcp: "https://smiledentalartscentre.com/cdcp/",
-    drKadivar: "https://smiledentalartscentre.com/dr-neda-kadivar/",
-    team: "https://smiledentalartscentre.com/our-team/",
-    faq: "https://smiledentalartscentre.com/faq/",
     rcdso: "https://www.rcdso.org/",
     oda: "https://www.oda.ca/",
     cda: "https://www.cda-adc.ca/",
@@ -77,18 +84,18 @@ export const NAV_ITEMS = [
   { label: "Home", href: "/" },
   {
     label: "About Us",
-    href: "#about",
+    href: CLINIC.pages.team,
     children: [
-      { label: "Dr Neda Kadivar", href: CLINIC.external.drKadivar },
-      { label: "Our Team", href: CLINIC.external.team },
-      { label: "Gallery", href: "#gallery" },
-      { label: "FAQ", href: CLINIC.external.faq },
+      { label: "Dr Neda Kadivar", href: CLINIC.pages.drKadivar },
+      { label: "Our Team", href: CLINIC.pages.team },
+      { label: "Gallery", href: CLINIC.pages.gallery },
+      { label: "FAQ", href: CLINIC.pages.faq },
     ],
   },
-  { label: "CDCP", href: CLINIC.external.cdcp },
-  { label: "Dental Services", href: CLINIC.external.services },
-  { label: "Contact Us", href: "#contact" },
-  { label: "Appointment Request", href: "#appointment" },
+  { label: "CDCP", href: CLINIC.pages.cdcp },
+  { label: "Dental Services", href: CLINIC.pages.services },
+  { label: "Contact Us", href: CLINIC.pages.contact },
+  { label: "Appointment Request", href: CLINIC.pages.appointments },
 ] as const;
 
 export const HIGHLIGHT_SERVICES = [
@@ -130,48 +137,56 @@ export const WHY_CHOOSE = [
 export const SERVICE_CARDS = [
   {
     title: "Cleanings & Prevention",
+    href: "/dental-services/cleanings-prevention",
     description:
       "Regular cleaning & prevention of teeth in order to support and protect oral health, ensure a beautiful smile and prevent dental problems.",
     image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/1.webp",
   },
   {
     title: "Cosmetic Dentistry",
+    href: "/dental-services/cosmetic-dentistry",
     description:
       "Cosmetic dentistry focuses on enhancing the appearance of a person's teeth, gums, and smile through various procedures and treatment.",
     image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/3.webp",
   },
   {
     title: "Restorations",
+    href: "/dental-services/restorations",
     description:
       "Dental restorations include repairing or replacing damaged or missing teeth to restore the function and appearance of those teeth.",
     image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/6.webp",
   },
   {
     title: "Invisalign®",
+    href: "/dental-services/invisalign-in-markham",
     description:
       "Transform your smile discreetly with Invisalign's clear aligners the modern, comfortable way to achieve the perfect smile you've always wanted.",
     image: "https://smiledentalartscentre.com/wp-content/uploads/2023/10/Invisalign-scaled.jpg",
   },
   {
     title: "Oral Surgery",
+    href: "/dental-services/oral-surgery",
     description:
       "Oral surgery in dentistry involves surgical procedures that address complex dental issues, such as tooth extraction, dental implant placement, jaw surgery, and the treatment of oral diseases.",
     image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/9.jpg",
   },
   {
     title: "Endodontics",
+    href: "/dental-services/endodontics",
     description:
       "Endodontics aims to save and maintain natural teeth whenever possible, focusing on diagnosing and treating issues related to the dental pulp and the tissues surrounding the roots of teeth.",
     image: "https://smiledentalartscentre.com/wp-content/uploads/2023/10/Endo-4.webp",
   },
   {
     title: "Dental Emergencies",
+    href: "/dental-services/dental-emergencies",
     description:
       "If you or a family member is facing a dental emergency, please reach out to us without delay. Our team is here to provide the prompt attention and care you need to safeguard your oral health.",
     image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/10.webp",
   },
   {
     title: "Periodontics",
+    href: "/dental-services/periodontics",
     description:
       "Uncover healthy gums and a confident smile with periodontics. Our specialized care prioritizes gum disease prevention, diagnosis, and treatment, ensuring optimal oral health.",
     image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/DMO15832.jpg",
@@ -179,14 +194,14 @@ export const SERVICE_CARDS = [
 ] as const;
 
 export const SERVICE_ICONS = [
-  { label: "WHITENING", slug: "whitening" },
-  { label: "PREVENTION", slug: "prevention" },
-  { label: "Implants", slug: "implants" },
-  { label: "Emergencies", slug: "emergencies" },
-  { label: "X-Rays", slug: "x-rays" },
-  { label: "Endodontics", slug: "endodontics" },
-  { label: "Composite", slug: "composite" },
-  { label: "Periodontics", slug: "periodontics" },
+  { label: "WHITENING", slug: "whitening", href: "/dental-services/cosmetic-dentistry/zoom-teeth-whitening" },
+  { label: "PREVENTION", slug: "prevention", href: "/dental-services/cleanings-prevention" },
+  { label: "Implants", slug: "implants", href: "/dental-services/cosmetic-dentistry/dental-implants" },
+  { label: "Emergencies", slug: "emergencies", href: "/dental-services/dental-emergencies" },
+  { label: "X-Rays", slug: "x-rays", href: "/dental-services/cleanings-prevention/dental-digital-x-rays" },
+  { label: "Endodontics", slug: "endodontics", href: "/dental-services/endodontics" },
+  { label: "Composite", slug: "composite", href: "/dental-services/restorations/composite-fillings" },
+  { label: "Periodontics", slug: "periodontics", href: "/dental-services/periodontics" },
 ] as const;
 
 export const TESTIMONIALS = [
@@ -219,15 +234,15 @@ export const TESTIMONIALS = [
 
 export const FOOTER_LINKS = {
   about: [
-    { label: "Dr Neda Kadivar", href: CLINIC.external.drKadivar },
-    { label: "Our Team", href: CLINIC.external.team },
-    { label: "FAQ", href: CLINIC.external.faq },
+    { label: "Dr Neda Kadivar", href: CLINIC.pages.drKadivar },
+    { label: "Our Team", href: CLINIC.pages.team },
+    { label: "FAQ", href: CLINIC.pages.faq },
   ],
   services: [
-    { label: "Cleanings & Prevention", href: CLINIC.external.services },
-    { label: "Cosmetic Dentistry", href: CLINIC.external.services },
-    { label: "Restorations", href: CLINIC.external.services },
-    { label: "CDCP", href: CLINIC.external.cdcp },
-    { label: "Other Services", href: CLINIC.external.services },
+    { label: "Cleanings & Prevention", href: "/dental-services/cleanings-prevention" },
+    { label: "Cosmetic Dentistry", href: "/dental-services/cosmetic-dentistry" },
+    { label: "Restorations", href: "/dental-services/restorations" },
+    { label: "CDCP", href: CLINIC.pages.cdcp },
+    { label: "All Services", href: CLINIC.pages.services },
   ],
 } as const;

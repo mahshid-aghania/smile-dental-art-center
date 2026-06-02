@@ -33,9 +33,21 @@ export function ClinicHeader() {
           {CLINIC.phone}
         </a>
 
+        <nav className="hidden items-center gap-6 lg:flex" aria-label="Main">
+          {NAV_ITEMS.map((item) => (
+            <Link
+              key={item.label}
+              href={item.href}
+              className="text-xs font-semibold uppercase tracking-wide text-[var(--clinic-navy)] hover:text-[var(--clinic-gold)]"
+            >
+              {item.label}
+            </Link>
+          ))}
+        </nav>
+
         <button
           type="button"
-          className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--clinic-navy)]"
+          className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-[var(--clinic-navy)] lg:hidden"
           onClick={() => setOpen((v) => !v)}
           aria-expanded={open}
           aria-controls="clinic-mobile-nav"
@@ -59,9 +71,6 @@ export function ClinicHeader() {
                 href={item.href}
                 className="block py-3 text-sm font-medium text-[var(--clinic-navy)]"
                 onClick={() => setOpen(false)}
-                {...(item.href.startsWith("http")
-                  ? { target: "_blank", rel: "noopener noreferrer" }
-                  : {})}
               >
                 {item.label}
               </Link>
@@ -73,8 +82,6 @@ export function ClinicHeader() {
                         href={child.href}
                         className="block py-1.5 text-sm text-[var(--clinic-muted)] hover:text-[var(--clinic-gold)]"
                         onClick={() => setOpen(false)}
-                        target={child.href.startsWith("http") ? "_blank" : undefined}
-                        rel={child.href.startsWith("http") ? "noopener noreferrer" : undefined}
                       >
                         {child.label}
                       </Link>

@@ -61,8 +61,8 @@ export function PatientInfoForm({ value, onChange, disabled }: PatientInfoFormPr
         </div>
       </div>
       <p className="text-xs leading-relaxed text-[var(--foreground-muted)]">
-        Demo only: sample intake for prototyping. This starter app does not save your details unless
-        you wire up a webhook (see README).
+        Your details are sent securely via Formspree when you generate your AI preview (configure
+        form IDs in <code className="text-emerald-600/90">.env.local</code>).
       </p>
     </div>
   );
