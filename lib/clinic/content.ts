@@ -239,6 +239,7 @@ export const FOOTER_LINKS = {
     { label: "FAQ", href: CLINIC.pages.faq },
   ],
   services: [
+    { label: "Dental Implants in Markham", href: "/dental-implants" },
     { label: "Cleanings & Prevention", href: "/dental-services/cleanings-prevention" },
     { label: "Cosmetic Dentistry", href: "/dental-services/cosmetic-dentistry" },
     { label: "Restorations", href: "/dental-services/restorations" },
