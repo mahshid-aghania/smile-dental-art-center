@@ -49,6 +49,7 @@ export const HERO_SLIDES = [
   },
   {
     image: "/clinic/hero-team.jpg",
+    position: "50% 22%",
     eyebrow: "EXPERT CARE IN MARKHAM",
     title: "YOUR DENTAL TEAM",
     ctaTitle: "Plan Your Visit Now",
@@ -65,6 +66,7 @@ export const HERO_SLIDES = [
   },
   {
     image: "/clinic/hero-office.jpg",
+    position: "50% 30%",
     eyebrow: "MODERN DENTISTRY",
     title: "WELCOME HOME",
     ctaTitle: "Plan Your Visit Now",
