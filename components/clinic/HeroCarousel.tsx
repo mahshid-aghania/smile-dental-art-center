@@ -41,7 +41,8 @@ export function HeroCarousel() {
             priority={i === 0}
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-black/25" />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/40" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
         </div>
       ))}
 
@@ -49,7 +50,10 @@ export function HeroCarousel() {
         <p className="max-w-xl text-xs font-semibold uppercase tracking-[0.35em] text-white [text-shadow:0_1px_6px_rgba(0,0,0,0.85)] sm:text-sm">
           {slide.eyebrow}
         </p>
-        <h1 className="clinic-heading mt-3 max-w-2xl text-4xl font-bold uppercase leading-tight text-[var(--clinic-gold)] [text-shadow:-1px_-1px_2px_rgba(0,0,0,0.9),1px_-1px_2px_rgba(0,0,0,0.9),-1px_1px_2px_rgba(0,0,0,0.9),1px_1px_2px_rgba(0,0,0,0.9),0_3px_16px_rgba(0,0,0,0.8)] sm:text-5xl md:text-6xl">
+        <h1
+          style={{ color: "var(--clinic-gold)" }}
+          className="clinic-heading mt-3 max-w-2xl text-4xl font-bold uppercase leading-tight [text-shadow:-1px_-1px_2px_rgba(0,0,0,0.9),1px_-1px_2px_rgba(0,0,0,0.9),-1px_1px_2px_rgba(0,0,0,0.9),1px_1px_2px_rgba(0,0,0,0.9),0_3px_16px_rgba(0,0,0,0.8)] sm:text-5xl md:text-6xl"
+        >
           {slide.title}
         </h1>
 
