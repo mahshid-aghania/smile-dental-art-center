@@ -40,15 +40,15 @@ export function HeroCarousel() {
             priority={i === 0}
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/55 via-black/25 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-black/25" />
         </div>
       ))}
 
       <div className="relative mx-auto flex min-h-[min(72vh,720px)] max-w-7xl flex-col justify-center px-4 py-16 sm:px-6 lg:px-8">
-        <p className="max-w-xl text-xs font-semibold uppercase tracking-[0.35em] text-white/90 sm:text-sm">
+        <p className="max-w-xl text-xs font-semibold uppercase tracking-[0.35em] text-white [text-shadow:0_1px_6px_rgba(0,0,0,0.85)] sm:text-sm">
           {slide.eyebrow}
         </p>
-        <h1 className="clinic-heading mt-3 max-w-2xl text-4xl font-bold uppercase leading-tight text-[var(--clinic-gold)] sm:text-5xl md:text-6xl">
+        <h1 className="clinic-heading mt-3 max-w-2xl text-4xl font-bold uppercase leading-tight text-[var(--clinic-gold)] [text-shadow:-1px_-1px_2px_rgba(0,0,0,0.9),1px_-1px_2px_rgba(0,0,0,0.9),-1px_1px_2px_rgba(0,0,0,0.9),1px_1px_2px_rgba(0,0,0,0.9),0_3px_16px_rgba(0,0,0,0.8)] sm:text-5xl md:text-6xl">
           {slide.title}
         </h1>
 

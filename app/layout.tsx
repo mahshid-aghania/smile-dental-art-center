@@ -25,6 +25,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://smiledentalartscentre.com"),
   title: "Dentist in Markham | Invisalign, Implants & Family Dentistry",
   description:
     "Looking for a dentist in Markham? Smile Dental Arts Centre offers Invisalign, dental implants, root canals, whitening & family dentistry. Book today.",
