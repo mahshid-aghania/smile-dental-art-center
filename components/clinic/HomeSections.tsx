@@ -88,13 +88,26 @@ export function HighlightServicesSection() {
   return (
     <section className="bg-[var(--clinic-surface)] py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h2 className="clinic-heading text-center text-3xl font-semibold text-[var(--clinic-navy)]">
-          Comprehensive Dental Services from a Dentist in Markham
-        </h2>
-        <p className="mx-auto mt-4 max-w-3xl text-center text-[var(--clinic-muted)]">
-          At Smile Dental Arts Centre, our dentist in Markham offers a full range of dental services
-          under one roof, eliminating the need for outside referrals whenever possible.
-        </p>
+        <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-12">
+          <div className="relative mx-auto aspect-[3/4] w-full max-w-md overflow-hidden rounded-2xl shadow-xl ring-1 ring-[var(--clinic-border)]">
+            <Image
+              src="/clinic/services-photo.jpg"
+              alt="Dentist providing dental treatment to a patient at Smile Dental Arts Centre in Markham"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 90vw, 45vw"
+            />
+          </div>
+          <div className="text-center lg:text-left">
+            <h2 className="clinic-heading text-3xl font-semibold text-[var(--clinic-navy)]">
+              Comprehensive Dental Services from a Dentist in Markham
+            </h2>
+            <p className="mt-4 text-[var(--clinic-muted)]">
+              At Smile Dental Arts Centre, our dentist in Markham offers a full range of dental
+              services under one roof, eliminating the need for outside referrals whenever possible.
+            </p>
+          </div>
+        </div>
         <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {HIGHLIGHT_SERVICES.map((s) => (
             <article
@@ -120,40 +133,51 @@ export function HighlightServicesSection() {
 
 export function WhyChooseSection() {
   return (
-    <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
-      <h2 className="clinic-heading text-center text-3xl font-semibold text-[var(--clinic-navy)]">
-        Why Choose Our Dentist in Markham?
-      </h2>
-      <p className="mt-4 text-center text-[var(--clinic-muted)]">
-        Patients choose Smile Dental Arts Centre because we combine clinical expertise with
-        patient-centered care.
-      </p>
-      <ul className="mt-10 space-y-4">
-        {WHY_CHOOSE.map((item) => (
-          <li
-            key={item}
-            className="flex gap-3 rounded-lg border border-[var(--clinic-border)] bg-white px-5 py-4 text-[var(--clinic-text)] shadow-sm"
-          >
-            <span className="mt-1 size-2 shrink-0 rounded-full bg-[var(--clinic-gold)]" />
-            {item}
-          </li>
-        ))}
-      </ul>
-      <p className="mt-8 text-center text-sm leading-relaxed text-[var(--clinic-muted)]">
-        Our dentists are licensed and regulated by the{" "}
-        <a href={CLINIC.external.rcdso} className="clinic-link" target="_blank" rel="noopener noreferrer">
-          Royal College of Dental Surgeons of Ontario
-        </a>{" "}
-        and are proud members of the{" "}
-        <a href={CLINIC.external.oda} className="clinic-link" target="_blank" rel="noopener noreferrer">
-          Ontario Dental Association
-        </a>{" "}
-        and the{" "}
-        <a href={CLINIC.external.cda} className="clinic-link" target="_blank" rel="noopener noreferrer">
-          Canadian Dental Association
-        </a>
-        .
-      </p>
+    <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-12">
+        <div className="relative mx-auto aspect-[3/4] w-full max-w-md overflow-hidden rounded-2xl shadow-xl ring-1 ring-[var(--clinic-border)]">
+          <Image
+            src="/clinic/why-choose-team.jpg"
+            alt="The dental team at Smile Dental Arts Centre in Markham"
+            fill
+            className="object-cover"
+            sizes="(max-width: 1024px) 90vw, 45vw"
+          />
+        </div>
+        <div className="text-center lg:text-left">
+          <h2 className="clinic-heading text-3xl font-semibold text-[var(--clinic-navy)]">
+            Why Choose Our Dentist in Markham?
+          </h2>
+          <p className="mt-4 text-[var(--clinic-muted)]">
+            Patients choose Smile Dental Arts Centre because we combine clinical expertise with
+            patient-centered care. When selecting a dentist in Markham, experience, trust, and
+            professional standards matter.
+          </p>
+          <ul className="mt-6 space-y-3 text-left">
+            {WHY_CHOOSE.map((item) => (
+              <li key={item} className="flex gap-3 text-[var(--clinic-text)]">
+                <span className="mt-2 size-2 shrink-0 rounded-full bg-[var(--clinic-gold)]" />
+                {item}
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 text-sm leading-relaxed text-[var(--clinic-muted)]">
+            Our dentists are licensed and regulated by the{" "}
+            <a href={CLINIC.external.rcdso} className="clinic-link" target="_blank" rel="noopener noreferrer">
+              Royal College of Dental Surgeons of Ontario
+            </a>{" "}
+            and are proud members of the{" "}
+            <a href={CLINIC.external.oda} className="clinic-link" target="_blank" rel="noopener noreferrer">
+              Ontario Dental Association
+            </a>{" "}
+            and the{" "}
+            <a href={CLINIC.external.cda} className="clinic-link" target="_blank" rel="noopener noreferrer">
+              Canadian Dental Association
+            </a>
+            , ensuring the highest standards of dental care and ethics.
+          </p>
+        </div>
+      </div>
     </section>
   );
 }
