@@ -53,6 +53,37 @@ export function IntroSection() {
         advanced restorative solutions, and cosmetic treatments designed to meet the needs of the
         Markham community.
       </p>
+
+      <div className="mt-14 grid items-center gap-10 text-left sm:grid-cols-2 sm:gap-8">
+        <div className="relative mx-auto w-full max-w-xs sm:max-w-none">
+          <span
+            aria-hidden
+            className="absolute -left-4 -top-4 hidden h-full w-full rounded-2xl border-2 border-[var(--clinic-gold)] sm:block"
+          />
+          <div className="relative aspect-[2/3] overflow-hidden rounded-2xl shadow-xl">
+            <Image
+              src="/clinic/dr-neda-portrait.jpg"
+              alt="Dr. Neda Kadivar, dentist at Smile Dental Arts Centre in Markham"
+              fill
+              className="object-cover"
+              sizes="(max-width: 640px) 80vw, 40vw"
+            />
+            <span className="absolute bottom-4 left-4 rounded-full bg-white/95 px-4 py-1.5 text-xs font-semibold uppercase tracking-wide text-[var(--clinic-navy)] shadow-sm">
+              Dr. Neda Kadivar
+            </span>
+          </div>
+        </div>
+
+        <div className="relative aspect-[3/2] overflow-hidden rounded-2xl shadow-lg ring-1 ring-[var(--clinic-border)] sm:mt-12">
+          <Image
+            src="/clinic/clinic-interior.jpg"
+            alt="Reception and waiting area at Smile Dental Arts Centre in Markham"
+            fill
+            className="object-cover"
+            sizes="(max-width: 640px) 90vw, 45vw"
+          />
+        </div>
+      </div>
     </section>
   );
 }
