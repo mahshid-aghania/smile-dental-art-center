@@ -88,13 +88,26 @@ export function HighlightServicesSection() {
   return (
     <section className="bg-[var(--clinic-surface)] py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h2 className="clinic-heading text-center text-3xl font-semibold text-[var(--clinic-navy)]">
-          Comprehensive Dental Services from a Dentist in Markham
-        </h2>
-        <p className="mx-auto mt-4 max-w-3xl text-center text-[var(--clinic-muted)]">
-          At Smile Dental Arts Centre, our dentist in Markham offers a full range of dental services
-          under one roof, eliminating the need for outside referrals whenever possible.
-        </p>
+        <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-12">
+          <div className="relative mx-auto aspect-[3/4] w-full max-w-md overflow-hidden rounded-2xl shadow-xl ring-1 ring-[var(--clinic-border)]">
+            <Image
+              src="/clinic/services-photo.jpg"
+              alt="Dentist providing dental treatment to a patient at Smile Dental Arts Centre in Markham"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 90vw, 45vw"
+            />
+          </div>
+          <div className="text-center lg:text-left">
+            <h2 className="clinic-heading text-3xl font-semibold text-[var(--clinic-navy)]">
+              Comprehensive Dental Services from a Dentist in Markham
+            </h2>
+            <p className="mt-4 text-[var(--clinic-muted)]">
+              At Smile Dental Arts Centre, our dentist in Markham offers a full range of dental
+              services under one roof, eliminating the need for outside referrals whenever possible.
+            </p>
+          </div>
+        </div>
         <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {HIGHLIGHT_SERVICES.map((s) => (
             <article
