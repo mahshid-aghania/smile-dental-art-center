@@ -40,6 +40,7 @@ export const CLINIC = {
 export const HERO_SLIDES = [
   {
     image: "/clinic/hero-dr.jpg",
+    position: "58% 12%",
     eyebrow: "ONLY ONE KIND OF TREATEMENT",
     title: "YOUR NEW SMILE",
     ctaTitle: "Plan Your Visit Now",

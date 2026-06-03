@@ -36,7 +36,8 @@ export function HeroCarousel() {
             src={s.image}
             alt=""
             fill
-            className="object-cover object-center"
+            className="object-cover"
+            style={{ objectPosition: "position" in s && s.position ? s.position : "center" }}
             priority={i === 0}
             sizes="100vw"
           />
