@@ -115,6 +115,34 @@ export function medicalProcedureSchema(name: string, description: string, path: 
   };
 }
 
+/** Article / MedicalWebPage authored and reviewed by the dentist (E-E-A-T). */
+export function articleSchema(opts: {
+  headline: string;
+  description: string;
+  path: string;
+  datePublished: string;
+  dateModified?: string;
+  keywords?: string;
+}) {
+  return {
+    "@type": "MedicalWebPage",
+    "@id": `${abs(opts.path)}#article`,
+    headline: opts.headline,
+    name: opts.headline,
+    description: opts.description,
+    url: abs(opts.path),
+    datePublished: opts.datePublished,
+    dateModified: opts.dateModified ?? opts.datePublished,
+    ...(opts.keywords ? { keywords: opts.keywords } : {}),
+    image: abs(OG_IMAGE),
+    inLanguage: "en-CA",
+    author: { "@id": `${SITE_URL}${DOCTOR.bioHref}#person` },
+    reviewedBy: { "@id": `${SITE_URL}${DOCTOR.bioHref}#person` },
+    publisher: { "@id": `${SITE_URL}/#clinic` },
+    isPartOf: { "@id": `${SITE_URL}/#clinic` },
+  };
+}
+
 export function faqSchema(faqs: FaqItem[]) {
   return {
     "@type": "FAQPage",
