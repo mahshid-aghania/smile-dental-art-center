@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { BookingCta } from "@/components/implants/BookingCta";
 import { DoctorBio } from "@/components/implants/DoctorBio";
 import { FaqBlock } from "@/components/implants/FaqBlock";
+import { FromTheBlog } from "@/components/implants/FromTheBlog";
 import { ImplantBreadcrumbs } from "@/components/implants/ImplantBreadcrumbs";
 import { RelatedImplantLinks } from "@/components/implants/RelatedImplantLinks";
 import { SchemaJsonLd } from "@/components/implants/SchemaJsonLd";
@@ -154,6 +155,8 @@ export default async function ImplantTopicPage({ params }: PageProps) {
         <div className="mt-14">
           <RelatedImplantLinks currentHref={path} />
         </div>
+
+        <FromTheBlog path={path} />
       </article>
 
       <BookingCta />

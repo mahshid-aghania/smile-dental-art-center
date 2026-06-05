@@ -4,6 +4,7 @@ import Link from "next/link";
 import { BookingCta } from "@/components/implants/BookingCta";
 import { DoctorBio } from "@/components/implants/DoctorBio";
 import { FaqBlock } from "@/components/implants/FaqBlock";
+import { FromTheBlog } from "@/components/implants/FromTheBlog";
 import {
   ImplantMap,
   ImplantOptionsGrid,

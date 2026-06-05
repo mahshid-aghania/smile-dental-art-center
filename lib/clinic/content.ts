@@ -103,6 +103,18 @@ export const NAV_ITEMS = [
       { label: "Implant FAQ", href: "/dental-implants/faq" },
     ],
   },
+  {
+    label: "Blog",
+    href: CLINIC.pages.blog,
+    children: [
+      { label: "All Articles", href: "/blog" },
+      { label: "Are Dental Implants Permanent?", href: "/blog/are-dental-implants-permanent" },
+      { label: "How Long Do Implants Last?", href: "/blog/how-long-do-dental-implants-last" },
+      { label: "Average Cost of Implants", href: "/blog/dental-implant-cost" },
+      { label: "Dental Implant Aftercare", href: "/blog/dental-implant-aftercare" },
+      { label: "Dental Implants for Seniors", href: "/blog/dental-implants-for-seniors" },
+    ],
+  },
   { label: "CDCP", href: CLINIC.pages.cdcp },
   { label: "Dental Services", href: CLINIC.pages.services },
   { label: "Contact Us", href: CLINIC.pages.contact },
@@ -248,6 +260,7 @@ export const FOOTER_LINKS = {
     { label: "Dr Neda Kadivar", href: CLINIC.pages.drKadivar },
     { label: "Our Team", href: CLINIC.pages.team },
     { label: "FAQ", href: CLINIC.pages.faq },
+    { label: "Implant Blog", href: CLINIC.pages.blog },
   ],
   services: [
     { label: "Dental Implants in Markham", href: "/dental-implants" },
