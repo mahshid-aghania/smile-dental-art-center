@@ -48,15 +48,6 @@ export const HERO_SLIDES = [
     ctaLabel: "Book Now!",
   },
   {
-    image: "/clinic/hero-team.jpg",
-    position: "50% 22%",
-    eyebrow: "EXPERT CARE IN MARKHAM",
-    title: "YOUR DENTAL TEAM",
-    ctaTitle: "Plan Your Visit Now",
-    ctaSubtitle: "Begin the Change",
-    ctaLabel: "Book Now!",
-  },
-  {
     image: "/clinic/hero-invisalign.jpg",
     eyebrow: "DISCREET ORTHODONTICS",
     title: "INVISALIGN®",
