@@ -4,6 +4,7 @@ import Link from "next/link";
 import { BookingCta } from "@/components/implants/BookingCta";
 import { DoctorBio } from "@/components/implants/DoctorBio";
 import { FaqBlock } from "@/components/implants/FaqBlock";
+import { FromTheBlog } from "@/components/implants/FromTheBlog";
 import {
   ImplantMap,
   ImplantOptionsGrid,
@@ -79,6 +80,10 @@ export default function DentalImplantsPillarPage() {
           .
         </p>
       </section>
+
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <FromTheBlog path={PILLAR_PATH} limit={3} />
+      </div>
 
       <ImplantMap />
       <BookingCta />
