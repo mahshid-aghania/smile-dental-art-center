@@ -26,14 +26,18 @@ export const DR_KADIVAR_AFFILIATIONS = [
 ] as const;
 
 export const DR_KADIVAR_OFFICE_IMAGES = [
-  { src: `${UPLOADS}/2024/04/2-3.png`, alt: "Smile Dental Arts Centre office interior" },
-  { src: `${UPLOADS}/2024/04/3-1.png`, alt: "Dental treatment room at Smile Dental Arts Centre" },
-  { src: `${UPLOADS}/2024/04/5-1.png`, alt: "Reception area at Smile Dental Arts Centre in Markham" },
-  { src: `${UPLOADS}/2024/04/7-1.png`, alt: "Modern dental clinic in Markham" },
-  { src: `${UPLOADS}/2024/04/8-1.png`, alt: "Dental office waiting area" },
-  { src: `${UPLOADS}/2024/04/9-1.png`, alt: "Smile Dental Arts Centre treatment suite" },
-  { src: `${UPLOADS}/2024/04/12-1.png`, alt: "Dental care environment at Smile Dental Arts Centre" },
-  { src: `${UPLOADS}/2024/04/13-1.png`, alt: "Markham dental office interior" },
+  { src: `${UPLOADS}/2023/09/DMO15904.jpg`, alt: "Dental clinic red unit with TV" },
+  { src: `${UPLOADS}/2023/09/DMO15892.jpg`, alt: "Appointment area at Smile Dental Arts Centre" },
+  { src: `${UPLOADS}/2023/09/DMO15883-1.jpg`, alt: "Smile Dental Arts Centre kitchen" },
+  { src: `${UPLOADS}/2023/09/DMO15880-1.jpg`, alt: "Smile Dental Arts clinic unit" },
+  { src: `${UPLOADS}/2023/09/DMO15872.jpg`, alt: "Smile Dental Arts clinic unit" },
+  { src: `${UPLOADS}/2023/09/DMO15871-2.jpg`, alt: "Canadian Dental Care Plan information at Smile Dental Arts Centre" },
+  { src: `${UPLOADS}/2023/09/DMO15870-1.jpg`, alt: "Smile Dental Arts Centre unit" },
+  { src: `${UPLOADS}/2023/09/DMO15869.jpg`, alt: "Smile Dental Arts Centre unit" },
+  { src: `${UPLOADS}/2023/09/DMO15868.jpg`, alt: "Smile Dental Arts Centre unit" },
+  { src: `${UPLOADS}/2023/09/DMO15866.jpg`, alt: "Smile Dental Arts Centre unit" },
+  { src: `${UPLOADS}/2023/09/DMO15827.jpg`, alt: "Smile Dental Arts clinic unit" },
+  { src: `${UPLOADS}/2023/09/DMO15822-1.jpg`, alt: "Smile Dental Arts Centre waiting room" },
 ] as const;
 
 export const DR_KADIVAR_MAP_EMBED =
