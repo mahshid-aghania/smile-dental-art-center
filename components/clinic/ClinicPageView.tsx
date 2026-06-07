@@ -3,6 +3,7 @@ import Link from "next/link";
 import { AppointmentForm } from "@/components/clinic/AppointmentForm";
 import { ContactForm } from "@/components/clinic/ContactForm";
 import { DentalServicesPage } from "@/components/clinic/DentalServicesPage";
+import { DrKadivarPage } from "@/components/clinic/DrKadivarPage";
 import { CLINIC } from "@/lib/clinic/content";
 import {
   getRelatedServicePaths,
@@ -29,6 +30,10 @@ function BookCta() {
 export function ClinicPageView({ path, page }: ClinicPageViewProps) {
   if (path === "dental-services") {
     return <DentalServicesPage />;
+  }
+
+  if (path === "about-us/dr-neda-kadivar") {
+    return <DrKadivarPage />;
   }
 
   const related = getRelatedServicePaths(path);
