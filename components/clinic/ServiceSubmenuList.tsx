@@ -24,7 +24,7 @@ export function ServiceSubmenuList({ items, activeHref, title }: ServiceSubmenuL
         {items.map((item) => {
           const isActive = activeHref === item.href;
           return (
-            <li key={item.href} className="border-b border-[var(--clinic-border)] last:border-b-0">
+            <li key={item.label} className="border-b border-[var(--clinic-border)] last:border-b-0">
               <Link
                 href={item.href}
                 className={cn(

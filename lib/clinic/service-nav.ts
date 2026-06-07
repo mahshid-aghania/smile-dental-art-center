@@ -11,7 +11,7 @@ export const SERVICE_NAV_ITEMS: readonly ServiceNavItem[] = [
     href: "/dental-services/cleanings-prevention",
     children: [
       { label: "Complete Oral Exam", href: "/dental-services/cleanings-prevention/complete-oral-exam-cleanings" },
-      { label: "Cleanings", href: "/dental-services/cleanings-prevention/complete-oral-exam-cleanings" },
+      { label: "Cleanings", href: "/dental-services/cleanings-prevention" },
       { label: "Dental Digital X-Rays", href: "/dental-services/cleanings-prevention/dental-digital-x-rays" },
       { label: "Panoramic X-rays", href: "/dental-services/cleanings-prevention/panoramic-x-rays" },
       { label: "Fissure sealants", href: "/dental-services/cleanings-prevention/fissure-sealants" },

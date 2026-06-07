@@ -98,7 +98,7 @@ function MobileServiceMenuItem({
       {open && (
         <ul className="mb-2 ml-3 space-y-1 border-l border-[var(--clinic-border)] pl-3">
           {item.children.map((child) => (
-            <li key={child.href}>
+            <li key={child.label}>
               <Link
                 href={child.href}
                 className="block py-1 text-xs text-[var(--clinic-muted)] hover:text-[var(--clinic-gold)]"
@@ -143,7 +143,7 @@ function DesktopNavDropdown({
         >
           {isServicesMenu
             ? (menuItems as readonly ServiceNavItem[]).map((child) => (
-                <DesktopServiceMenuItem key={child.href} item={child} />
+                <DesktopServiceMenuItem key={child.label} item={child} />
               ))
             : menuItems.map((child) => (
                 <li key={child.label} className="border-b border-[var(--clinic-border)] last:border-b-0">
