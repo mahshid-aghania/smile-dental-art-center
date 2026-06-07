@@ -2,11 +2,172 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ChevronDown, Menu, Phone, X } from "lucide-react";
+import { ChevronDown, ChevronRight, Menu, Phone, X } from "lucide-react";
 import { useState } from "react";
 
 import { CLINIC, NAV_ITEMS } from "@/lib/clinic/content";
+import type { ServiceNavItem } from "@/lib/clinic/service-nav";
 import { cn } from "@/lib/utils";
+
+type NavChild = {
+  label: string;
+  href: string;
+  children?: readonly NavChild[];
+};
+
+function hasNestedChildren(children: readonly NavChild[]): boolean {
+  return children.some((child) => child.children && child.children.length > 0);
+}
+
+function DesktopServiceMenuItem({ item }: { item: ServiceNavItem }) {
+  if (!item.children?.length) {
+    return (
+      <li className="border-b border-[var(--clinic-border)] last:border-b-0">
+        <Link
+          href={item.href}
+          className="block px-4 py-2.5 text-sm text-[var(--clinic-navy)] hover:bg-[var(--clinic-surface)] hover:text-[var(--clinic-gold)]"
+        >
+          {item.label}
+        </Link>
+      </li>
+    );
+  }
+
+  return (
+    <li className="group/sub relative border-b border-[var(--clinic-border)] last:border-b-0">
+      <Link
+        href={item.href}
+        className="flex items-center justify-between gap-3 px-4 py-2.5 text-sm text-[var(--clinic-navy)] hover:bg-[var(--clinic-surface)] hover:text-[var(--clinic-gold)]"
+      >
+        <span>{item.label}</span>
+        <ChevronRight className="size-3.5 shrink-0 opacity-60" aria-hidden />
+      </Link>
+      <div className="invisible absolute left-full top-0 z-50 pl-1 opacity-0 transition-opacity duration-150 group-hover/sub:visible group-hover/sub:opacity-100 group-focus-within/sub:visible group-focus-within/sub:opacity-100">
+        <ul className="min-w-[15rem] overflow-hidden rounded-lg border border-[var(--clinic-border)] bg-white py-1 shadow-lg">
+          {item.children.map((child) => (
+            <li key={child.href} className="border-b border-[var(--clinic-border)] last:border-b-0">
+              <Link
+                href={child.href}
+                className="block px-4 py-2 text-sm text-[var(--clinic-navy)] hover:bg-[var(--clinic-surface)] hover:text-[var(--clinic-gold)]"
+              >
+                {child.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </li>
+  );
+}
+
+function MobileServiceMenuItem({
+  item,
+  onNavigate,
+}: {
+  item: ServiceNavItem;
+  onNavigate: () => void;
+}) {
+  const [open, setOpen] = useState(false);
+
+  if (!item.children?.length) {
+    return (
+      <li>
+        <Link
+          href={item.href}
+          className="block py-1.5 text-sm text-[var(--clinic-muted)] hover:text-[var(--clinic-gold)]"
+          onClick={onNavigate}
+        >
+          {item.label}
+        </Link>
+      </li>
+    );
+  }
+
+  return (
+    <li>
+      <div className="flex items-center justify-between gap-2">
+        <Link
+          href={item.href}
+          className="py-1.5 text-sm text-[var(--clinic-muted)] hover:text-[var(--clinic-gold)]"
+          onClick={onNavigate}
+        >
+          {item.label}
+        </Link>
+        <button
+          type="button"
+          className="rounded p-1 text-[var(--clinic-muted)] hover:text-[var(--clinic-gold)]"
+          onClick={() => setOpen((v) => !v)}
+          aria-expanded={open}
+          aria-label={`Expand ${item.label} submenu`}
+        >
+          <ChevronDown className={cn("size-3.5 transition-transform", open && "rotate-180")} aria-hidden />
+        </button>
+      </div>
+      {open && (
+        <ul className="mb-2 ml-3 space-y-1 border-l border-[var(--clinic-border)] pl-3">
+          {item.children.map((child) => (
+            <li key={child.href}>
+              <Link
+                href={child.href}
+                className="block py-1 text-xs text-[var(--clinic-muted)] hover:text-[var(--clinic-gold)]"
+                onClick={onNavigate}
+              >
+                {child.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+    </li>
+  );
+}
+
+function DesktopNavDropdown({
+  label,
+  href,
+  menuItems,
+}: {
+  label: string;
+  href: string;
+  menuItems: readonly NavChild[];
+}) {
+  const isServicesMenu = hasNestedChildren(menuItems);
+
+  return (
+    <div className="group relative">
+      <Link
+        href={href}
+        className="flex items-center gap-1 text-xs font-semibold uppercase tracking-wide text-[var(--clinic-navy)] hover:text-[var(--clinic-gold)] group-focus-within:text-[var(--clinic-gold)]"
+      >
+        {label}
+        <ChevronDown className="size-3.5" aria-hidden />
+      </Link>
+      <div className="invisible absolute left-1/2 top-full z-50 -translate-x-1/2 pt-3 opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+        <ul
+          className={cn(
+            "overflow-hidden rounded-lg border border-[var(--clinic-border)] bg-white py-1 shadow-lg",
+            isServicesMenu ? "w-64" : "w-64"
+          )}
+        >
+          {isServicesMenu
+            ? (menuItems as readonly ServiceNavItem[]).map((child) => (
+                <DesktopServiceMenuItem key={child.href} item={child} />
+              ))
+            : menuItems.map((child) => (
+                <li key={child.label} className="border-b border-[var(--clinic-border)] last:border-b-0">
+                  <Link
+                    href={child.href}
+                    className="block px-4 py-2 text-sm text-[var(--clinic-navy)] hover:bg-[var(--clinic-surface)] hover:text-[var(--clinic-gold)]"
+                  >
+                    {child.label}
+                  </Link>
+                </li>
+              ))}
+        </ul>
+      </div>
+    </div>
+  );
+}
 
 export function ClinicHeader() {
   const [open, setOpen] = useState(false);
@@ -48,29 +209,12 @@ export function ClinicHeader() {
               );
             }
             return (
-              <div key={item.label} className="group relative">
-                <Link
-                  href={item.href}
-                  className="flex items-center gap-1 text-xs font-semibold uppercase tracking-wide text-[var(--clinic-navy)] hover:text-[var(--clinic-gold)] group-focus-within:text-[var(--clinic-gold)]"
-                >
-                  {item.label}
-                  <ChevronDown className="size-3.5" aria-hidden />
-                </Link>
-                <div className="invisible absolute left-1/2 top-full z-50 w-64 -translate-x-1/2 pt-3 opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
-                  <ul className="overflow-hidden rounded-lg border border-[var(--clinic-border)] bg-white py-1 shadow-lg">
-                    {children.map((child) => (
-                      <li key={child.label}>
-                        <Link
-                          href={child.href}
-                          className="block px-4 py-2 text-sm text-[var(--clinic-navy)] hover:bg-[var(--clinic-surface)] hover:text-[var(--clinic-gold)]"
-                        >
-                          {child.label}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+              <DesktopNavDropdown
+                key={item.label}
+                label={item.label}
+                href={item.href}
+                menuItems={children}
+              />
             );
           })}
         </nav>
@@ -106,17 +250,25 @@ export function ClinicHeader() {
               </Link>
               {"children" in item && item.children && (
                 <ul className="mb-2 ml-4 space-y-1 border-l border-[var(--clinic-border)] pl-3">
-                  {item.children.map((child) => (
-                    <li key={child.label}>
-                      <Link
-                        href={child.href}
-                        className="block py-1.5 text-sm text-[var(--clinic-muted)] hover:text-[var(--clinic-gold)]"
-                        onClick={() => setOpen(false)}
-                      >
-                        {child.label}
-                      </Link>
-                    </li>
-                  ))}
+                  {hasNestedChildren(item.children)
+                    ? (item.children as readonly ServiceNavItem[]).map((child) => (
+                        <MobileServiceMenuItem
+                          key={child.href}
+                          item={child}
+                          onNavigate={() => setOpen(false)}
+                        />
+                      ))
+                    : item.children.map((child) => (
+                        <li key={child.label}>
+                          <Link
+                            href={child.href}
+                            className="block py-1.5 text-sm text-[var(--clinic-muted)] hover:text-[var(--clinic-gold)]"
+                            onClick={() => setOpen(false)}
+                          >
+                            {child.label}
+                          </Link>
+                        </li>
+                      ))}
                 </ul>
               )}
             </li>

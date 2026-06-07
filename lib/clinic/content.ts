@@ -1,3 +1,5 @@
+import { SERVICE_NAV_ITEMS } from "@/lib/clinic/service-nav";
+
 export const CLINIC = {
   name: "Smile Dental Arts Centre",
   tagline: "Dentist in Markham – Family & Cosmetic Dental Care",
@@ -116,7 +118,11 @@ export const NAV_ITEMS = [
     ],
   },
   { label: "CDCP", href: CLINIC.pages.cdcp },
-  { label: "Dental Services", href: CLINIC.pages.services },
+  {
+    label: "Dental Services",
+    href: CLINIC.pages.services,
+    children: SERVICE_NAV_ITEMS,
+  },
   { label: "Contact Us", href: CLINIC.pages.contact },
   { label: "Appointment Request", href: CLINIC.pages.appointments },
 ] as const;
