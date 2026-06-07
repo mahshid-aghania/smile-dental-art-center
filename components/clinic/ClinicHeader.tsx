@@ -20,7 +20,17 @@ function hasNestedChildren(children: readonly NavChild[]): boolean {
   return children.some((child) => child.children && child.children.length > 0);
 }
 
-function DesktopServiceMenuItem({ item }: { item: ServiceNavItem }) {
+function DesktopServiceMenuItem({
+  item,
+  isOpen,
+  onOpen,
+  onClose,
+}: {
+  item: ServiceNavItem;
+  isOpen: boolean;
+  onOpen: () => void;
+  onClose: () => void;
+}) {
   if (!item.children?.length) {
     return (
       <li className="border-b border-[var(--clinic-border)] last:border-b-0">
@@ -35,19 +45,34 @@ function DesktopServiceMenuItem({ item }: { item: ServiceNavItem }) {
   }
 
   return (
-    <li className="group/sub relative border-b border-[var(--clinic-border)] last:border-b-0">
+    <li
+      className="relative border-b border-[var(--clinic-border)] last:border-b-0"
+      onMouseEnter={onOpen}
+      onMouseLeave={onClose}
+      onFocus={onOpen}
+      onBlur={onClose}
+    >
       <Link
         href={item.href}
-        className="flex items-center justify-between gap-3 px-4 py-2.5 text-sm text-[var(--clinic-navy)] hover:bg-[var(--clinic-surface)] hover:text-[var(--clinic-gold)]"
+        className={cn(
+          "flex items-center justify-between gap-3 px-4 py-2.5 text-sm text-[var(--clinic-navy)] hover:bg-[var(--clinic-surface)] hover:text-[var(--clinic-gold)]",
+          isOpen && "bg-[var(--clinic-surface)] text-[var(--clinic-gold)]"
+        )}
       >
         <span>{item.label}</span>
         <ChevronRight className="size-3.5 shrink-0 opacity-60" aria-hidden />
       </Link>
-      <div className="invisible absolute left-full top-0 z-50 -ml-px opacity-0 transition-opacity duration-150 group-hover/sub:visible group-hover/sub:opacity-100 group-focus-within/sub:visible group-focus-within/sub:opacity-100">
-        <div className="min-w-[15rem] pl-2">
-          <ServiceSubmenuList items={item.children} />
+      {isOpen && (
+        <div
+          className="absolute left-full top-0 z-[70] flex pl-1"
+          onMouseEnter={onOpen}
+          onMouseLeave={onClose}
+        >
+          <div className="min-w-[15rem]">
+            <ServiceSubmenuList items={item.children} />
+          </div>
         </div>
-      </div>
+      )}
     </li>
   );
 }
@@ -124,6 +149,7 @@ function DesktopNavDropdown({
   menuItems: readonly NavChild[];
 }) {
   const isServicesMenu = hasNestedChildren(menuItems);
+  const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
 
   return (
     <div className="group relative">
@@ -135,27 +161,36 @@ function DesktopNavDropdown({
         <ChevronDown className="size-3.5" aria-hidden />
       </Link>
       <div className="invisible absolute left-1/2 top-full z-50 -translate-x-1/2 pt-3 opacity-0 transition-opacity duration-150 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
-        <ul
+        <div
           className={cn(
-            "overflow-hidden rounded-lg border border-[var(--clinic-border)] bg-white py-1 shadow-lg",
-            isServicesMenu ? "w-64" : "w-64"
+            "rounded-lg border border-[var(--clinic-border)] bg-white shadow-lg",
+            isServicesMenu ? "w-64 overflow-visible" : "w-64 overflow-hidden"
           )}
+          onMouseLeave={() => setOpenSubmenu(null)}
         >
-          {isServicesMenu
-            ? (menuItems as readonly ServiceNavItem[]).map((child) => (
-                <DesktopServiceMenuItem key={child.label} item={child} />
-              ))
-            : menuItems.map((child) => (
-                <li key={child.label} className="border-b border-[var(--clinic-border)] last:border-b-0">
-                  <Link
-                    href={child.href}
-                    className="block px-4 py-2 text-sm text-[var(--clinic-navy)] hover:bg-[var(--clinic-surface)] hover:text-[var(--clinic-gold)]"
-                  >
-                    {child.label}
-                  </Link>
-                </li>
-              ))}
-        </ul>
+          <ul className="relative py-1">
+            {isServicesMenu
+              ? (menuItems as readonly ServiceNavItem[]).map((child) => (
+                  <DesktopServiceMenuItem
+                    key={child.label}
+                    item={child}
+                    isOpen={openSubmenu === child.label}
+                    onOpen={() => setOpenSubmenu(child.label)}
+                    onClose={() => setOpenSubmenu(null)}
+                  />
+                ))
+              : menuItems.map((child) => (
+                  <li key={child.label} className="border-b border-[var(--clinic-border)] last:border-b-0">
+                    <Link
+                      href={child.href}
+                      className="block px-4 py-2 text-sm text-[var(--clinic-navy)] hover:bg-[var(--clinic-surface)] hover:text-[var(--clinic-gold)]"
+                    >
+                      {child.label}
+                    </Link>
+                  </li>
+                ))}
+          </ul>
+        </div>
       </div>
     </div>
   );
@@ -186,7 +221,7 @@ export function ClinicHeader() {
           {CLINIC.phone}
         </a>
 
-        <nav className="hidden items-center gap-6 lg:flex" aria-label="Main">
+        <nav className="hidden items-center gap-6 overflow-visible lg:flex" aria-label="Main">
           {NAV_ITEMS.map((item) => {
             const children = "children" in item ? item.children : undefined;
             if (!children) {
