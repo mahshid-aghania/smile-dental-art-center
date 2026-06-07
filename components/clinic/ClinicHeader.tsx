@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ChevronDown, ChevronRight, Menu, Phone, X } from "lucide-react";
 import { useState } from "react";
 
+import { ServiceSubmenuList } from "@/components/clinic/ServiceSubmenuList";
 import { CLINIC, NAV_ITEMS } from "@/lib/clinic/content";
 import type { ServiceNavItem } from "@/lib/clinic/service-nav";
 import { cn } from "@/lib/utils";
@@ -42,19 +43,10 @@ function DesktopServiceMenuItem({ item }: { item: ServiceNavItem }) {
         <span>{item.label}</span>
         <ChevronRight className="size-3.5 shrink-0 opacity-60" aria-hidden />
       </Link>
-      <div className="invisible absolute left-full top-0 z-50 pl-1 opacity-0 transition-opacity duration-150 group-hover/sub:visible group-hover/sub:opacity-100 group-focus-within/sub:visible group-focus-within/sub:opacity-100">
-        <ul className="min-w-[15rem] overflow-hidden rounded-lg border border-[var(--clinic-border)] bg-white py-1 shadow-lg">
-          {item.children.map((child) => (
-            <li key={child.href} className="border-b border-[var(--clinic-border)] last:border-b-0">
-              <Link
-                href={child.href}
-                className="block px-4 py-2 text-sm text-[var(--clinic-navy)] hover:bg-[var(--clinic-surface)] hover:text-[var(--clinic-gold)]"
-              >
-                {child.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
+      <div className="invisible absolute left-full top-0 z-50 -ml-px opacity-0 transition-opacity duration-150 group-hover/sub:visible group-hover/sub:opacity-100 group-focus-within/sub:visible group-focus-within/sub:opacity-100">
+        <div className="min-w-[15rem] pl-2">
+          <ServiceSubmenuList items={item.children} />
+        </div>
       </div>
     </li>
   );

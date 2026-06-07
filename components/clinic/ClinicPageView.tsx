@@ -2,9 +2,12 @@ import Link from "next/link";
 
 import { AppointmentForm } from "@/components/clinic/AppointmentForm";
 import { ContactForm } from "@/components/clinic/ContactForm";
+import { CosmeticDentistryPage } from "@/components/clinic/CosmeticDentistryPage";
 import { DentalServicesPage } from "@/components/clinic/DentalServicesPage";
 import { DrKadivarPage } from "@/components/clinic/DrKadivarPage";
+import { ServiceSubmenuList } from "@/components/clinic/ServiceSubmenuList";
 import { CLINIC } from "@/lib/clinic/content";
+import { getServiceCategoryForPath } from "@/lib/clinic/service-nav";
 import {
   getRelatedServicePaths,
   pathToHref,
@@ -36,12 +39,22 @@ export function ClinicPageView({ path, page }: ClinicPageViewProps) {
     return <DrKadivarPage />;
   }
 
+  if (path === "dental-services/cosmetic-dentistry") {
+    return <CosmeticDentistryPage page={page} />;
+  }
+
+  const serviceCategory = getServiceCategoryForPath(path);
+  const cosmeticSubmenu =
+    serviceCategory?.href === "/dental-services/cosmetic-dentistry"
+      ? serviceCategory.children
+      : undefined;
+
   const related = getRelatedServicePaths(path);
   const showAppointmentForm = path === "appointments";
   const showContactForm = path === "contact-us";
 
-  return (
-    <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:max-w-5xl lg:py-16">
+  const pageContent = (
+    <article className={cosmeticSubmenu ? "min-w-0" : "mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:max-w-5xl lg:py-16"}>
       <nav className="mb-6 text-xs text-[var(--clinic-muted)]" aria-label="Breadcrumb">
         <ol className="flex flex-wrap items-center gap-1">
           <li>
@@ -141,4 +154,24 @@ export function ClinicPageView({ path, page }: ClinicPageViewProps) {
       {!showAppointmentForm && path !== "appointments" && <BookCta />}
     </article>
   );
+
+  if (cosmeticSubmenu) {
+    const activeHref = `/${path}`;
+    return (
+      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+        <div className="grid gap-10 lg:grid-cols-[15rem_minmax(0,1fr)] lg:gap-12 xl:grid-cols-[16rem_minmax(0,1fr)]">
+          <aside className="lg:sticky lg:top-24 lg:self-start">
+            <ServiceSubmenuList
+              title="Cosmetic Dentistry"
+              items={cosmeticSubmenu}
+              activeHref={activeHref}
+            />
+          </aside>
+          {pageContent}
+        </div>
+      </div>
+    );
+  }
+
+  return pageContent;
 }

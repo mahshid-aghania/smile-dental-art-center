@@ -99,3 +99,17 @@ export const SERVICE_NAV_ITEMS: readonly ServiceNavItem[] = [
   { label: "Dental Emergencies", href: "/dental-services/dental-emergencies" },
   { label: "Pediatric Dentistry", href: "/dental-services/pediatric-dentistry" },
 ] as const;
+
+export function getServiceCategoryForPath(path: string): ServiceNavItem | undefined {
+  return SERVICE_NAV_ITEMS.find((item) => {
+    const base = item.href.replace(/^\//, "");
+    return path === base || path.startsWith(`${base}/`);
+  });
+}
+
+export function getCosmeticDentistrySubmenu(): readonly ServiceNavItem[] {
+  return (
+    SERVICE_NAV_ITEMS.find((item) => item.href === "/dental-services/cosmetic-dentistry")?.children ??
+    []
+  );
+}
