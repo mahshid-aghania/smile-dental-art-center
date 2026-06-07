@@ -2,10 +2,10 @@ import Link from "next/link";
 
 import { AppointmentForm } from "@/components/clinic/AppointmentForm";
 import { ContactForm } from "@/components/clinic/ContactForm";
+import { DentalServicesPage } from "@/components/clinic/DentalServicesPage";
 import { CLINIC } from "@/lib/clinic/content";
 import {
   getRelatedServicePaths,
-  getServiceCategoryPaths,
   pathToHref,
   type ClinicPageContent,
 } from "@/lib/clinic/pages";
@@ -27,8 +27,11 @@ function BookCta() {
 }
 
 export function ClinicPageView({ path, page }: ClinicPageViewProps) {
+  if (path === "dental-services") {
+    return <DentalServicesPage />;
+  }
+
   const related = getRelatedServicePaths(path);
-  const categories = path === "dental-services" ? getServiceCategoryPaths() : [];
   const showAppointmentForm = path === "appointments";
   const showContactForm = path === "contact-us";
 
@@ -107,26 +110,6 @@ export function ClinicPageView({ path, page }: ClinicPageViewProps) {
               </a>
             </p>
           </div>
-        </div>
-      )}
-
-      {categories.length > 0 && (
-        <div className="mt-12">
-          <h2 className="clinic-heading mb-4 text-xl font-semibold text-[var(--clinic-navy)]">
-            Service categories
-          </h2>
-          <ul className="grid gap-2 sm:grid-cols-2">
-            {categories.map((catPath) => {
-              const label = catPath.split("/").pop()?.replace(/-/g, " ") ?? catPath;
-              return (
-                <li key={catPath}>
-                  <Link href={pathToHref(catPath)} className="clinic-link capitalize">
-                    {label}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
         </div>
       )}
 

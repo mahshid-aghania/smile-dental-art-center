@@ -157,6 +157,60 @@ export const WHY_CHOOSE = [
   "Commitment to long-term oral health, not just short-term fixes",
 ] as const;
 
+export const DENTAL_SERVICES_HERO_SLIDES = [
+  {
+    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/composite-fillings-1-1.webp",
+    alt: "Composite fillings",
+  },
+  {
+    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/Dentures-Partial-Dentures-1-1.webp",
+    alt: "Dentures and partial dentures",
+  },
+  {
+    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/onlay-Restorations-1.webp",
+    alt: "Onlay restorations",
+  },
+  {
+    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/Porcelain-Crowns-Caps-1.webp",
+    alt: "Porcelain crowns and caps",
+  },
+  {
+    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/Porcelain-onlay.webp",
+    alt: "Porcelain onlay",
+  },
+  {
+    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/regenerative-procedures-dental.webp",
+    alt: "Regenerative dental procedures",
+  },
+  {
+    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/Root-Amputation.webp",
+    alt: "Dental root amputation",
+  },
+  {
+    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/Soft-tissue-grafting.webp",
+    alt: "Soft tissue grafting",
+  },
+  {
+    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/Wisdom-teeth-surgery-1.webp",
+    alt: "Wisdom teeth surgery",
+  },
+] as const;
+
+export const DENTAL_SERVICES_WHY_CHOOSE = [
+  {
+    title: "Expert Team",
+    description: "Our Markham dentists provide the best dental services with years of experience.",
+  },
+  {
+    title: "Advanced Technology",
+    description: "Cutting-edge tools enhance our dental care in Markham.",
+  },
+  {
+    title: "Patient-Focused",
+    description: "Your comfort drives our top services.",
+  },
+] as const;
+
 export const SERVICE_CARDS = [
   {
     title: "Cleanings & Prevention",
@@ -170,7 +224,7 @@ export const SERVICE_CARDS = [
     href: "/dental-services/cosmetic-dentistry",
     description:
       "Cosmetic dentistry focuses on enhancing the appearance of a person's teeth, gums, and smile through various procedures and treatment.",
-    image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/3.webp",
+    image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/AdobeStock_100506477.jpg",
   },
   {
     title: "Restorations",
@@ -198,7 +252,7 @@ export const SERVICE_CARDS = [
     href: "/dental-services/endodontics",
     description:
       "Endodontics aims to save and maintain natural teeth whenever possible, focusing on diagnosing and treating issues related to the dental pulp and the tissues surrounding the roots of teeth.",
-    image: "https://smiledentalartscentre.com/wp-content/uploads/2023/10/Endo-4.webp",
+    image: "https://smiledentalartscentre.com/wp-content/uploads/2023/10/Endo-4-1.webp",
   },
   {
     title: "Dental Emergencies",
@@ -212,7 +266,7 @@ export const SERVICE_CARDS = [
     href: "/dental-services/periodontics",
     description:
       "Uncover healthy gums and a confident smile with periodontics. Our specialized care prioritizes gum disease prevention, diagnosis, and treatment, ensuring optimal oral health.",
-    image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/DMO15832.jpg",
+    image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/10.webp",
   },
 ] as const;
 
