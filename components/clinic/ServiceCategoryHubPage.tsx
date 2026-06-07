@@ -3,27 +3,32 @@ import Link from "next/link";
 
 import { ServiceSubmenuList } from "@/components/clinic/ServiceSubmenuList";
 import { CLINIC } from "@/lib/clinic/content";
-import { getCosmeticDentistrySubmenu } from "@/lib/clinic/service-nav";
 import type { ClinicPageContent } from "@/lib/clinic/pages";
+import type { ServiceNavItem } from "@/lib/clinic/service-nav";
 
-const HERO_IMAGE =
-  "https://smiledentalartscentre.com/wp-content/uploads/2024/09/1-6.webp";
-
-type CosmeticDentistryPageProps = {
+type ServiceCategoryHubPageProps = {
+  category: ServiceNavItem & { children: readonly ServiceNavItem[] };
   page: ClinicPageContent;
+  heroImage: string;
+  heroAlt: string;
+  subtitle?: string;
 };
 
-export function CosmeticDentistryPage({ page }: CosmeticDentistryPageProps) {
-  const submenu = getCosmeticDentistrySubmenu();
-
+export function ServiceCategoryHubPage({
+  category,
+  page,
+  heroImage,
+  heroAlt,
+  subtitle = "The Services Your Markham Dentist Offers",
+}: ServiceCategoryHubPageProps) {
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
       <div className="grid gap-10 lg:grid-cols-[15rem_minmax(0,1fr)] lg:gap-12 xl:grid-cols-[16rem_minmax(0,1fr)]">
         <aside className="lg:sticky lg:top-24 lg:self-start">
           <ServiceSubmenuList
-            title="Cosmetic Dentistry"
-            items={submenu}
-            activeHref="/dental-services/cosmetic-dentistry"
+            title={category.label}
+            items={category.children}
+            activeHref={category.href}
           />
         </aside>
 
@@ -31,8 +36,8 @@ export function CosmeticDentistryPage({ page }: CosmeticDentistryPageProps) {
           <div className="grid items-start gap-8 lg:grid-cols-2 lg:gap-12">
             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-xl ring-1 ring-[var(--clinic-border)]">
               <Image
-                src={HERO_IMAGE}
-                alt="Cosmetic dentistry at Smile Dental Arts Centre in Markham"
+                src={heroImage}
+                alt={heroAlt}
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 40vw"
@@ -45,12 +50,15 @@ export function CosmeticDentistryPage({ page }: CosmeticDentistryPageProps) {
                 {page.heading}
               </h1>
               <h2 className="clinic-heading mt-4 text-xl font-medium text-[var(--clinic-navy)]">
-                The Services Your Markham Dentist Offers
+                {subtitle}
               </h2>
               <div className="prose-clinic mt-6 space-y-4 text-base leading-relaxed text-[var(--clinic-muted)]">
-                {page.paragraphs.slice(0, 2).map((paragraph, i) => (
-                  <p key={`${i}-${paragraph.slice(0, 24)}`}>{paragraph}</p>
-                ))}
+                {page.paragraphs
+                  .filter((p) => !p.startsWith("Home >") && !p.startsWith("Home &"))
+                  .slice(0, 2)
+                  .map((paragraph, i) => (
+                    <p key={`${i}-${paragraph.slice(0, 24)}`}>{paragraph}</p>
+                  ))}
               </div>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link
@@ -71,9 +79,9 @@ export function CosmeticDentistryPage({ page }: CosmeticDentistryPageProps) {
 
           <div className="mt-12 lg:hidden">
             <h2 className="clinic-heading mb-4 text-lg font-semibold text-[var(--clinic-navy)]">
-              Cosmetic Dentistry Services
+              {category.label} Services
             </h2>
-            <ServiceSubmenuList items={submenu} activeHref="/dental-services/cosmetic-dentistry" />
+            <ServiceSubmenuList items={category.children} activeHref={category.href} />
           </div>
         </article>
       </div>

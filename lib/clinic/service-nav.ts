@@ -10,7 +10,8 @@ export const SERVICE_NAV_ITEMS: readonly ServiceNavItem[] = [
     label: "Cleanings & Prevention",
     href: "/dental-services/cleanings-prevention",
     children: [
-      { label: "Complete Oral Exam Cleanings", href: "/dental-services/cleanings-prevention/complete-oral-exam-cleanings" },
+      { label: "Complete Oral Exam", href: "/dental-services/cleanings-prevention/complete-oral-exam-cleanings" },
+      { label: "Cleanings", href: "/dental-services/cleanings-prevention/complete-oral-exam-cleanings" },
       { label: "Dental Digital X-Rays", href: "/dental-services/cleanings-prevention/dental-digital-x-rays" },
       { label: "Panoramic X-rays", href: "/dental-services/cleanings-prevention/panoramic-x-rays" },
       { label: "Fissure sealants", href: "/dental-services/cleanings-prevention/fissure-sealants" },
@@ -107,9 +108,3 @@ export function getServiceCategoryForPath(path: string): ServiceNavItem | undefi
   });
 }
 
-export function getCosmeticDentistrySubmenu(): readonly ServiceNavItem[] {
-  return (
-    SERVICE_NAV_ITEMS.find((item) => item.href === "/dental-services/cosmetic-dentistry")?.children ??
-    []
-  );
-}
