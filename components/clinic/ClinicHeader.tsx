@@ -245,7 +245,7 @@ export function ClinicHeader() {
                   {hasNestedChildren(item.children)
                     ? (item.children as readonly ServiceNavItem[]).map((child) => (
                         <MobileServiceMenuItem
-                          key={child.href}
+                          key={child.label}
                           item={child}
                           onNavigate={() => setOpen(false)}
                         />
