@@ -1,3 +1,4 @@
+import { BLOG_NAV_ITEMS } from "@/lib/blog/nav";
 import { SERVICE_NAV_ITEMS } from "@/lib/clinic/service-nav";
 
 export const CLINIC = {
@@ -108,14 +109,7 @@ export const NAV_ITEMS = [
   {
     label: "Blog",
     href: CLINIC.pages.blog,
-    children: [
-      { label: "All Articles", href: "/blog" },
-      { label: "Are Dental Implants Permanent?", href: "/blog/are-dental-implants-permanent" },
-      { label: "How Long Do Implants Last?", href: "/blog/how-long-do-dental-implants-last" },
-      { label: "Average Cost of Implants", href: "/blog/dental-implant-cost" },
-      { label: "Dental Implant Aftercare", href: "/blog/dental-implant-aftercare" },
-      { label: "Dental Implants for Seniors", href: "/blog/dental-implants-for-seniors" },
-    ],
+    children: BLOG_NAV_ITEMS,
   },
   { label: "CDCP", href: CLINIC.pages.cdcp },
   {
