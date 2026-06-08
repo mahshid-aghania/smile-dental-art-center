@@ -164,11 +164,16 @@ function DesktopNavDropdown({
         <div
           className={cn(
             "rounded-lg border border-[var(--clinic-border)] bg-white shadow-lg",
-            isServicesMenu ? "w-64 overflow-visible" : "w-64 overflow-hidden"
+            isServicesMenu ? "w-64 overflow-visible" : "w-72 overflow-hidden"
           )}
           onMouseLeave={() => setOpenSubmenu(null)}
         >
-          <ul className="relative py-1">
+          <ul
+            className={cn(
+              "relative py-1",
+              !isServicesMenu && menuItems.length > 8 && "max-h-[min(70vh,22rem)] overflow-y-auto"
+            )}
+          >
             {isServicesMenu
               ? (menuItems as readonly ServiceNavItem[]).map((child) => (
                   <DesktopServiceMenuItem
@@ -180,10 +185,10 @@ function DesktopNavDropdown({
                   />
                 ))
               : menuItems.map((child) => (
-                  <li key={child.label} className="border-b border-[var(--clinic-border)] last:border-b-0">
+                  <li key={child.href} className="border-b border-[var(--clinic-border)] last:border-b-0">
                     <Link
                       href={child.href}
-                      className="block px-4 py-2 text-sm text-[var(--clinic-navy)] hover:bg-[var(--clinic-surface)] hover:text-[var(--clinic-gold)]"
+                      className="block px-4 py-2 text-sm leading-snug text-[var(--clinic-navy)] hover:bg-[var(--clinic-surface)] hover:text-[var(--clinic-gold)]"
                     >
                       {child.label}
                     </Link>
@@ -286,10 +291,10 @@ export function ClinicHeader() {
                         />
                       ))
                     : item.children.map((child) => (
-                        <li key={child.label}>
+                        <li key={child.href}>
                           <Link
                             href={child.href}
-                            className="block py-1.5 text-sm text-[var(--clinic-muted)] hover:text-[var(--clinic-gold)]"
+                            className="block py-1.5 text-sm leading-snug text-[var(--clinic-muted)] hover:text-[var(--clinic-gold)]"
                             onClick={() => setOpen(false)}
                           >
                             {child.label}
