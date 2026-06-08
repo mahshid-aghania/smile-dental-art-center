@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import { AboutUsPage } from "@/components/clinic/AboutUsPage";
 import { AppointmentForm } from "@/components/clinic/AppointmentForm";
+import { GalleryPage } from "@/components/clinic/GalleryPage";
 import { ContactForm } from "@/components/clinic/ContactForm";
 import { DentalServicesPage } from "@/components/clinic/DentalServicesPage";
 import { DrKadivarPage } from "@/components/clinic/DrKadivarPage";
@@ -39,6 +40,10 @@ export function ClinicPageView({ path, page }: ClinicPageViewProps) {
 
   if (path === "about-us") {
     return <AboutUsPage />;
+  }
+
+  if (path === "gallery") {
+    return <GalleryPage />;
   }
 
   if (path === "about-us/dr-neda-kadivar") {
