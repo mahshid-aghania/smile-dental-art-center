@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { AboutUsPage } from "@/components/clinic/AboutUsPage";
 import { AppointmentForm } from "@/components/clinic/AppointmentForm";
 import { ContactForm } from "@/components/clinic/ContactForm";
 import { DentalServicesPage } from "@/components/clinic/DentalServicesPage";
@@ -34,6 +35,10 @@ function BookCta() {
 export function ClinicPageView({ path, page }: ClinicPageViewProps) {
   if (path === "dental-services") {
     return <DentalServicesPage />;
+  }
+
+  if (path === "about-us") {
+    return <AboutUsPage />;
   }
 
   if (path === "about-us/dr-neda-kadivar") {
