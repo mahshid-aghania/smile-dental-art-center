@@ -1,7 +1,7 @@
 export type FormspreeFormType = "appointment" | "contact" | "patientIntake";
 
-/** Public Formspree form — https://formspree.io/f/xaqzovyp */
-export const FORMSPREE_FORM_ID = "xaqzovyp";
+/** Public Formspree form — https://formspree.io/f/xojzwvzd */
+export const FORMSPREE_FORM_ID = "xojzwvzd";
 
 const FORM_TYPE_LABELS: Record<FormspreeFormType, string> = {
   appointment: "Appointment request",
