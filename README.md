@@ -20,8 +20,8 @@ A modern Next.js (App Router) app with two experiences:
 
 2. Set `REPLICATE_API_TOKEN` in `.env.local` (never commit real tokens).
 
-3. **Formspree (forms):** Submissions go to `https://formspree.io/f/xaqzovyp` by default. Override in `.env.local` if needed:
-   - `NEXT_PUBLIC_FORMSPREE_FORM_ID=xaqzovyp` — appointment, contact, and AI intake (each submission includes a `formType` field so you can tell them apart in email)
+3. **Formspree (forms):** Submissions go to `https://formspree.io/f/xojzwvzd` by default. Override in `.env.local` if needed:
+   - `NEXT_PUBLIC_FORMSPREE_FORM_ID=xojzwvzd` — appointment, contact, and AI intake (each submission includes a `formType` field so you can tell them apart in email)
 
 4. Optionally set `REPLICATE_MODEL` to a model slug you control. The default integration targets **`black-forest-labs/flux-kontext-max`** with inputs:
 
