@@ -5,11 +5,9 @@ import {
   DR_KADIVAR_OFFICE_IMAGES,
 } from "@/lib/clinic/dr-kadivar";
 
-const UPLOADS = "https://smiledentalartscentre.com/wp-content/uploads";
-
 export const ABOUT_US_IMAGES = {
-  clinicExterior: `${UPLOADS}/2023/11/About2.jpg`,
-  clinicBanner: `${UPLOADS}/2023/10/opt-DMO15779.jpg`,
+  clinicExterior: "/clinic/about-us/clinic-exterior.jpg",
+  clinicBanner: "/clinic/about-us/clinic-banner.jpg",
 } as const;
 
 export const ABOUT_US_INTRO = {
@@ -48,7 +46,7 @@ export const ABOUT_US_DENTISTS = [
   {
     id: "dr-neda-kadivar",
     name: "Dr. Neda Kadivar, D.D.S",
-    image: `${UPLOADS}/2023/10/Dr-Neda-1-1.jpeg`,
+    image: "/clinic/about-us/dr-neda.jpg",
     alt: "Dr. Neda Kadivar, dentist in Markham",
     href: CLINIC.pages.drKadivar,
     paragraphs: [
@@ -63,7 +61,7 @@ export const ABOUT_US_DENTISTS = [
   {
     id: "dr-nemati",
     name: "Dr. Hamed Nemati Rezvani,D.D.S",
-    image: `${UPLOADS}/2023/09/IMG_0358.jpg`,
+    image: "/clinic/about-us/dr-nemati.jpg",
     alt: "Dr. Hamed Nemati Rezvani, D.D.S",
     paragraphs: [
       "Dr. Hamed Nemati, an experienced internationally trained Oral and Maxillofacial Surgeon, has studied in Iran where he graduated in 2002 the Doctor of Dental Surgery program and then in 2014 the Oral and Maxillofacial Surgery specialty program. As an Assistant Professor (Sep 2014 – Sep 2018), he tought dental students and OMFS residents, supervised their practices and some of their research projects and performed various major hospital based maxillofacial surgeries (e.g. trauma, corrective jaw surgeries, pathology) and minor office based oral surgeries (e.g. impacted teeth, advanced implant surgeries and oral reconstruction surgeries).",
@@ -73,7 +71,7 @@ export const ABOUT_US_DENTISTS = [
   {
     id: "dr-sam",
     name: "Dr. Sam Barsoum,D.D.S",
-    image: `${UPLOADS}/2023/09/DMO15769-1.jpg`,
+    image: "/clinic/about-us/dr-sam.jpg",
     alt: "Dr. Sam Barsoum, D.D.S",
     paragraphs: [
       "At a young age Dr. Barsoum was drawn to the field of dentistry. In pursuit of his dreams he attended the University of Alexandria and received his Bachelor of Dental Surgery.",
@@ -91,37 +89,37 @@ export const ABOUT_US_TEAM = [
   {
     name: "Yalda",
     role: "Dental Assistant",
-    image: `${UPLOADS}/2023/10/7.jpg`,
+    image: "/clinic/team/yalda.jpg",
     alt: "Yalda, dental assistant at Smile Dental Arts Centre",
   },
   {
     name: "Mozhgan",
     role: "Dental Assistant",
-    image: `${UPLOADS}/2023/10/8.jpg`,
+    image: "/clinic/team/mozhgan.jpg",
     alt: "Mozhgan, dental assistant at Smile Dental Arts Centre",
   },
   {
     name: "Zohreh",
     role: "Dental Hygienist",
-    image: `${UPLOADS}/2023/10/1.jpg`,
+    image: "/clinic/team/zohreh.jpg",
     alt: "Zohreh, dental hygienist at Smile Dental Arts Centre",
   },
   {
     name: "Ghada",
     role: "Dental Hygienist",
-    image: `${UPLOADS}/2023/10/5.jpg`,
+    image: "/clinic/team/ghada.jpg",
     alt: "Ghada, dental hygienist at Smile Dental Arts Centre",
   },
   {
     name: "Rhoda",
     role: "Office Admin",
-    image: `${UPLOADS}/2023/10/6.jpg`,
+    image: "/clinic/team/rhoda.jpg",
     alt: "Rhoda, office admin at Smile Dental Arts Centre",
   },
   {
     name: "Fatemeh",
     role: "Office Admin",
-    image: `${UPLOADS}/2023/10/4.jpg`,
+    image: "/clinic/team/fatemeh.jpg",
     alt: "Fatemeh, office admin at Smile Dental Arts Centre",
   },
 ] as const;
