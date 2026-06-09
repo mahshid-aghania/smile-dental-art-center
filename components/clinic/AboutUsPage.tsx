@@ -18,8 +18,22 @@ import { CLINIC } from "@/lib/clinic/content";
 
 function PortraitImage({ src, alt }: { src: string; alt: string }) {
   return (
-    <div className="relative mx-auto aspect-[2/3] w-full max-w-md overflow-hidden rounded-2xl shadow-xl ring-1 ring-[var(--clinic-border)]">
+    <div className="relative mx-auto aspect-[2/3] w-full max-w-md min-h-[280px] overflow-hidden rounded-2xl shadow-xl ring-1 ring-[var(--clinic-border)]">
       <Image src={src} alt={alt} fill className="object-cover" sizes="(max-width: 1024px) 90vw, 40vw" />
+    </div>
+  );
+}
+
+function TeamMemberPhoto({ src, alt }: { src: string; alt: string }) {
+  return (
+    <div className="relative aspect-square w-full min-h-[220px] overflow-hidden bg-slate-100 sm:min-h-[240px]">
+      <Image
+        src={src}
+        alt={alt}
+        fill
+        className="object-cover"
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+      />
     </div>
   );
 }
@@ -150,15 +164,7 @@ export function AboutUsPage() {
                 key={member.name}
                 className="overflow-hidden rounded-xl border border-[var(--clinic-border)] bg-white shadow-sm"
               >
-                <div className="relative aspect-square w-full bg-slate-100">
-                  <Image
-                    src={member.image}
-                    alt={member.alt}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 50vw, 33vw"
-                  />
-                </div>
+                <TeamMemberPhoto src={member.image} alt={member.alt} />
                 <div className="p-5 text-center">
                   <h4 className="text-lg font-semibold text-[var(--clinic-navy)]">{member.name}</h4>
                   <p className="mt-1 text-sm font-semibold uppercase tracking-wide text-[var(--clinic-gold)]">
