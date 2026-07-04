@@ -281,7 +281,7 @@ export const PILLAR_COSMETIC: ClusterPost[] = [
           },
           {
             type: "p",
-            text: "For significant damage or knocked-out teeth, see our [dental emergency first-aid guide](/blog/chipped-vs-knocked-out-tooth-first-aid) for step-by-step instructions.",
+            text: "For significant damage or knocked-out teeth, see our [dental emergency first-aid guide](/blog/chipped-vs-knocked-out-tooth) for step-by-step instructions.",
           },
         ],
       },

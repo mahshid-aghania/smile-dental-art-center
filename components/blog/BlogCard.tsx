@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-import { BLOG_BASE, getBlogCategory, type BlogPost } from "@/lib/blog/posts";
+import { BLOG_BASE, getBlogCategory, getBlogPillar, type BlogPost } from "@/lib/blog/posts";
 
 export function BlogCard({ post }: { post: BlogPost }) {
-  const category = getBlogCategory(post.slug);
+  const category = getBlogPillar(post.slug) ?? getBlogCategory(post.slug);
   return (
     <article className="flex h-full flex-col rounded-xl border border-[var(--clinic-border)] bg-white p-6 transition hover:border-[var(--clinic-gold)] hover:shadow-sm">
       <p className="text-xs font-semibold uppercase tracking-wide text-[var(--clinic-gold)]">
