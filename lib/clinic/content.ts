@@ -159,39 +159,39 @@ export const WHY_CHOOSE = [
 
 export const DENTAL_SERVICES_HERO_SLIDES = [
   {
-    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/composite-fillings-1-1.webp",
+    src: "/clinic/services/composite-fillings.png",
     alt: "Composite fillings",
   },
   {
-    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/Dentures-Partial-Dentures-1-1.webp",
+    src: "/clinic/services/dentures.png",
     alt: "Dentures and partial dentures",
   },
   {
-    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/onlay-Restorations-1.webp",
+    src: "/clinic/services/onlay-restorations.png",
     alt: "Onlay restorations",
   },
   {
-    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/Porcelain-Crowns-Caps-1.webp",
+    src: "/clinic/services/porcelain-crowns.png",
     alt: "Porcelain crowns and caps",
   },
   {
-    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/Porcelain-onlay.webp",
+    src: "/clinic/services/porcelain-onlay.png",
     alt: "Porcelain onlay",
   },
   {
-    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/regenerative-procedures-dental.webp",
+    src: "/clinic/services/regenerative-procedures.png",
     alt: "Regenerative dental procedures",
   },
   {
-    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/Root-Amputation.webp",
+    src: "/clinic/services/root-amputation.png",
     alt: "Dental root amputation",
   },
   {
-    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/Soft-tissue-grafting.webp",
+    src: "/clinic/services/soft-tissue-grafting.png",
     alt: "Soft tissue grafting",
   },
   {
-    src: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/Wisdom-teeth-surgery-1.webp",
+    src: "/clinic/services/wisdom-teeth-surgery.png",
     alt: "Wisdom teeth surgery",
   },
 ] as const;
@@ -217,56 +217,56 @@ export const SERVICE_CARDS = [
     href: "/dental-services/cleanings-prevention",
     description:
       "Regular cleaning & prevention of teeth in order to support and protect oral health, ensure a beautiful smile and prevent dental problems.",
-    image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/1.webp",
+    image: "/clinic/services/cleanings-prevention.png",
   },
   {
     title: "Cosmetic Dentistry",
     href: "/dental-services/cosmetic-dentistry",
     description:
       "Cosmetic dentistry focuses on enhancing the appearance of a person's teeth, gums, and smile through various procedures and treatment.",
-    image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/AdobeStock_100506477.jpg",
+    image: "/clinic/services/cosmetic-dentistry.png",
   },
   {
     title: "Restorations",
     href: "/dental-services/restorations",
     description:
       "Dental restorations include repairing or replacing damaged or missing teeth to restore the function and appearance of those teeth.",
-    image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/6.webp",
+    image: "/clinic/services/restorations.png",
   },
   {
     title: "Invisalign®",
     href: "/dental-services/invisalign-in-markham",
     description:
       "Transform your smile discreetly with Invisalign's clear aligners the modern, comfortable way to achieve the perfect smile you've always wanted.",
-    image: "https://smiledentalartscentre.com/wp-content/uploads/2023/10/Invisalign-scaled.jpg",
+    image: "/clinic/services/invisalign.png",
   },
   {
     title: "Oral Surgery",
     href: "/dental-services/oral-surgery",
     description:
       "Oral surgery in dentistry involves surgical procedures that address complex dental issues, such as tooth extraction, dental implant placement, jaw surgery, and the treatment of oral diseases.",
-    image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/9.jpg",
+    image: "/clinic/services/oral-surgery.png",
   },
   {
     title: "Endodontics",
     href: "/dental-services/endodontics",
     description:
       "Endodontics aims to save and maintain natural teeth whenever possible, focusing on diagnosing and treating issues related to the dental pulp and the tissues surrounding the roots of teeth.",
-    image: "https://smiledentalartscentre.com/wp-content/uploads/2023/10/Endo-4-1.webp",
+    image: "/clinic/services/endodontics.png",
   },
   {
     title: "Dental Emergencies",
     href: "/dental-services/dental-emergencies",
     description:
       "If you or a family member is facing a dental emergency, please reach out to us without delay. Our team is here to provide the prompt attention and care you need to safeguard your oral health.",
-    image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/10.webp",
+    image: "/clinic/services/dental-emergencies.png",
   },
   {
     title: "Periodontics",
     href: "/dental-services/periodontics",
     description:
       "Uncover healthy gums and a confident smile with periodontics. Our specialized care prioritizes gum disease prevention, diagnosis, and treatment, ensuring optimal oral health.",
-    image: "https://smiledentalartscentre.com/wp-content/uploads/2023/09/10.webp",
+    image: "/clinic/services/periodontics.png",
   },
 ] as const;
 

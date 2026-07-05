@@ -13,94 +13,26 @@ export type GalleryTab = {
 export const GALLERY_HEADING = "A Dental Artistry Gallery";
 export const GALLERY_SUBHEADING = "Smiles Captured!";
 
-/** Scraped from https://smiledentalartscentre.com/gallery/ */
+const RESTORATION_IMAGES: readonly GalleryImage[] = [
+  { src: "/clinic/gallery/composite-restoration.png", alt: "Composite restoration result" },
+  { src: "/clinic/gallery/porcelain-crown.png", alt: "Porcelain crown restoration result" },
+  { src: "/clinic/gallery/crown-implant.png", alt: "Crown and implant restoration result" },
+];
+
+const COSMETIC_IMAGES: readonly GalleryImage[] = [
+  { src: "/clinic/gallery/porcelain-veneers.png", alt: "Porcelain veneers result" },
+  { src: "/clinic/gallery/composite-veneer.png", alt: "Composite veneer result" },
+  { src: "/clinic/gallery/teeth-whitening.png", alt: "Teeth whitening result" },
+  { src: "/clinic/gallery/diastema-closure.png", alt: "Diastema (gap) closure result" },
+  { src: "/clinic/gallery/smile-makeover.png", alt: "Full smile makeover result" },
+];
+
 export const GALLERY_TABS: readonly GalleryTab[] = [
   {
     id: "all",
     label: "All",
     empty: false,
-    images: [
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/Screenshot-2024-04-26-140221-2.png",
-        alt: "replacing old composite restorations",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/19.png",
-        alt: "replacing old composite restorations",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/Screenshot-2024-04-25-231444.png",
-        alt: "Composite veneer",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/3-1.png",
-        alt: "Composite veneer",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/Screenshot-2024-04-25-230650.png",
-        alt: "Composite veneer",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/5-1.png",
-        alt: "Composite veneer",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/7-1.png",
-        alt: "Composite veneer",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/8-1.png",
-        alt: "Composite veneer",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/Screenshot-2024-04-26-140221.png",
-        alt: "Composite veneer and removable denture",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/9-1.png",
-        alt: "Composite veneer and removable denture",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/12-1.png",
-        alt: "whitening and diastema closure",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/Screenshot-2024-04-26-140221-1.png",
-        alt: "whitening and diastema closure",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/14-1.png",
-        alt: "Restoration with composite",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/13-1.png",
-        alt: "Restoration with composite",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/16-1.png",
-        alt: "diastema closure",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/15-1.png",
-        alt: "diastema closure",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/18.png",
-        alt: "whitening and crown implant",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/17.png",
-        alt: "whitening and crown implant",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/11/Screenshot-2024-11-05-211258.png",
-        alt: "Screenshot 2024-11-05 211258",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/11/Screenshot-2024-11-05-212333.png",
-        alt: "Screenshot 2024-11-05 212333",
-      },
-    ],
+    images: [...COSMETIC_IMAGES, ...RESTORATION_IMAGES],
   },
   {
     id: "prosthetic-dentistry",
@@ -112,103 +44,13 @@ export const GALLERY_TABS: readonly GalleryTab[] = [
     id: "restorations",
     label: "Restorations",
     empty: false,
-    images: [
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/Screenshot-2024-04-26-140221-2.png",
-        alt: "replacing old composite restorations",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/19.png",
-        alt: "replacing old composite restorations",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/14-1.png",
-        alt: "Restoration with composite",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/13-1.png",
-        alt: "Restoration with composite",
-      },
-    ],
+    images: RESTORATION_IMAGES,
   },
   {
     id: "cosmetic-dentistry",
     label: "Cosmetic Dentistry",
     empty: false,
-    images: [
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/Screenshot-2024-04-25-231159.png",
-        alt: "Porcelain veneer and porcelain crown",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/2-3.png",
-        alt: "Porcelain veneer and porcelain crown",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/Screenshot-2024-04-25-231444.png",
-        alt: "Composite veneer",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/3-1.png",
-        alt: "Composite veneer",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/Screenshot-2024-04-25-230650.png",
-        alt: "Composite veneer",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/5-1.png",
-        alt: "Composite veneer",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/Screenshot-2024-04-26-140221.png",
-        alt: "Composite veneer and removable denture",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/9-1.png",
-        alt: "Composite veneer and removable denture",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/7-1.png",
-        alt: "Composite veneer",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/8-1.png",
-        alt: "Composite veneer",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/12-1.png",
-        alt: "whitening and diastema closure",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/Screenshot-2024-04-26-140221-1.png",
-        alt: "whitening and diastema closure",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/18.png",
-        alt: "whitening and crown implant",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/17.png",
-        alt: "whitening and crown implant",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/Screenshot-2024-04-26-140221-2.png",
-        alt: "replacing old composite restorations",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/11/Screenshot-2024-11-05-211258.png",
-        alt: "Screenshot 2024-11-05 211258",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/04/19.png",
-        alt: "replacing old composite restorations",
-      },
-      {
-        src: "https://smiledentalartscentre.com/wp-content/uploads/2024/11/Screenshot-2024-11-05-212333.png",
-        alt: "Screenshot 2024-11-05 212333",
-      },
-    ],
+    images: COSMETIC_IMAGES,
   },
   {
     id: "emergency-dental-care",
