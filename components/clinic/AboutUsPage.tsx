@@ -220,15 +220,14 @@ export function AboutUsPage() {
                 href={affiliation.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex justify-center rounded-xl border border-[var(--clinic-border)] bg-white p-6 transition hover:shadow-md"
+                className="flex flex-col items-center justify-center gap-2 rounded-xl border border-[var(--clinic-border)] bg-white p-6 text-center transition hover:shadow-md"
               >
-                <Image
-                  src={affiliation.image}
-                  alt={`${affiliation.name} logo`}
-                  width={300}
-                  height={150}
-                  className="h-auto max-h-24 w-auto object-contain"
-                />
+                <span className="clinic-heading text-2xl font-bold text-[var(--clinic-gold)]">
+                  {affiliation.abbr}
+                </span>
+                <span className="text-sm font-medium text-[var(--clinic-navy)]">
+                  {affiliation.name}
+                </span>
               </a>
             ))}
           </div>
