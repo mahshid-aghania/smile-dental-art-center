@@ -8,17 +8,18 @@ import { SchemaJsonLd } from "@/components/implants/SchemaJsonLd";
 import { StickyActionBar } from "@/components/implants/StickyActionBar";
 import {
   BLOG_BASE,
-  BLOG_CATEGORIES,
-  getBlogCategory,
-  getClusterGroups,
-  getImplantBlogPosts,
+  BLOG_PILLARS,
+  estimateReadingTime,
+  getAllBlogPosts,
+  getPostsByPillar,
 } from "@/lib/blog/posts";
 import { OG_IMAGE, PILLAR_PATH, SITE_URL } from "@/lib/implants/data";
 import { breadcrumbSchema, clinicSchema, graph } from "@/lib/implants/schema";
+import { Clock } from "lucide-react";
 
-const TITLE = "Dental Blog | Smile Dental Arts Centre, Markham";
+const TITLE = "Dental Health Blog | Smile Dental Arts Centre, Markham";
 const DESCRIPTION =
-  "Dentist-reviewed articles on dental implants, Invisalign, cosmetic dentistry, family care and dental emergencies in Markham. Reviewed by Dr. Neda Kadivar, D.D.S.";
+  "Expert articles on dental implants, Invisalign, cosmetic dentistry, family dental care and emergencies — reviewed by Dr. Neda Kadivar, D.D.S. in Markham.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
     description: DESCRIPTION,
     url: `${SITE_URL}${BLOG_BASE}`,
     type: "website",
-    images: [{ url: OG_IMAGE, width: 1200, height: 900, alt: "Dental implant blog" }],
+    images: [{ url: OG_IMAGE, width: 1200, height: 900, alt: "Dental health blog" }],
   },
   twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION, images: [OG_IMAGE] },
 };
@@ -40,103 +41,146 @@ const CRUMBS = [
   { name: "Blog", path: BLOG_BASE },
 ];
 
-export default function BlogIndexPage() {
-  const implantPosts = getImplantBlogPosts();
-  const [featured, ...rest] = implantPosts;
-  const clusterGroups = getClusterGroups();
+const PILLAR_ICONS: Record<string, string> = {
+  "Dental Implants": "🦷",
+  "Invisalign & Orthodontics": "😁",
+  "Cosmetic Dentistry": "✨",
+  "Family & Preventive Dentistry": "👨‍👩‍👧",
+  "Emergency & Local": "🚨",
+};
 
+const PILLAR_COLORS: Record<string, string> = {
+  "Dental Implants": "border-amber-400 bg-amber-50",
+  "Invisalign & Orthodontics": "border-sky-400 bg-sky-50",
+  "Cosmetic Dentistry": "border-rose-400 bg-rose-50",
+  "Family & Preventive Dentistry": "border-emerald-400 bg-emerald-50",
+  "Emergency & Local": "border-orange-400 bg-orange-50",
+};
+
+export default function BlogIndexPage() {
+  const allPosts = getAllBlogPosts();
+  const [featured] = allPosts;
   const schema = graph([clinicSchema(), breadcrumbSchema(CRUMBS)]);
+  const featuredRead = estimateReadingTime(featured);
 
   return (
     <>
       <SchemaJsonLd schema={schema} />
 
+      {/* ── Hero ─────────────────────────────────────────────── */}
       <header className="border-b border-[var(--clinic-border)] bg-[var(--clinic-surface)]">
         <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <ImplantBreadcrumbs crumbs={CRUMBS} />
-          <p className="mt-5 text-xs font-semibold uppercase tracking-wide text-[var(--clinic-gold)]">
-            Patient education
+          <p className="mt-5 text-xs font-semibold uppercase tracking-widest text-[var(--clinic-gold)]">
+            Patient education · 50 articles
           </p>
-          <h1 className="clinic-heading mt-2 text-3xl font-semibold text-[var(--clinic-navy)] text-balance sm:text-4xl">
-            The Smile Dental Arts Blog
+          <h1 className="clinic-heading mt-2 text-4xl font-semibold text-[var(--clinic-navy)] text-balance sm:text-5xl">
+            Dental Health Blog
           </h1>
-          <p className="mt-4 max-w-2xl text-lg leading-relaxed text-[var(--clinic-muted)] text-pretty">
-            Clear, dentist-reviewed answers to the questions patients in Markham ask most — covering
-            dental implants, Invisalign, cosmetic dentistry, family and preventive care, and dental
-            emergencies. Every article is medically reviewed by Dr. Neda Kadivar, D.D.S.
+          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-[var(--clinic-muted)] text-pretty">
+            Clear, dentist-reviewed answers to the questions patients ask most — from implants and
+            Invisalign to cosmetic care, prevention and emergencies. Every article is reviewed by{" "}
+            <Link href="/about-us/dr-neda-kadivar" className="clinic-link font-medium">
+              Dr. Neda Kadivar, D.D.S.
+            </Link>{" "}
+            at our Markham clinic.
           </p>
-          <div className="mt-6">
-            <Link href={PILLAR_PATH} className="clinic-btn-primary inline-block px-7 py-3 text-sm">
-              Explore dental implants in Markham
-            </Link>
-          </div>
         </div>
       </header>
 
-      <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-        {/* Featured post */}
-        <section aria-labelledby="featured-post" className="mb-14">
-          <h2 id="featured-post" className="sr-only">
+      {/* ── Pillar nav pills ─────────────────────────────────── */}
+      <div className="sticky top-0 z-30 border-b border-[var(--clinic-border)] bg-white/95 backdrop-blur-sm">
+        <div className="mx-auto max-w-6xl overflow-x-auto px-4 sm:px-6 lg:px-8">
+          <ul className="flex gap-1 py-3" role="list">
+            <li>
+              <a
+                href="#all"
+                className="inline-block rounded-full px-4 py-1.5 text-sm font-semibold text-[var(--clinic-navy)] ring-1 ring-[var(--clinic-border)] hover:ring-[var(--clinic-gold)] whitespace-nowrap"
+              >
+                All articles
+              </a>
+            </li>
+            {BLOG_PILLARS.map((p) => (
+              <li key={p}>
+                <a
+                  href={`#${p.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
+                  className="inline-block rounded-full px-4 py-1.5 text-sm font-medium text-[var(--clinic-muted)] ring-1 ring-[var(--clinic-border)] hover:ring-[var(--clinic-gold)] hover:text-[var(--clinic-navy)] whitespace-nowrap"
+                >
+                  {PILLAR_ICONS[p]} {p}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <div id="all" className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
+        {/* ── Featured ─────────────────────────────────────────── */}
+        <section aria-labelledby="featured-heading" className="mb-16">
+          <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-[var(--clinic-gold)]">
             Featured article
-          </h2>
+          </p>
           <Link
             href={`${BLOG_BASE}/${featured.slug}`}
-            className="group block rounded-2xl border border-[var(--clinic-border)] bg-white p-8 transition hover:border-[var(--clinic-gold)] hover:shadow-md sm:p-10"
+            className="group block rounded-2xl border border-[var(--clinic-border)] bg-gradient-to-br from-white to-[var(--clinic-surface)] p-8 shadow-sm transition-all hover:-translate-y-0.5 hover:border-[var(--clinic-gold)] hover:shadow-lg sm:p-10"
           >
-            <p className="text-xs font-semibold uppercase tracking-wide text-[var(--clinic-gold)]">
-              Featured · {getBlogCategory(featured.slug)}
-            </p>
-            <h3 className="clinic-heading mt-3 text-2xl font-semibold text-[var(--clinic-navy)] text-balance sm:text-3xl group-hover:text-[var(--clinic-gold)]">
+            <span className="inline-block rounded-full border border-amber-200 bg-amber-50 px-3 py-0.5 text-xs font-semibold text-amber-700">
+              {featured.pillar}
+            </span>
+            <h2
+              id="featured-heading"
+              className="clinic-heading mt-4 text-2xl font-semibold text-[var(--clinic-navy)] text-balance group-hover:text-[var(--clinic-gold)] transition-colors sm:text-3xl"
+            >
               {featured.title}
-            </h3>
+            </h2>
             <p className="mt-4 max-w-3xl text-base leading-relaxed text-[var(--clinic-muted)] text-pretty">
               {featured.excerpt}
             </p>
-            <span className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-[var(--clinic-gold)]">
-              Read the full article →
-            </span>
+            <div className="mt-6 flex items-center gap-5">
+              <span className="inline-flex items-center gap-1.5 text-xs text-[var(--clinic-muted)]">
+                <Clock className="size-3.5" aria-hidden />
+                {featuredRead} min read
+              </span>
+              <span className="text-sm font-semibold text-[var(--clinic-gold)]">
+                Read the full article →
+              </span>
+            </div>
           </Link>
         </section>
 
-        {/* Cluster articles grouped by pillar (Markham topical authority) */}
-        {clusterGroups.map((group) => (
-          <section key={group.pillar} aria-labelledby={`pillar-${group.pillar}`} className="mb-14">
-            <h2
-              id={`pillar-${group.pillar}`}
-              className="clinic-heading mb-6 text-xl font-semibold text-[var(--clinic-navy)]"
-            >
-              {group.pillar}
-            </h2>
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {group.posts.map((post) => (
-                <BlogCard key={post.slug} post={post} />
-              ))}
-            </div>
-          </section>
-        ))}
-
-        {/* In-depth implant guides grouped by topic */}
-        <div className="mb-10 border-t border-[var(--clinic-border)] pt-12">
-          <h2 className="clinic-heading text-2xl font-semibold text-[var(--clinic-navy)]">
-            In-depth dental implant guides
-          </h2>
-          <p className="mt-2 max-w-2xl text-[var(--clinic-muted)]">
-            Detailed articles for patients researching dental implants in more depth.
-          </p>
-        </div>
-        {BLOG_CATEGORIES.map((category) => {
-          const inCategory = rest.filter((p) => getBlogCategory(p.slug) === category);
-          if (inCategory.length === 0) return null;
+        {/* ── Pillar sections ───────────────────────────────────── */}
+        {BLOG_PILLARS.map((pillar) => {
+          const posts = getPostsByPillar(pillar);
+          if (posts.length === 0) return null;
+          const pillarId = pillar.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+          const borderClass = PILLAR_COLORS[pillar] ?? "border-gray-300 bg-gray-50";
           return (
-            <section key={category} aria-labelledby={`cat-${category}`} className="mb-14">
-              <h3
-                id={`cat-${category}`}
-                className="clinic-heading mb-6 text-xl font-semibold text-[var(--clinic-navy)]"
-              >
-                {category}
-              </h3>
-              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                {inCategory.map((post) => (
+            <section
+              key={pillar}
+              id={pillarId}
+              aria-labelledby={`heading-${pillarId}`}
+              className="mb-16 scroll-mt-24"
+            >
+              {/* Pillar header */}
+              <div className={`mb-8 flex items-center gap-4 rounded-2xl border px-6 py-4 ${borderClass}`}>
+                <span className="text-3xl" aria-hidden>
+                  {PILLAR_ICONS[pillar]}
+                </span>
+                <div>
+                  <h2
+                    id={`heading-${pillarId}`}
+                    className="clinic-heading text-xl font-semibold text-[var(--clinic-navy)]"
+                  >
+                    {pillar}
+                  </h2>
+                  <p className="mt-0.5 text-sm text-[var(--clinic-muted)]">
+                    {posts.length} articles
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {posts.map((post) => (
                   <BlogCard key={post.slug} post={post} />
                 ))}
               </div>
@@ -146,8 +190,8 @@ export default function BlogIndexPage() {
       </div>
 
       <BookingCta
-        title="Have a question about dental implants?"
-        subtitle="Book a consultation with Dr. Neda Kadivar at our Markham clinic for personalized answers."
+        title="Ready to book your appointment?"
+        subtitle="Dr. Neda Kadivar and the team at Smile Dental Arts Centre in Markham are here to help."
       />
       <StickyActionBar />
     </>
