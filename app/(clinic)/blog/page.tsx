@@ -9,15 +9,16 @@ import { StickyActionBar } from "@/components/implants/StickyActionBar";
 import {
   BLOG_BASE,
   BLOG_CATEGORIES,
-  getAllBlogPosts,
   getBlogCategory,
+  getClusterGroups,
+  getImplantBlogPosts,
 } from "@/lib/blog/posts";
 import { OG_IMAGE, PILLAR_PATH, SITE_URL } from "@/lib/implants/data";
 import { breadcrumbSchema, clinicSchema, graph } from "@/lib/implants/schema";
 
-const TITLE = "Dental Implant Blog | Smile Dental Arts Centre, Markham";
+const TITLE = "Dental Blog | Smile Dental Arts Centre, Markham";
 const DESCRIPTION =
-  "Expert articles on dental implants — cost, recovery, longevity, materials and new technology. Reviewed by Dr. Neda Kadivar, D.D.S. in Markham.";
+  "Dentist-reviewed articles on dental implants, Invisalign, cosmetic dentistry, family care and dental emergencies in Markham. Reviewed by Dr. Neda Kadivar, D.D.S.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -40,8 +41,9 @@ const CRUMBS = [
 ];
 
 export default function BlogIndexPage() {
-  const posts = getAllBlogPosts();
-  const [featured, ...rest] = posts;
+  const implantPosts = getImplantBlogPosts();
+  const [featured, ...rest] = implantPosts;
+  const clusterGroups = getClusterGroups();
 
   const schema = graph([clinicSchema(), breadcrumbSchema(CRUMBS)]);
 
@@ -56,12 +58,12 @@ export default function BlogIndexPage() {
             Patient education
           </p>
           <h1 className="clinic-heading mt-2 text-3xl font-semibold text-[var(--clinic-navy)] text-balance sm:text-4xl">
-            Dental Implant Blog
+            The Smile Dental Arts Blog
           </h1>
           <p className="mt-4 max-w-2xl text-lg leading-relaxed text-[var(--clinic-muted)] text-pretty">
-            Clear, dentist-reviewed answers to the questions patients ask most about dental
-            implants — from cost and recovery to longevity, materials and the latest technology.
-            Every article is medically reviewed by Dr. Neda Kadivar, D.D.S.
+            Clear, dentist-reviewed answers to the questions patients in Markham ask most — covering
+            dental implants, Invisalign, cosmetic dentistry, family and preventive care, and dental
+            emergencies. Every article is medically reviewed by Dr. Neda Kadivar, D.D.S.
           </p>
           <div className="mt-6">
             <Link href={PILLAR_PATH} className="clinic-btn-primary inline-block px-7 py-3 text-sm">
@@ -96,18 +98,43 @@ export default function BlogIndexPage() {
           </Link>
         </section>
 
-        {/* Posts grouped by category */}
+        {/* Cluster articles grouped by pillar (Markham topical authority) */}
+        {clusterGroups.map((group) => (
+          <section key={group.pillar} aria-labelledby={`pillar-${group.pillar}`} className="mb-14">
+            <h2
+              id={`pillar-${group.pillar}`}
+              className="clinic-heading mb-6 text-xl font-semibold text-[var(--clinic-navy)]"
+            >
+              {group.pillar}
+            </h2>
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {group.posts.map((post) => (
+                <BlogCard key={post.slug} post={post} />
+              ))}
+            </div>
+          </section>
+        ))}
+
+        {/* In-depth implant guides grouped by topic */}
+        <div className="mb-10 border-t border-[var(--clinic-border)] pt-12">
+          <h2 className="clinic-heading text-2xl font-semibold text-[var(--clinic-navy)]">
+            In-depth dental implant guides
+          </h2>
+          <p className="mt-2 max-w-2xl text-[var(--clinic-muted)]">
+            Detailed articles for patients researching dental implants in more depth.
+          </p>
+        </div>
         {BLOG_CATEGORIES.map((category) => {
           const inCategory = rest.filter((p) => getBlogCategory(p.slug) === category);
           if (inCategory.length === 0) return null;
           return (
             <section key={category} aria-labelledby={`cat-${category}`} className="mb-14">
-              <h2
+              <h3
                 id={`cat-${category}`}
                 className="clinic-heading mb-6 text-xl font-semibold text-[var(--clinic-navy)]"
               >
                 {category}
-              </h2>
+              </h3>
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {inCategory.map((post) => (
                   <BlogCard key={post.slug} post={post} />

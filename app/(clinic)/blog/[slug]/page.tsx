@@ -5,6 +5,7 @@ import { BlogArticleBody } from "@/components/blog/BlogArticleBody";
 import { RelatedBlogLinks } from "@/components/blog/RelatedBlogLinks";
 import { BookingCta } from "@/components/implants/BookingCta";
 import { DoctorBio } from "@/components/implants/DoctorBio";
+import { FaqBlock } from "@/components/implants/FaqBlock";
 import { ImplantBreadcrumbs } from "@/components/implants/ImplantBreadcrumbs";
 import { SchemaJsonLd } from "@/components/implants/SchemaJsonLd";
 import { StickyActionBar } from "@/components/implants/StickyActionBar";
@@ -14,6 +15,8 @@ import {
   BLOG_PUBLISHED,
   getAllBlogSlugs,
   getBlogCategory,
+  getBlogFaqs,
+  getBlogPillar,
   getBlogPost,
 } from "@/lib/blog/posts";
 import { OG_IMAGE, SITE_URL } from "@/lib/implants/data";
@@ -22,6 +25,7 @@ import {
   breadcrumbSchema,
   clinicSchema,
   doctorPersonSchema,
+  faqSchema,
   graph,
 } from "@/lib/implants/schema";
 
@@ -65,7 +69,9 @@ export default async function BlogPostPage({ params }: PageProps) {
   if (!post) notFound();
 
   const path = `${BLOG_BASE}/${slug}`;
-  const category = getBlogCategory(slug);
+  const pillar = getBlogPillar(slug);
+  const label = pillar ?? getBlogCategory(slug);
+  const faqs = getBlogFaqs(slug);
 
   const crumbs = [
     { name: "Home", path: "/" },
@@ -84,6 +90,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       datePublished: BLOG_PUBLISHED,
       keywords: post.primaryKeyword,
     }),
+    ...(faqs.length > 0 ? [faqSchema(faqs)] : []),
   ]);
 
   return (
@@ -94,7 +101,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:max-w-4xl lg:py-12">
           <ImplantBreadcrumbs crumbs={crumbs} />
           <p className="mt-5 text-xs font-semibold uppercase tracking-wide text-[var(--clinic-gold)]">
-            {category}
+            {label}
           </p>
           <h1 className="clinic-heading mt-2 text-3xl font-semibold text-[var(--clinic-navy)] text-balance sm:text-4xl">
             {post.title}
@@ -110,9 +117,15 @@ export default async function BlogPostPage({ params }: PageProps) {
 
         <BlogArticleBody post={post} />
 
+        {faqs.length > 0 && (
+          <div className="mt-14">
+            <FaqBlock faqs={faqs} />
+          </div>
+        )}
+
         <p className="mt-10 rounded-lg border border-[var(--clinic-border)] bg-[var(--clinic-surface)] p-4 text-xs leading-relaxed text-[var(--clinic-muted)]">
           This article is for general educational purposes only and is not a substitute for
-          professional dental advice, diagnosis or treatment. Implant suitability, procedures,
+          professional dental advice, diagnosis or treatment. Treatment suitability, procedures,
           risks and costs vary by individual. Always consult a licensed dentist about your specific
           situation.
         </p>

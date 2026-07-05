@@ -1,15 +1,18 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-import { getRelatedImplantLinks, getRelatedPosts } from "@/lib/blog/posts";
+import { getRelatedImplantLinks, getRelatedPosts, isClusterPost } from "@/lib/blog/posts";
 
 /**
  * Internal-linking block at the foot of each article. Links ACROSS to related
- * articles and ACROSS/UP to the relevant implant treatment pages.
+ * articles and ACROSS/UP to the relevant treatment/service pages.
  */
 export function RelatedBlogLinks({ slug }: { slug: string }) {
   const relatedPosts = getRelatedPosts(slug);
   const serviceLinks = getRelatedImplantLinks(slug);
+  const serviceHeading = isClusterPost(slug)
+    ? "Explore care at our Markham clinic"
+    : "Explore implant treatments at our Markham clinic";
 
   return (
     <section
@@ -56,7 +59,7 @@ export function RelatedBlogLinks({ slug }: { slug: string }) {
       {serviceLinks.length > 0 && (
         <div className="mt-10 rounded-xl border border-[var(--clinic-border)] bg-[var(--clinic-surface)] p-6">
           <h3 className="clinic-heading text-lg font-semibold text-[var(--clinic-navy)]">
-            Explore implant treatments at our Markham clinic
+            {serviceHeading}
           </h3>
           <ul className="mt-4 flex flex-wrap gap-2">
             {serviceLinks.map((link) => (

@@ -1,4 +1,13 @@
 import rawPosts from "@/lib/blog/posts.json";
+import {
+  BLOG_PILLARS,
+  CLUSTER_POSTS,
+  getClusterPost,
+  getClusterPostsByPillar,
+  type BlogFaq,
+  type BlogPillar,
+  type ClusterPost,
+} from "@/lib/blog/cluster";
 import { IMPLANT_OPTIONS, PILLAR_PATH, SITE_URL } from "@/lib/implants/data";
 
 /* ------------------------------------------------------------------ */
@@ -26,7 +35,14 @@ export type BlogPost = {
   sections: BlogSection[];
 };
 
+export type { BlogFaq, BlogPillar };
+export { BLOG_PILLARS };
+
+/** Original 18 in-depth implant articles (from posts.json). */
 const POSTS = (rawPosts as BlogPost[]).slice().sort((a, b) => a.id - b.id);
+
+/** Every article across the site: implant deep-dives + the Markham cluster. */
+const ALL_POSTS: BlogPost[] = [...POSTS, ...(CLUSTER_POSTS as BlogPost[])];
 
 /* ------------------------------------------------------------------ */
 /* Blog metadata                                                       */
@@ -207,26 +223,57 @@ const IMPLANT_LABELS: Record<string, string> = {
 /* Accessors                                                           */
 /* ------------------------------------------------------------------ */
 
-export function getAllBlogPosts(): BlogPost[] {
+/** The original 18 implant deep-dives (used for the implant-focused index sections). */
+export function getImplantBlogPosts(): BlogPost[] {
   return POSTS;
 }
 
+/** Every article on the site. */
+export function getAllBlogPosts(): BlogPost[] {
+  return ALL_POSTS;
+}
+
 export function getAllBlogSlugs(): string[] {
-  return POSTS.map((p) => p.slug);
+  return ALL_POSTS.map((p) => p.slug);
 }
 
 export function getBlogPost(slug: string): BlogPost | null {
-  return POSTS.find((p) => p.slug === slug) ?? null;
+  return ALL_POSTS.find((p) => p.slug === slug) ?? null;
 }
 
 export function getBlogCategory(slug: string): BlogCategory {
   return CATEGORY_BY_SLUG[slug] ?? "Basics & Longevity";
 }
 
+/** True when a slug belongs to the Markham 5-pillar cluster. */
+export function isClusterPost(slug: string): boolean {
+  return Boolean(getClusterPost(slug));
+}
+
+/** FAQ items for a cluster article (empty for the original implant deep-dives). */
+export function getBlogFaqs(slug: string): BlogFaq[] {
+  return getClusterPost(slug)?.faqs ?? [];
+}
+
+/** The pillar an article belongs to, if it is part of the cluster. */
+export function getBlogPillar(slug: string): BlogPillar | null {
+  return getClusterPost(slug)?.pillar ?? null;
+}
+
+/** Cluster articles grouped by pillar for the blog index. */
+export function getClusterGroups(): { pillar: BlogPillar; posts: BlogPost[] }[] {
+  return getClusterPostsByPillar().map((g) => ({
+    pillar: g.pillar,
+    posts: g.posts as BlogPost[],
+  }));
+}
+
 export type BlogLink = { title: string; href: string; excerpt?: string };
 
 export function getRelatedPosts(slug: string): BlogLink[] {
-  const slugs = RELATED_POSTS[slug] ?? [];
+  // Cluster posts carry their own related-slug list.
+  const cluster = getClusterPost(slug);
+  const slugs = cluster ? cluster.relatedSlugs : RELATED_POSTS[slug] ?? [];
   return slugs
     .map((s) => getBlogPost(s))
     .filter((p): p is BlogPost => Boolean(p))
@@ -238,6 +285,11 @@ export function getRelatedPosts(slug: string): BlogLink[] {
 }
 
 export function getRelatedImplantLinks(slug: string): BlogLink[] {
+  // Cluster posts link to their own relevant service pages.
+  const cluster = getClusterPost(slug);
+  if (cluster) {
+    return cluster.serviceLinks.map((s) => ({ title: s.title, href: s.href }));
+  }
   const paths = RELATED_IMPLANT_PATHS[slug] ?? [PILLAR_PATH];
   return paths.map((href) => ({
     title: IMPLANT_LABELS[href] ?? href,
