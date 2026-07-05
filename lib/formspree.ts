@@ -1,5 +1,8 @@
 export type FormspreeFormType = "appointment" | "contact" | "patientIntake";
 
+/** Public Formspree form — https://formspree.io/f/xojzwvzd */
+export const FORMSPREE_FORM_ID = "xojzwvzd";
+
 const FORM_TYPE_LABELS: Record<FormspreeFormType, string> = {
   appointment: "Appointment request",
   contact: "Contact message",
@@ -14,17 +17,16 @@ const FORM_ID_ENV_KEYS = [
   "FORMSPREE_APPOINTMENT_ID",
 ];
 
-export function getFormspreeId(): string | undefined {
+export function getFormspreeId(): string {
   for (const envKey of FORM_ID_ENV_KEYS) {
     const value = process.env[envKey]?.trim();
     if (value) return value;
   }
-  return undefined;
+  return FORMSPREE_FORM_ID;
 }
 
-export function getFormspreeEndpoint(): string | null {
-  const id = getFormspreeId();
-  return id ? `https://formspree.io/f/${id}` : null;
+export function getFormspreeEndpoint(): string {
+  return `https://formspree.io/f/${getFormspreeId()}`;
 }
 
 export type FormspreeResult =
@@ -36,13 +38,6 @@ export async function submitToFormspree(
   fields: Record<string, string | number | boolean | undefined | null>
 ): Promise<FormspreeResult> {
   const endpoint = getFormspreeEndpoint();
-  if (!endpoint) {
-    return {
-      ok: false,
-      message:
-        "Form submissions are not configured yet. Add NEXT_PUBLIC_FORMSPREE_FORM_ID to .env.local (see README).",
-    };
-  }
 
   const body: Record<string, string> = {
     formType,

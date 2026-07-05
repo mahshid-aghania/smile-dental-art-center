@@ -1,11 +1,18 @@
 import Link from "next/link";
 
+import { AboutUsPage } from "@/components/clinic/AboutUsPage";
 import { AppointmentForm } from "@/components/clinic/AppointmentForm";
+import { GalleryPage } from "@/components/clinic/GalleryPage";
 import { ContactForm } from "@/components/clinic/ContactForm";
+import { DentalServicesPage } from "@/components/clinic/DentalServicesPage";
+import { DrKadivarPage } from "@/components/clinic/DrKadivarPage";
+import { ServiceCategoryHubPage } from "@/components/clinic/ServiceCategoryHubPage";
+import { ServiceSubmenuList } from "@/components/clinic/ServiceSubmenuList";
 import { CLINIC } from "@/lib/clinic/content";
+import { SERVICE_CATEGORY_HUBS } from "@/lib/clinic/service-category-hubs";
+import { getServiceCategoryForPath } from "@/lib/clinic/service-nav";
 import {
   getRelatedServicePaths,
-  getServiceCategoryPaths,
   pathToHref,
   type ClinicPageContent,
 } from "@/lib/clinic/pages";
@@ -27,13 +34,45 @@ function BookCta() {
 }
 
 export function ClinicPageView({ path, page }: ClinicPageViewProps) {
+  if (path === "dental-services") {
+    return <DentalServicesPage />;
+  }
+
+  if (path === "about-us") {
+    return <AboutUsPage />;
+  }
+
+  if (path === "gallery") {
+    return <GalleryPage />;
+  }
+
+  if (path === "about-us/dr-neda-kadivar") {
+    return <DrKadivarPage />;
+  }
+
+  const serviceCategory = getServiceCategoryForPath(path);
+  const hubConfig = SERVICE_CATEGORY_HUBS[path];
+
+  if (hubConfig && serviceCategory?.children) {
+    return (
+      <ServiceCategoryHubPage
+        category={{ ...serviceCategory, children: serviceCategory.children }}
+        page={page}
+        heroImage={hubConfig.heroImage}
+        heroAlt={hubConfig.heroAlt}
+        subtitle={hubConfig.subtitle}
+      />
+    );
+  }
+
+  const categorySubmenu = serviceCategory?.children;
+
   const related = getRelatedServicePaths(path);
-  const categories = path === "dental-services" ? getServiceCategoryPaths() : [];
   const showAppointmentForm = path === "appointments";
   const showContactForm = path === "contact-us";
 
-  return (
-    <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:max-w-5xl lg:py-16">
+  const pageContent = (
+    <article className={categorySubmenu ? "min-w-0" : "mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:max-w-5xl lg:py-16"}>
       <nav className="mb-6 text-xs text-[var(--clinic-muted)]" aria-label="Breadcrumb">
         <ol className="flex flex-wrap items-center gap-1">
           <li>
@@ -110,26 +149,6 @@ export function ClinicPageView({ path, page }: ClinicPageViewProps) {
         </div>
       )}
 
-      {categories.length > 0 && (
-        <div className="mt-12">
-          <h2 className="clinic-heading mb-4 text-xl font-semibold text-[var(--clinic-navy)]">
-            Service categories
-          </h2>
-          <ul className="grid gap-2 sm:grid-cols-2">
-            {categories.map((catPath) => {
-              const label = catPath.split("/").pop()?.replace(/-/g, " ") ?? catPath;
-              return (
-                <li key={catPath}>
-                  <Link href={pathToHref(catPath)} className="clinic-link capitalize">
-                    {label}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      )}
-
       {related.length > 0 && (
         <div className="mt-12 border-t border-[var(--clinic-border)] pt-10">
           <h2 className="clinic-heading mb-4 text-xl font-semibold text-[var(--clinic-navy)]">
@@ -153,4 +172,24 @@ export function ClinicPageView({ path, page }: ClinicPageViewProps) {
       {!showAppointmentForm && path !== "appointments" && <BookCta />}
     </article>
   );
+
+  if (categorySubmenu && serviceCategory) {
+    const activeHref = `/${path}`;
+    return (
+      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+        <div className="grid gap-10 lg:grid-cols-[15rem_minmax(0,1fr)] lg:gap-12 xl:grid-cols-[16rem_minmax(0,1fr)]">
+          <aside className="lg:sticky lg:top-24 lg:self-start">
+            <ServiceSubmenuList
+              title={serviceCategory.label}
+              items={categorySubmenu}
+              activeHref={activeHref}
+            />
+          </aside>
+          {pageContent}
+        </div>
+      </div>
+    );
+  }
+
+  return pageContent;
 }
