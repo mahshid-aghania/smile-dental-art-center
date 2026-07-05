@@ -465,4 +465,415 @@ export const PILLAR_EMERGENCY: ClusterPost[] = [
     relatedSlugs: ["what-makes-smile-dental-different", "dentist-in-unionville-local-guide", "finding-family-dentist-markham"],
     serviceLinks: [SERVICE_SERVICES, SERVICE_BOOK],
   },
+  {
+    id: 147,
+    slug: "tooth-extraction-what-to-expect",
+    title: "Tooth Extraction: What to Expect Before, During, and After",
+    seoTitle: "Tooth Extraction: What to Expect at Each Step",
+    metaDescription:
+      "Facing a tooth extraction? Learn what to expect before, during, and after, plus recovery tips, from a Markham dentist.",
+    primaryKeyword: "tooth extraction Markham",
+    pillar: "Emergency & Local",
+    excerpt:
+      "A step-by-step look at what happens before, during, and after a tooth extraction, plus how to heal comfortably.",
+    intro: [
+      "Hearing that a tooth needs to come out can be unsettling, but tooth extraction is one of the most routine procedures in dentistry. Knowing what happens at each stage — and how to care for the area afterward — takes most of the worry out of it.",
+      "This article walks through what to expect before, during, and after a tooth extraction, along with practical recovery tips. If you are facing an extraction in Markham, here is a clear, reassuring overview.",
+    ],
+    sections: [
+      {
+        heading: "Why might a tooth need to be extracted?",
+        blocks: [
+          {
+            type: "p",
+            text: "Dentists always prefer to save a natural tooth when possible, so extraction is usually a last resort. It becomes necessary when a tooth is too damaged or decayed to repair, badly broken, severely infected, or causing crowding. Wisdom teeth are a common example, covered in [wisdom teeth removal](/blog/wisdom-teeth-removal-what-to-expect).",
+          },
+          {
+            type: "p",
+            text: "Sometimes an extraction is part of an urgent situation — knowing when tooth pain is a [dental emergency](/blog/dental-emergency-markham-what-to-do) helps you act quickly.",
+          },
+        ],
+      },
+      {
+        heading: "What happens before and during the procedure?",
+        blocks: [
+          {
+            type: "p",
+            text: "Before the extraction, your dentist reviews your medical history, takes any needed X-rays, and explains the plan. The area is thoroughly numbed so you stay comfortable throughout.",
+          },
+          {
+            type: "ul",
+            items: [
+              "**Simple extraction:** For a visible tooth, it is gently loosened and removed — usually quick.",
+              "**Surgical extraction:** For impacted or broken teeth, a minor surgical approach may be used.",
+              "**Comfort options:** Sedation is available for anxious patients, as covered in [sedation dentistry](/blog/sedation-dentistry-anxious-patients).",
+              "**What you feel:** Pressure is normal, but you should not feel sharp pain thanks to the anesthetic.",
+            ],
+          },
+          {
+            type: "p",
+            text: "Your dentist will tell you in advance which type of extraction to expect based on the tooth.",
+          },
+        ],
+      },
+      {
+        heading: "How do you care for the area afterward?",
+        blocks: [
+          {
+            type: "p",
+            text: "Good aftercare is what makes recovery smooth. A blood clot forms in the socket and needs to be protected while the area heals over the following days.",
+          },
+          {
+            type: "p",
+            text: "Bite gently on the gauze provided, rest for the remainder of the day, and stick to soft foods. Avoid straws, smoking, and vigorous rinsing for the first day or two, since these can dislodge the clot and cause a painful complication called dry socket. Manage discomfort with the pain relief your dentist recommends.",
+          },
+        ],
+      },
+      {
+        heading: "What about replacing the tooth?",
+        blocks: [
+          {
+            type: "p",
+            text: "Unless it was a wisdom tooth, it is worth thinking about replacing the extracted tooth to keep your bite stable and prevent neighbouring teeth from shifting. Options include implants and bridges, which your dentist can discuss once the area has healed.",
+          },
+          {
+            type: "p",
+            text: "If cost is a concern, our guide on [payment plans and financing for dental work in Markham](/blog/payment-plans-financing-markham) explains how to make treatment manageable. A dentist in Markham can help you plan the next step.",
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Does a tooth extraction hurt?",
+        answer:
+          "The area is fully numbed, so you should feel pressure but not sharp pain during the procedure. Some soreness afterward is normal and is managed with recommended pain relief and aftercare.",
+      },
+      {
+        question: "How long does it take to heal after an extraction?",
+        answer:
+          "The initial healing of the socket usually takes one to two weeks, with the gum continuing to heal over the following weeks. Following aftercare instructions helps prevent complications like dry socket.",
+      },
+      {
+        question: "What is dry socket and how do I avoid it?",
+        answer:
+          "Dry socket happens when the protective blood clot is dislodged. Avoid straws, smoking, and vigorous rinsing for the first day or two, and follow your Markham dentist's aftercare guidance.",
+      },
+    ],
+    relatedSlugs: [
+      "dental-emergency-markham-what-to-do",
+      "chipped-vs-knocked-out-tooth",
+      "payment-plans-financing-markham",
+    ],
+    serviceLinks: [
+      { title: "Oral Surgery in Markham", href: "/dental-services/oral-surgery" },
+      SERVICE_BOOK,
+    ],
+  },
+  {
+    id: 148,
+    slug: "payment-plans-financing-markham",
+    title: "Payment Plans and Financing for Dental Work in Markham",
+    seoTitle: "Dental Payment Plans & Financing in Markham",
+    metaDescription:
+      "Worried about the cost of dental treatment? Learn about payment plans, financing, and insurance options for dental work in Markham.",
+    primaryKeyword: "payment plans for dental work Markham",
+    pillar: "Emergency & Local",
+    excerpt:
+      "How payment plans, insurance, and financing options can make necessary dental treatment affordable and less stressful.",
+    intro: [
+      "Cost is one of the biggest reasons people delay dental care, and delaying often makes problems bigger and more expensive. The good news is that there are several ways to spread out the cost of treatment so it fits your budget.",
+      "This article explains the payment and financing options commonly available for dental work in Markham, and how to combine them with insurance. Understanding these choices can help you get the care you need without unnecessary financial stress.",
+    ],
+    sections: [
+      {
+        heading: "Why does paying for dental care feel so daunting?",
+        blocks: [
+          {
+            type: "p",
+            text: "Dental treatment can involve significant costs, especially for restorative or cosmetic work, and not everyone has insurance that covers it fully. That gap between what is needed and what a plan pays is where payment options come in.",
+          },
+          {
+            type: "p",
+            text: "The important thing to know is that avoiding care rarely saves money — a small issue caught early is almost always cheaper than an emergency later.",
+          },
+        ],
+      },
+      {
+        heading: "What options help spread the cost?",
+        blocks: [
+          {
+            type: "p",
+            text: "Most clinics offer more than one way to make treatment manageable. The right mix depends on your situation.",
+          },
+          {
+            type: "ul",
+            items: [
+              "**In-office payment plans:** Break the cost into scheduled monthly payments directly with the clinic.",
+              "**Third-party financing:** Dedicated healthcare financing that spreads payments over a longer term.",
+              "**Insurance benefits:** Using your dental plan first, then covering the remainder with a plan.",
+              "**Health spending accounts:** Applying pre-tax dollars toward eligible treatment.",
+            ],
+          },
+          {
+            type: "p",
+            text: "These are especially helpful for larger investments like Invisalign — see [how much Invisalign really costs after insurance](/blog/invisalign-cost-after-insurance).",
+          },
+        ],
+      },
+      {
+        heading: "How do you make the most of insurance?",
+        blocks: [
+          {
+            type: "p",
+            text: "Start by understanding your plan's annual maximum, coverage percentages, and any waiting periods. Timing larger treatments across benefit years, and knowing which procedures are covered, can meaningfully reduce your out-of-pocket cost. Your dental office can help you interpret your coverage and submit claims.",
+          },
+          {
+            type: "p",
+            text: "Insurance and payment plans are not either-or — many patients use their benefits first and finance the balance, which is common for crowns as noted in our [dental crowns 101 guide](/blog/dental-crowns-types-cost).",
+          },
+        ],
+      },
+      {
+        heading: "What should you ask your dental office?",
+        blocks: [
+          {
+            type: "p",
+            text: "Before treatment, ask for a written estimate, what your insurance is expected to cover, which payment plans are available, and whether financing is offered. A transparent clinic will happily walk you through the numbers so there are no surprises.",
+          },
+          {
+            type: "p",
+            text: "Cost should never be the reason you avoid a checkup or an urgent problem. A dentist in Markham can help you find a workable path — and if you are a new patient, our [new patient first-visit guide](/blog/new-patient-first-visit-guide) explains what to expect.",
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Do dental offices in Markham offer payment plans?",
+        answer:
+          "Many do. Options often include in-office monthly payment plans and third-party healthcare financing, which can be combined with insurance to make treatment more affordable.",
+      },
+      {
+        question: "Can I use insurance and a payment plan together?",
+        answer:
+          "Yes. A common approach is to apply your insurance benefits first, then spread the remaining balance over monthly payments or financing.",
+      },
+      {
+        question: "Is it cheaper to wait on dental treatment?",
+        answer:
+          "Usually not. Delaying often allows problems to worsen, leading to more complex and costly treatment. Payment options exist so you can address issues while they are still small.",
+      },
+    ],
+    relatedSlugs: [
+      "new-patient-first-visit-guide",
+      "what-makes-smile-dental-different",
+      "dentist-open-evenings-weekends",
+    ],
+    serviceLinks: [SERVICE_SERVICES, SERVICE_CONTACT],
+  },
+  {
+    id: 149,
+    slug: "dentist-open-evenings-weekends",
+    title: "Dentist Open Evenings and Weekends: Booking Around Your Schedule",
+    seoTitle: "Dentist Open Evenings & Weekends in Markham",
+    metaDescription:
+      "Struggling to fit the dentist into a busy week? Learn how evening and weekend appointments make dental care easier in Markham.",
+    primaryKeyword: "dentist open evenings Markham",
+    pillar: "Emergency & Local",
+    excerpt:
+      "Why flexible evening and weekend hours matter, and how to find and book dental care that fits around work and family.",
+    intro: [
+      "Between work, school, and family commitments, finding time for the dentist during standard weekday hours can feel impossible. That is exactly why more people look for a dentist open evenings and weekends — appointments that fit real life instead of forcing you to take time off.",
+      "This article explains why flexible hours matter, who benefits most, and how to make the most of evening and weekend availability. If a packed schedule has kept you from the dentist in Markham, here is how to work around it.",
+    ],
+    sections: [
+      {
+        heading: "Why do flexible hours matter so much?",
+        blocks: [
+          {
+            type: "p",
+            text: "When the only available appointments are during the workday, it is easy to keep postponing care — and small issues can grow into bigger ones. Evening and weekend hours remove that barrier, making it far more likely that you will actually keep up with regular checkups and cleanings.",
+          },
+          {
+            type: "p",
+            text: "Consistent preventive care is the single best way to avoid costly problems, so anything that makes it easier to attend is worth seeking out.",
+          },
+        ],
+      },
+      {
+        heading: "Who benefits most from evening and weekend visits?",
+        blocks: [
+          {
+            type: "p",
+            text: "Flexible scheduling helps almost everyone, but some groups especially.",
+          },
+          {
+            type: "ul",
+            items: [
+              "**Working professionals:** No need to take time off or lose income for a routine visit.",
+              "**Families:** Easier to coordinate appointments for several people around school hours.",
+              "**Shift workers:** More options that fit non-standard schedules.",
+              "**Students:** Appointments that do not clash with class times.",
+            ],
+          },
+          {
+            type: "p",
+            text: "For families in particular, a practice with flexible hours pairs well with the convenience of seeing everyone in one place — see [finding a family dentist in Markham](/blog/finding-family-dentist-markham).",
+          },
+        ],
+      },
+      {
+        heading: "How do you book around a busy schedule?",
+        blocks: [
+          {
+            type: "p",
+            text: "Booking ahead is the key to securing popular evening and weekend slots, which tend to fill quickly. Scheduling your next checkup before you leave your current appointment, and asking to be added to a cancellation list, both help you get convenient times.",
+          },
+          {
+            type: "p",
+            text: "It also helps to combine visits where possible — for example, coordinating family members on the same day. If weekend availability is your priority, our guide on [weekend dentists in Markham](/blog/weekend-dentist-markham) goes into more detail.",
+          },
+        ],
+      },
+      {
+        heading: "What about urgent problems outside office hours?",
+        blocks: [
+          {
+            type: "p",
+            text: "Flexible hours also matter when something goes wrong. Knowing your dentist offers extended availability gives peace of mind that you can be seen sooner if a problem flares up in the evening or on a weekend.",
+          },
+          {
+            type: "p",
+            text: "If you are ever unsure whether an issue can wait, our guide on [what to do in a dental emergency](/blog/dental-emergency-markham-what-to-do) can help. A dentist in Markham with flexible hours makes getting care far less stressful.",
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Are evening and weekend dental appointments harder to get?",
+        answer:
+          "They are popular, so they can fill quickly. Booking ahead and asking to join a cancellation list are the best ways to secure convenient evening or weekend times in Markham.",
+      },
+      {
+        question: "Can my whole family be seen on the same day?",
+        answer:
+          "Often yes. Many family-focused clinics can coordinate appointments for several family members together, which is easier with evening or weekend hours.",
+      },
+      {
+        question: "Can I get urgent care in the evening or on a weekend?",
+        answer:
+          "A dentist with extended hours is more likely to see you sooner for urgent issues. If you are unsure whether a problem can wait, review the signs of a dental emergency and call your Markham dentist.",
+      },
+    ],
+    relatedSlugs: [
+      "weekend-dentist-markham",
+      "dental-emergency-markham-what-to-do",
+      "payment-plans-financing-markham",
+    ],
+    serviceLinks: [SERVICE_SERVICES, SERVICE_BOOK],
+  },
+  {
+    id: 150,
+    slug: "chinese-speaking-dentist-markham",
+    title: "Chinese & Mandarin/Cantonese-Speaking Dentist in Markham",
+    seoTitle: "Chinese-Speaking Dentist in Markham",
+    metaDescription:
+      "Prefer dental care in Mandarin or Cantonese? Learn why a Chinese-speaking dentist in Markham makes visits clearer and more comfortable.",
+    primaryKeyword: "Chinese speaking dentist Markham",
+    pillar: "Emergency & Local",
+    excerpt:
+      "Why being able to discuss your dental care in Mandarin or Cantonese matters, and how language-friendly clinics improve your experience.",
+    intro: [
+      "Talking about your health is much easier in the language you are most comfortable with. For many families in Markham, being able to discuss dental care in Mandarin or Cantonese makes a real difference in feeling understood and confident about treatment.",
+      "This article explains why a Chinese-speaking dentist can improve your care, what to look for, and how language-friendly service fits into a welcoming dental experience. If you or a loved one would prefer care in Mandarin or Cantonese in Markham, here is what to know.",
+    ],
+    sections: [
+      {
+        heading: "Why does language matter in dental care?",
+        blocks: [
+          {
+            type: "p",
+            text: "Dentistry involves explaining symptoms, understanding treatment options, and giving informed consent. When there is a language barrier, details can get lost, questions go unasked, and patients may feel less confident about their choices. Being able to communicate clearly in your preferred language removes that friction.",
+          },
+          {
+            type: "p",
+            text: "This is especially valuable for older family members or anyone who feels more at ease speaking Mandarin or Cantonese, so they fully understand their care.",
+          },
+        ],
+      },
+      {
+        heading: "How does a Chinese-speaking clinic help?",
+        blocks: [
+          {
+            type: "p",
+            text: "Language-friendly service touches every part of the visit, from booking to aftercare.",
+          },
+          {
+            type: "ul",
+            items: [
+              "**Clear explanations:** Understand your diagnosis and options without translation gaps.",
+              "**Confident consent:** Make decisions knowing exactly what a procedure involves.",
+              "**Comfortable questions:** Ask anything in your own language without hesitation.",
+              "**Better aftercare:** Follow home-care instructions accurately for smoother healing.",
+            ],
+          },
+          {
+            type: "p",
+            text: "This clarity is helpful for every kind of appointment, from a routine [new patient first visit](/blog/new-patient-first-visit-guide) to more involved treatment discussions.",
+          },
+        ],
+      },
+      {
+        heading: "What should you look for?",
+        blocks: [
+          {
+            type: "p",
+            text: "When choosing a clinic, ask whether the dentist or team members speak Mandarin or Cantonese, and whether materials and instructions can be provided clearly. A welcoming, multilingual environment often reflects a broader commitment to patient comfort and communication.",
+          },
+          {
+            type: "p",
+            text: "Serving a diverse community is part of what sets a practice apart — you can read more in [what makes Smile Dental Arts Centre different](/blog/what-makes-smile-dental-different).",
+          },
+        ],
+      },
+      {
+        heading: "Feeling at home at the dentist",
+        blocks: [
+          {
+            type: "p",
+            text: "Markham is a wonderfully diverse community, and dental care should reflect that. Being able to speak your preferred language helps the whole family feel at home, ask questions freely, and stay on top of their oral health with confidence.",
+          },
+          {
+            type: "p",
+            text: "If you are looking for a practice that feels welcoming and communicates clearly, our guide on [finding a family dentist in Markham](/blog/finding-family-dentist-markham) offers helpful pointers. A dentist in Markham who speaks your language makes every visit easier.",
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Why should I choose a Chinese-speaking dentist?",
+        answer:
+          "Communicating in Mandarin or Cantonese helps you fully understand your diagnosis, treatment options, and aftercare, so you can make confident decisions and feel comfortable asking questions.",
+      },
+      {
+        question: "Can the whole family be seen at a Chinese-speaking clinic?",
+        answer:
+          "Yes. A language-friendly, family-focused clinic in Markham can care for patients of all ages, which is especially helpful for older relatives who prefer speaking Mandarin or Cantonese.",
+      },
+      {
+        question: "Will instructions and forms be easy to understand?",
+        answer:
+          "A clinic that offers care in your preferred language can explain forms, treatment plans, and home-care instructions clearly, reducing confusion and supporting better outcomes.",
+      },
+    ],
+    relatedSlugs: [
+      "what-makes-smile-dental-different",
+      "new-patient-first-visit-guide",
+      "dentist-open-evenings-weekends",
+    ],
+    serviceLinks: [SERVICE_SERVICES, SERVICE_CONTACT],
+  },
 ];

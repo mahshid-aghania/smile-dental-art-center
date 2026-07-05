@@ -14,7 +14,7 @@ import {
 export { BLOG_PILLARS };
 export type { BlogFaq, BlogPillar, ClusterPost, ServiceLink };
 
-/** All 30 cluster articles, in pillar then intended reading order. */
+/** All 50 cluster articles, in pillar then intended reading order. */
 export const CLUSTER_POSTS: ClusterPost[] = [
   ...PILLAR_IMPLANTS,
   ...PILLAR_INVISALIGN,

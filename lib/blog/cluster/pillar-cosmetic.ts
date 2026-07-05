@@ -496,4 +496,417 @@ export const PILLAR_COSMETIC: ClusterPost[] = [
     relatedSlugs: ["teeth-whitening-markham-options", "smile-makeover-treatment-plan", "dental-veneers-cost-types"],
     serviceLinks: [SERVICE_SERVICES, SERVICE_BOOK],
   },
+  {
+    id: 139,
+    slug: "same-day-crowns-cerec",
+    title: "Same-Day Crowns: How CEREC Technology Speeds Up Treatment",
+    seoTitle: "Same-Day Crowns: How CEREC Speeds Treatment",
+    metaDescription:
+      "Same-day crowns use CEREC technology to design and place a crown in one visit. Learn how it works and its pros in Markham.",
+    primaryKeyword: "same day crowns Markham",
+    pillar: "Cosmetic Dentistry",
+    excerpt:
+      "How same-day crown technology designs, mills, and fits a crown in a single visit — and where it shines compared with the traditional process.",
+    intro: [
+      "A traditional dental crown usually takes two appointments spread over a couple of weeks, with a temporary crown in between. Same-day crown technology changes that by designing and creating your permanent crown in a single visit, so you leave with the finished result.",
+      "This article explains how same-day crowns work, what the appointment is like, and the advantages and limits of the technology. If you are exploring same-day crowns in Markham, here is what to expect.",
+    ],
+    sections: [
+      {
+        heading: "What are same-day crowns?",
+        blocks: [
+          {
+            type: "p",
+            text: "Same-day crowns are made using computer-aided design and manufacturing, often referred to by the CEREC system. Instead of taking a physical mould and sending it to an outside lab, your dentist takes a digital scan of your tooth, designs the crown on screen, and mills it from a ceramic block right in the office.",
+          },
+          {
+            type: "p",
+            text: "The result is a durable, tooth-coloured crown created and fitted in one appointment — no temporary crown and no second visit required.",
+          },
+        ],
+      },
+      {
+        heading: "How does the process work?",
+        blocks: [
+          {
+            type: "p",
+            text: "The visit follows a clear sequence, and much of it happens while you wait comfortably.",
+          },
+          {
+            type: "ul",
+            items: [
+              "**Prepare the tooth:** The dentist removes decay and shapes the tooth to receive the crown.",
+              "**Digital scan:** A small camera captures a precise 3D image — no messy impression material.",
+              "**Design and mill:** The crown is designed on screen and milled from a ceramic block on site.",
+              "**Fit and bond:** The finished crown is checked, adjusted, and bonded into place.",
+            ],
+          },
+          {
+            type: "p",
+            text: "If you want the fuller picture on crown materials and lifespan, our [dental crowns 101 guide](/blog/dental-crowns-types-cost) goes deeper into the options.",
+          },
+        ],
+      },
+      {
+        heading: "What are the advantages?",
+        blocks: [
+          {
+            type: "p",
+            text: "The biggest benefit is convenience — one appointment instead of two, with no temporary crown to come loose or feel awkward. Digital scanning is also more comfortable than traditional impression trays, and the fit is often very precise.",
+          },
+          {
+            type: "p",
+            text: "For anxious patients, fewer visits can mean less overall stress, which pairs well with the comfort options described in our [sedation dentistry guide](/blog/sedation-dentistry-anxious-patients).",
+          },
+        ],
+      },
+      {
+        heading: "Are same-day crowns right for every case?",
+        blocks: [
+          {
+            type: "p",
+            text: "Same-day crowns are excellent for many situations, but not every case suits them. Complex restorations, certain aesthetic cases in the smile zone, or teeth needing additional treatment first may still call for a lab-made crown. Your dentist will advise which route gives the best result for your tooth.",
+          },
+          {
+            type: "p",
+            text: "Whichever path fits, a crown is often part of a larger cosmetic plan — you can see how pieces come together in our [smile makeover treatment plan](/blog/smile-makeover-treatment-plan). A dentist in Markham can tell you whether a same-day crown is a good match for your needs.",
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Are same-day crowns as strong as lab-made crowns?",
+        answer:
+          "For most cases, modern milled ceramic crowns are strong and long-lasting. Some complex or highly aesthetic cases may still benefit from a lab-made crown — your Markham dentist will recommend the best option.",
+      },
+      {
+        question: "How long does a same-day crown appointment take?",
+        answer:
+          "Typically a couple of hours from start to finish, including preparing the tooth, scanning, milling, and bonding. You leave with the permanent crown in place, avoiding a second visit.",
+      },
+      {
+        question: "Do same-day crowns look natural?",
+        answer:
+          "Yes. They are milled from tooth-coloured ceramic and shade-matched to blend with your surrounding teeth, so they look natural in most cases.",
+      },
+    ],
+    relatedSlugs: [
+      "dental-crowns-types-cost",
+      "how-to-fix-chipped-cracked-teeth",
+      "smile-makeover-treatment-plan",
+    ],
+    serviceLinks: [
+      { title: "Restorations in Markham", href: "/dental-services/restorations" },
+      SERVICE_BOOK,
+    ],
+  },
+  {
+    id: 140,
+    slug: "dental-crowns-types-cost",
+    title: "Dental Crowns 101: Types, Cost, and How Long They Last",
+    seoTitle: "Dental Crowns 101: Types, Cost & Lifespan",
+    metaDescription:
+      "A plain-language guide to dental crowns in Markham — the material types, what affects cost, and how long crowns typically last.",
+    primaryKeyword: "dental crowns Markham",
+    pillar: "Cosmetic Dentistry",
+    excerpt:
+      "What a crown is, the main material options, what shapes the cost, and how long you can expect a crown to last.",
+    intro: [
+      "A dental crown is one of the most common restorations in dentistry, used to protect and rebuild a tooth that is damaged, weakened, or heavily filled. If your dentist has recommended one, it helps to understand your options before you decide.",
+      "This guide explains what crowns are made of, what influences the cost, and how long they typically last. If you are considering dental crowns in Markham, this covers the essentials in plain language.",
+    ],
+    sections: [
+      {
+        heading: "What is a dental crown and when do you need one?",
+        blocks: [
+          {
+            type: "p",
+            text: "A crown is a custom cap that covers the entire visible part of a tooth, restoring its shape, strength, and appearance. It is often recommended after a root canal, for a cracked or heavily worn tooth, to support a large filling, or to cover a dental implant.",
+          },
+          {
+            type: "p",
+            text: "Essentially, a crown steps in when a filling is not enough to protect what remains of the tooth. It is covered in more detail alongside repairs in our guide on [how to fix chipped or cracked teeth](/blog/how-to-fix-chipped-cracked-teeth).",
+          },
+        ],
+      },
+      {
+        heading: "What types of crowns are there?",
+        blocks: [
+          {
+            type: "p",
+            text: "Crowns come in several materials, each with strengths suited to different teeth and priorities.",
+          },
+          {
+            type: "ul",
+            items: [
+              "**All-ceramic / porcelain:** Excellent natural appearance, ideal for front teeth and visible areas.",
+              "**Zirconia:** Very strong and tooth-coloured, good for back teeth that take heavy chewing forces.",
+              "**Porcelain-fused-to-metal:** Combines a metal core for strength with a porcelain exterior for looks.",
+              "**Metal (gold alloys):** Extremely durable and gentle on opposing teeth, though less popular for visible teeth.",
+            ],
+          },
+          {
+            type: "p",
+            text: "Some ceramic crowns can be made in a single appointment — see [same-day crowns with CEREC technology](/blog/same-day-crowns-cerec).",
+          },
+        ],
+      },
+      {
+        heading: "What affects the cost of a crown?",
+        blocks: [
+          {
+            type: "p",
+            text: "The cost of a crown depends on the material chosen, the complexity of the tooth, whether additional treatment (like a root canal or build-up) is needed first, and the lab or technology used to make it. Front-tooth crowns that demand precise aesthetics can take more time to perfect.",
+          },
+          {
+            type: "p",
+            text: "Insurance often contributes to crowns when they are needed for function, and payment plans can spread the cost — our guide on [payment plans and financing for dental work in Markham](/blog/payment-plans-financing-markham) explains how.",
+          },
+        ],
+      },
+      {
+        heading: "How long do crowns last?",
+        blocks: [
+          {
+            type: "p",
+            text: "With good care, a crown commonly lasts around 10 to 15 years, and often longer. Its lifespan depends on the material, where it sits in your mouth, your oral hygiene, and habits like grinding, which can shorten it. Protecting a crown is much like protecting a natural tooth.",
+          },
+          {
+            type: "p",
+            text: "Daily brushing and flossing, regular checkups, and a night guard if you grind all help your crown last. A dentist in Markham can recommend the material and approach that best fits your tooth and budget.",
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "How long does a dental crown last?",
+        answer:
+          "Most crowns last about 10 to 15 years and often longer with good care. Material, tooth location, oral hygiene, and grinding all affect lifespan.",
+      },
+      {
+        question: "Which crown material is best?",
+        answer:
+          "There is no single best — porcelain and ceramic look most natural for front teeth, while zirconia and metal offer strength for back teeth. Your Markham dentist recommends based on the tooth and your priorities.",
+      },
+      {
+        question: "Does insurance cover dental crowns?",
+        answer:
+          "Insurance often helps cover crowns when they are needed to restore function, though coverage varies by plan. Payment plans can cover the remaining balance.",
+      },
+    ],
+    relatedSlugs: [
+      "how-to-fix-chipped-cracked-teeth",
+      "dental-veneers-cost-types",
+      "same-day-crowns-cerec",
+    ],
+    serviceLinks: [
+      { title: "Restorations in Markham", href: "/dental-services/restorations" },
+      SERVICE_BOOK,
+    ],
+  },
+  {
+    id: 141,
+    slug: "sedation-dentistry-anxious-patients",
+    title: "Sedation Dentistry: Options for Anxious Patients",
+    seoTitle: "Sedation Dentistry: Options for Anxious Patients",
+    metaDescription:
+      "Nervous about the dentist? Learn the sedation dentistry options that help anxious patients feel calm during treatment in Markham.",
+    primaryKeyword: "sedation dentistry Markham",
+    pillar: "Cosmetic Dentistry",
+    excerpt:
+      "The levels of sedation available for anxious patients, how each one feels, and how to decide what is right for your treatment.",
+    intro: [
+      "For many people, dental anxiety is very real and can be enough to put off care for years. Sedation dentistry exists precisely for this reason — to help you stay calm and comfortable so that fear no longer stands between you and a healthy mouth.",
+      "This article explains the main sedation options, what each one feels like, and how to talk to your dentist about the right choice. If dental anxiety has been holding you back in Markham, understanding these options can make treatment feel possible again.",
+    ],
+    sections: [
+      {
+        heading: "What is sedation dentistry?",
+        blocks: [
+          {
+            type: "p",
+            text: "Sedation dentistry uses medication to help you relax during dental treatment. It ranges from mild relaxation, where you are fully awake but calm, to deeper sedation. It is not the same as being 'put under' for most routine work — the goal is comfort and reduced anxiety, not necessarily sleep.",
+          },
+          {
+            type: "p",
+            text: "Sedation can be used for anything from a routine cleaning that feels overwhelming to longer restorative procedures, making it a flexible tool for nervous patients.",
+          },
+        ],
+      },
+      {
+        heading: "What are the main options?",
+        blocks: [
+          {
+            type: "p",
+            text: "There are a few common levels, and your dentist will help match one to your anxiety level and the treatment planned.",
+          },
+          {
+            type: "ul",
+            items: [
+              "**Nitrous oxide (laughing gas):** A mild, fast-acting option inhaled through a mask; effects wear off quickly so you can usually drive home.",
+              "**Oral sedation:** A prescribed tablet taken before your visit that produces a deeper sense of relaxation; you will need a ride home.",
+              "**Deeper sedation:** Reserved for more complex cases or higher anxiety, arranged with appropriate monitoring.",
+            ],
+          },
+          {
+            type: "p",
+            text: "Sedation pairs naturally with gentle, modern anesthesia — our article on [painless dentistry](/blog/painless-dentistry-modern-anesthesia) explains how the two work together.",
+          },
+        ],
+      },
+      {
+        heading: "Is sedation dentistry safe?",
+        blocks: [
+          {
+            type: "p",
+            text: "When provided by a trained dental team with proper screening and monitoring, sedation is considered safe for most patients. Your dentist will review your medical history and medications beforehand to choose the most appropriate option and dose for you.",
+          },
+          {
+            type: "p",
+            text: "Being open about your health and your anxiety helps your team keep you safe and comfortable. There is no need to feel embarrassed — dental fear is common, and a good clinic is used to helping patients through it.",
+          },
+        ],
+      },
+      {
+        heading: "How do you know what is right for you?",
+        blocks: [
+          {
+            type: "p",
+            text: "The right choice depends on how anxious you feel, the length and type of procedure, and your health. Mild nerves might be well handled with nitrous oxide, while stronger anxiety or a longer appointment may call for oral sedation.",
+          },
+          {
+            type: "p",
+            text: "Start by telling your dentist about your fears — a Markham dental team can build a plan around your comfort. If your anxiety centres on kids' visits, our guide on [gentle dentistry for kids](/blog/gentle-dentistry-for-kids) may also help.",
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Will I be asleep during sedation dentistry?",
+        answer:
+          "Usually not. Most sedation keeps you awake but deeply relaxed. Options like nitrous oxide and oral sedation reduce anxiety while you remain responsive; deeper sedation is reserved for specific cases.",
+      },
+      {
+        question: "Is sedation dentistry safe for anxious patients?",
+        answer:
+          "Yes, when provided by a trained team with proper screening and monitoring. Your Markham dentist reviews your medical history to choose a safe, appropriate option for you.",
+      },
+      {
+        question: "Can I drive home after sedation?",
+        answer:
+          "After nitrous oxide, usually yes, since it wears off quickly. After oral or deeper sedation, you will need someone to drive you home.",
+      },
+    ],
+    relatedSlugs: [
+      "how-to-fix-chipped-cracked-teeth",
+      "smile-makeover-treatment-plan",
+      "painless-dentistry-modern-anesthesia",
+    ],
+    serviceLinks: [SERVICE_SERVICES, SERVICE_BOOK],
+  },
+  {
+    id: 142,
+    slug: "painless-dentistry-modern-anesthesia",
+    title: "Painless Dentistry: What Modern Anesthesia Actually Feels Like",
+    seoTitle: "Painless Dentistry: Modern Anesthesia Explained",
+    metaDescription:
+      "Modern anesthesia and gentle techniques make dental visits far more comfortable. Learn what painless dentistry feels like in Markham.",
+    primaryKeyword: "painless dentistry Markham",
+    pillar: "Cosmetic Dentistry",
+    excerpt:
+      "How modern anesthesia and gentle techniques have made dental treatment far more comfortable than many people expect.",
+    intro: [
+      "A lot of dental fear is rooted in memories of uncomfortable freezing or the sting of a needle. The good news is that dental anesthesia and technique have come a long way, and 'painless dentistry' is much closer to reality than most people assume.",
+      "This article explains what modern anesthesia actually feels like, the techniques dentists use to keep you comfortable, and how it all fits together with anxiety management. If discomfort has kept you away from care in Markham, this may reframe what a visit is really like today.",
+    ],
+    sections: [
+      {
+        heading: "What does 'painless dentistry' really mean?",
+        blocks: [
+          {
+            type: "p",
+            text: "Painless dentistry is not a single product — it is a combination of modern anesthetics, gentle delivery techniques, and thoughtful care aimed at minimizing discomfort at every step. The goal is that procedures feel comfortable and that even the numbing process itself is barely noticeable.",
+          },
+          {
+            type: "p",
+            text: "It is a realistic standard today because the tools and methods have improved so much compared with a couple of decades ago.",
+          },
+        ],
+      },
+      {
+        heading: "How do dentists keep you comfortable?",
+        blocks: [
+          {
+            type: "p",
+            text: "Several small techniques add up to a big difference in how a visit feels.",
+          },
+          {
+            type: "ul",
+            items: [
+              "**Topical numbing gel:** Applied before any injection so the initial pinch is minimized.",
+              "**Slow, gentle delivery:** Administering anesthetic slowly reduces the pressure sensation that causes discomfort.",
+              "**Modern anesthetics:** Work more predictably and comfortably than older formulas.",
+              "**Clear communication:** Knowing what is happening and having a signal to pause lowers anxiety.",
+            ],
+          },
+          {
+            type: "p",
+            text: "For patients who want an extra layer of calm, these techniques combine well with [sedation dentistry](/blog/sedation-dentistry-anxious-patients).",
+          },
+        ],
+      },
+      {
+        heading: "Does the freezing hurt or last too long?",
+        blocks: [
+          {
+            type: "p",
+            text: "With topical gel and slow delivery, most patients feel little more than a slight pressure during freezing. Afterward, numbness lasts a few hours and gradually wears off. If prolonged numbness bothers you, ask your dentist — there are ways to plan around it.",
+          },
+          {
+            type: "p",
+            text: "Understanding this ahead of time helps, especially for procedures like fixing a [chipped or cracked tooth](/blog/how-to-fix-chipped-cracked-teeth) where anesthesia makes the repair comfortable.",
+          },
+        ],
+      },
+      {
+        heading: "What if you are still nervous?",
+        blocks: [
+          {
+            type: "p",
+            text: "Comfortable anesthesia and anxiety management go hand in hand. If nerves are a barrier, tell your dental team — they can combine gentle techniques with sedation options and a slower pace to make the experience manageable.",
+          },
+          {
+            type: "p",
+            text: "A dentist in Markham who prioritizes comfort will take the time to explain each step. The same gentle philosophy applies to younger patients, as covered in [gentle dentistry for kids](/blog/gentle-dentistry-for-kids).",
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Is dental freezing actually painless now?",
+        answer:
+          "It is close. With topical numbing gel and slow, gentle injection techniques, most patients feel only slight pressure. Modern anesthetics also work more comfortably than older formulas.",
+      },
+      {
+        question: "How long does dental numbness last?",
+        answer:
+          "Usually a few hours, then it gradually wears off. If lingering numbness is a concern, ask your Markham dentist, who can plan the appointment and anesthetic accordingly.",
+      },
+      {
+        question: "Can I combine painless techniques with sedation?",
+        answer:
+          "Yes. Gentle anesthesia and sedation work well together for anxious patients, providing both physical comfort and reduced anxiety during treatment.",
+      },
+    ],
+    relatedSlugs: [
+      "how-to-fix-chipped-cracked-teeth",
+      "cosmetic-bonding-vs-veneers",
+      "sedation-dentistry-anxious-patients",
+    ],
+    serviceLinks: [SERVICE_SERVICES, SERVICE_BOOK],
+  },
 ];
