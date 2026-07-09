@@ -1,0 +1,101 @@
+/* Typography + layout tokens from https://www.confidentist.ca/points-rewards-program/ */
+
+.confidentist-points-rewards {
+  --cd-primary: #6bb3e3;
+  --cd-link: #2b2b2b;
+  --cd-link-hover: #6bb3e3;
+  --cd-footer-bg: #063376;
+
+  --cd-body-font: "Libre Baskerville", Arial, Helvetica, sans-serif;
+  --cd-body-size: 20px;
+  --cd-body-weight: 400;
+  --cd-body-line-height: 2;
+  --cd-body-color: #7e8890;
+
+  --cd-heading-font: "Merriweather", Arial, Helvetica, sans-serif;
+  --cd-heading-color: #213669;
+  --cd-subheading-font: "Questrial", Arial, Helvetica, sans-serif;
+  --cd-subheading-color: #333c4e;
+
+  --cd-page-text-font: "PT Sans", Arial, Helvetica, sans-serif;
+  --cd-page-text-size: 30px;
+  --cd-page-text-color: #7e8890;
+
+  --cd-nav-font: "Montserrat", Arial, Helvetica, sans-serif;
+
+  --cd-hero-padding-y: 150px;
+  --cd-hero-padding-x: 30px;
+  --cd-hero-padding-y-medium: 110px;
+  --cd-hero-padding-y-small: 100px;
+  --cd-hero-bg-image: url("https://www.confidentist.ca/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-25-at-14.03.23_45a66aed.jpg");
+
+  --cd-content-padding-y: 96px;
+  --cd-content-bg: #ffffff;
+
+  color: var(--cd-body-color);
+  font-family: var(--cd-body-font);
+  font-size: var(--cd-body-size);
+  font-weight: var(--cd-body-weight);
+  line-height: var(--cd-body-line-height);
+}
+
+.confidentist-points-rewards__hero {
+  background-image: var(--cd-hero-bg-image);
+  background-size: cover;
+  background-position: center;
+  padding: var(--cd-hero-padding-y) var(--cd-hero-padding-x);
+}
+
+.confidentist-points-rewards__hero-title {
+  color: var(--cd-heading-color);
+  font-family: var(--cd-heading-font);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  text-align: center;
+}
+
+.confidentist-points-rewards__intro,
+.confidentist-points-rewards__body {
+  color: var(--cd-page-text-color);
+  font-family: var(--cd-page-text-font);
+  font-size: var(--cd-page-text-size);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.confidentist-points-rewards__section {
+  background: var(--cd-content-bg);
+  padding: var(--cd-content-padding-y) var(--cd-hero-padding-x);
+}
+
+.confidentist-points-rewards__section-title {
+  color: var(--cd-heading-color);
+  font-family: var(--cd-heading-font);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+  text-align: center;
+}
+
+.confidentist-points-rewards__section-title--subheading {
+  color: var(--cd-subheading-color);
+  font-family: var(--cd-subheading-font);
+}
+
+.confidentist-points-rewards a {
+  color: var(--cd-link);
+}
+
+.confidentist-points-rewards a:hover {
+  color: var(--cd-link-hover);
+}
+
+@media (max-width: 1024px) {
+  .confidentist-points-rewards__hero {
+    padding-top: var(--cd-hero-padding-y-medium);
+    padding-bottom: var(--cd-hero-padding-y-small);
+  }
+}

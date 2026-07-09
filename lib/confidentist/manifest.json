@@ -1,0 +1,75 @@
+{
+  "sourceUrl": "https://www.confidentist.ca/points-rewards-program/",
+  "theme": "WordPress Avada 3.15.5",
+  "pulledAt": "2026-07-09",
+  "stylesheets": [
+    "https://www.confidentist.ca/wp-content/uploads/fusion-styles/bc2a97c1c93a60ba33f7cf2401cb807a.min.css?ver=3.15.5"
+  ],
+  "fonts": [
+    {
+      "family": "Merriweather",
+      "weights": [400, 700],
+      "usage": "Page hero title, section headings (h2)"
+    },
+    {
+      "family": "PT Sans",
+      "weights": [400],
+      "usage": "Page body copy blocks (30px)"
+    },
+    {
+      "family": "Questrial",
+      "weights": [400],
+      "usage": "Global h2–h6, post titles"
+    },
+    {
+      "family": "Libre Baskerville",
+      "weights": [400],
+      "usage": "Global body text"
+    },
+    {
+      "family": "Montserrat",
+      "weights": [400],
+      "usage": "Navigation, buttons"
+    }
+  ],
+  "colors": {
+    "primary": "#6bb3e3",
+    "heading": "#213669",
+    "subheading": "#333c4e",
+    "bodyText": "#7e8890",
+    "link": "#2b2b2b",
+    "linkHover": "#6bb3e3",
+    "footerBackground": "#063376"
+  },
+  "pageTypography": {
+    "heroTitle": {
+      "fontFamily": "Merriweather",
+      "fontWeight": 700,
+      "fontSize": "46px",
+      "lineHeight": 1.25,
+      "color": "#213669",
+      "textAlign": "center"
+    },
+    "bodyCopy": {
+      "fontFamily": "PT Sans",
+      "fontWeight": 400,
+      "fontSize": "30px",
+      "color": "#7e8890"
+    },
+    "sectionHeading": {
+      "fontFamily": "Merriweather",
+      "fontWeight": 700,
+      "fontSize": "46px",
+      "lineHeight": 1.25,
+      "color": "#213669"
+    }
+  },
+  "assets": {
+    "heroBackgroundImage": "https://www.confidentist.ca/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-25-at-14.03.23_45a66aed.jpg"
+  },
+  "localFiles": {
+    "fontsCss": "lib/confidentist/fonts.css",
+    "themeCss": "lib/confidentist/points-rewards-theme.css",
+    "fontFiles": "public/confidentist/fonts/"
+  }
+}
