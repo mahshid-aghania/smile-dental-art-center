@@ -1,0 +1,239 @@
+<!--
+  Avada / WooCommerce Product Description
+  Source: https://canadent.net/product/advanced-adhesive-dentistry-the-master-blueprint-copy/
+  Paste into: Product → Description (or Short Description) in WordPress
+  Tabs: Date & Time | Format | CE Credits | Registration Fee
+-->
+
+<style>
+  .cd-product {
+    --cd-navy: #0f2a4a;
+    --cd-gold: #c4a35a;
+    --cd-muted: #5c6b7a;
+    --cd-border: #e6e2d8;
+    --cd-bg: #faf8f4;
+    --cd-white: #ffffff;
+    --cd-green: #2e7d32;
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    color: #2c3540;
+    max-width: 920px;
+    margin: 0 auto;
+    line-height: 1.65;
+  }
+  .cd-product * { box-sizing: border-box; }
+  .cd-product .cd-lead {
+    font-size: 20px;
+    color: var(--cd-muted);
+    margin: 0 0 28px;
+  }
+  .cd-product .cd-h {
+    font-size: 26px;
+    color: var(--cd-navy);
+    margin: 36px 0 14px;
+    font-weight: 700;
+  }
+  .cd-product .cd-body {
+    font-size: 18px;
+    color: #3d4a57;
+    margin: 0 0 16px;
+  }
+  .cd-product .cd-list {
+    font-size: 17px;
+    color: #3d4a57;
+    padding-left: 22px;
+    margin: 0 0 24px;
+  }
+  .cd-product .cd-list li { margin-bottom: 12px; }
+
+  /* Tabs */
+  .cd-tabs {
+    margin: 32px 0 40px;
+    border: 1px solid var(--cd-border);
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--cd-white);
+    box-shadow: 0 6px 24px rgba(15, 42, 74, 0.06);
+  }
+  .cd-tabs input[type="radio"] { display: none; }
+  .cd-tab-nav {
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--cd-bg);
+    border-bottom: 1px solid var(--cd-border);
+  }
+  .cd-tab-nav label {
+    flex: 1 1 140px;
+    text-align: center;
+    padding: 16px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--cd-muted);
+    border-right: 1px solid var(--cd-border);
+    transition: background 0.2s, color 0.2s;
+    margin: 0;
+  }
+  .cd-tab-nav label:last-child { border-right: none; }
+  .cd-tab-nav label:hover { color: var(--cd-navy); background: #f3efe6; }
+  .cd-panel {
+    display: none;
+    padding: 36px 28px;
+    text-align: center;
+    min-height: 150px;
+  }
+  .cd-panel .cd-icon {
+    font-size: 28px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .cd-panel .cd-label {
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--cd-gold);
+    font-weight: 700;
+    margin: 0 0 12px;
+  }
+  .cd-panel .cd-value {
+    font-size: clamp(24px, 3vw, 32px);
+    color: var(--cd-navy);
+    font-weight: 700;
+    margin: 0 0 8px;
+    line-height: 1.3;
+  }
+  .cd-panel .cd-sub {
+    font-size: 18px;
+    color: var(--cd-muted);
+    margin: 0;
+  }
+  .cd-price-old {
+    color: #888;
+    text-decoration: line-through;
+    font-size: 26px;
+    font-weight: 700;
+    margin-right: 12px;
+  }
+  .cd-price-new {
+    color: var(--cd-green);
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .cd-badge {
+    display: inline-block;
+    margin-top: 14px;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: #eef7ef;
+    color: var(--cd-green);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .cd-location {
+    margin-top: 28px;
+    padding: 18px 20px;
+    background: var(--cd-bg);
+    border-left: 4px solid var(--cd-gold);
+    font-size: 17px;
+    color: var(--cd-navy);
+  }
+
+  #cd-tab-date:checked ~ .cd-tab-nav label[for="cd-tab-date"],
+  #cd-tab-format:checked ~ .cd-tab-nav label[for="cd-tab-format"],
+  #cd-tab-ce:checked ~ .cd-tab-nav label[for="cd-tab-ce"],
+  #cd-tab-fee:checked ~ .cd-tab-nav label[for="cd-tab-fee"] {
+    background: var(--cd-white);
+    color: var(--cd-navy);
+    box-shadow: inset 0 -3px 0 var(--cd-gold);
+  }
+  #cd-tab-date:checked ~ .cd-panels #cd-panel-date,
+  #cd-tab-format:checked ~ .cd-panels #cd-panel-format,
+  #cd-tab-ce:checked ~ .cd-panels #cd-panel-ce,
+  #cd-tab-fee:checked ~ .cd-panels #cd-panel-fee {
+    display: block;
+  }
+
+  @media (max-width: 640px) {
+    .cd-tab-nav label {
+      flex: 1 1 50%;
+      font-size: 12px;
+      padding: 14px 8px;
+      border-bottom: 1px solid var(--cd-border);
+    }
+    .cd-panel { padding: 28px 18px; }
+  }
+</style>
+
+<div class="cd-product">
+
+  <p class="cd-lead">How to obtain a comprehensive understanding of predictable, minimally invasive, and long-lasting restorative workflows with zero post-operative sensitivity.</p>
+
+  <!-- Course Info Tabs -->
+  <div class="cd-tabs">
+    <input type="radio" name="cd-course-tabs" id="cd-tab-date" checked>
+    <input type="radio" name="cd-course-tabs" id="cd-tab-format">
+    <input type="radio" name="cd-course-tabs" id="cd-tab-ce">
+    <input type="radio" name="cd-course-tabs" id="cd-tab-fee">
+
+    <div class="cd-tab-nav">
+      <label for="cd-tab-date">📅 Date &amp; Time</label>
+      <label for="cd-tab-format">📚 Format</label>
+      <label for="cd-tab-ce">🎓 CE Credits</label>
+      <label for="cd-tab-fee">💲 Registration Fee</label>
+    </div>
+
+    <div class="cd-panels">
+      <div class="cd-panel" id="cd-panel-date">
+        <span class="cd-icon">📅</span>
+        <p class="cd-label">Date &amp; Time</p>
+        <p class="cd-value">September 6, 2026</p>
+        <p class="cd-sub">9:00 AM – 4:00 PM</p>
+      </div>
+
+      <div class="cd-panel" id="cd-panel-format">
+        <span class="cd-icon">📚</span>
+        <p class="cd-label">Format</p>
+        <p class="cd-value">In-Person</p>
+        <p class="cd-sub">6-hour intensive lecture</p>
+      </div>
+
+      <div class="cd-panel" id="cd-panel-ce">
+        <span class="cd-icon">🎓</span>
+        <p class="cd-label">CE Credits</p>
+        <p class="cd-value">6 CE Credits</p>
+        <p class="cd-sub">Continuing education hours</p>
+      </div>
+
+      <div class="cd-panel" id="cd-panel-fee">
+        <span class="cd-icon">💲</span>
+        <p class="cd-label">Registration Fee</p>
+        <p class="cd-value">
+          <span class="cd-price-old">$799</span>
+          <span class="cd-price-new">$599</span>
+        </p>
+        <span class="cd-badge">Early Bird valid until July 24</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="cd-location">
+    <strong>🏢 Location:</strong> 265 Rimrock Rd, North York, ON
+  </div>
+
+  <h3 class="cd-h">Lecture Outline</h3>
+  <p class="cd-body">Transitioning to a truly biomimetic and minimally invasive practice requires moving past traditional mechanical retention and understanding the sophisticated mechanics of modern adhesion. Because advanced adhesive dentistry is an incredibly comprehensive and multi-layered discipline, it cannot be mastered in a single day. Instead, this intensive 6-hour course is designed to serve as your ultimate foundational platform and comprehensive overview. Led by an experienced clinician and educator, this session maps out the entire adhesive landscape, providing the big-picture clarity you need before diving into specific technical execution.</p>
+  <p class="cd-body">This course serves as the mandatory preliminary blueprint for a series of upcoming, consecutive deep-dive sessions. Over 6 hours, we will establish the structural framework of modern adhesion, covering the core principles of advanced rubber dam isolation, dental histology, and modern caries and crack management. We will break down the chemistry behind modern dentin bonding agents, and explore the clinical logic behind Immediate Dentin Sealing (IDS) and Deep Margin Elevation (DME). Finally, we will overview how to control the C-factor to manage polymerization stress, shifting from direct composite restorations to semi-direct and indirect options. By the end of this course, participants will not only understand how these components interconnect to eliminate post-operative sensitivity, but they will also possess the essential conceptual roadmap required to excel in the subsequent step-by-step, hands-on modules.</p>
+
+  <h3 class="cd-h">Learning Objectives</h3>
+  <p class="cd-body">By the end of this 6-hour course, participants will be able to:</p>
+  <ol class="cd-list">
+    <li><strong>Understand Absolute Isolation Dynamics:</strong> Gain a clear understanding of how advanced rubber dam isolation, clamp selection, and inversion techniques protect the hybrid layer from moisture.</li>
+    <li><strong>Correlate Histology with Substrate Chemistry:</strong> Comprehend how bonding protocols must change when treating enamel versus deep, cracked, or caries-affected dentin.</li>
+    <li><strong>Differentiate Bonding Systems:</strong> Grasp the fundamental differences between various generations of dentin bonding agents to eliminate clinical guesswork.</li>
+    <li><strong>Recognize Sensitivity-Prevention Protocols:</strong> Understand the clinical rationale and biological benefits of utilizing Immediate Dentin Sealing (IDS) and Deep Margin Elevation (DME).</li>
+    <li><strong>Identify Stress Management Strategies:</strong> Learn how the C-factor impacts the adhesive interface and understand the concepts behind decoupled mechanics and layering.</li>
+    <li><strong>Navigate the Restorative Spectrum:</strong> Establish a clear conceptual framework for deciding when a clinical case calls for direct, semi-direct, or indirect adhesive restorations.</li>
+  </ol>
+
+</div>
