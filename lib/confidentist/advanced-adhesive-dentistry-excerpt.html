@@ -1,0 +1,122 @@
+<!--
+  ConfiDentist WooCommerce PRODUCT SHORT DESCRIPTION (Excerpt)
+  Paste in Short description → TEXT / Code mode only (never Visual).
+-->
+<style>
+.cdx{--gray:#f4f5f7;--gray2:#e8eaee;--gray3:#d5d9e0;--ink:#111827;--ink2:#1f2937;--muted:#374151;--accent:#0f2a4a;--green:#166534;font-family:Montserrat,Segoe UI,Arial,sans-serif;color:var(--ink);max-width:100%;margin:0 0 8px}
+.cdx *{box-sizing:border-box}
+.cdx-lead{margin:0 0 14px;color:var(--ink2);font-size:18px;font-weight:600;line-height:1.7}
+.cdx-body{margin:0 0 28px;color:var(--ink2);font-size:20px;font-weight:500;line-height:1.85}
+.cdx-body p{margin:0 0 20px}
+.cdx-body h3{margin:28px 0 14px;color:var(--ink);font-size:26px;font-weight:800;line-height:1.3}
+.cdx-body ol{margin:12px 0 0;padding-left:28px}
+.cdx-body li{margin:0 0 14px;padding-left:4px;font-weight:500}
+.cdx-tabs{position:relative;margin:0!important;padding:0;overflow:hidden;border:2px solid #9aa3b2;border-radius:6px;background:#ffffff;box-shadow:0 8px 24px rgba(17,24,39,.07)}
+.cdx-tabs>p,.cdx-tabs>br{display:none!important;margin:0!important;padding:0!important;height:0!important;line-height:0!important;font-size:0!important;overflow:hidden!important}
+.cdx-switch{position:absolute!important;left:0!important;top:0!important;width:0!important;height:0!important;margin:0!important;padding:0!important;overflow:hidden!important;border:0!important;clip:rect(0,0,0,0)!important}
+.cdx-switch input{position:absolute!important;opacity:0!important;pointer-events:none!important}
+.cdx-nav{display:table!important;width:100%!important;table-layout:fixed!important;border-collapse:collapse!important;margin:0!important;padding:0!important;background:#eef0f4;border-bottom:2px solid #9aa3b2}
+.cdx-nav tr{display:table-row!important}
+.cdx-nav td{display:table-cell!important;width:20%!important;vertical-align:middle!important;margin:0!important;padding:0!important;border-right:2px solid #9aa3b2;background:#f3f4f6}
+.cdx-nav td:last-child{border-right:0!important}
+.cdx-nav td label{display:block!important;width:100%!important;min-height:52px;margin:0!important;padding:12px 4px!important;color:var(--ink2);background:transparent;border:0!important;border-radius:0!important;box-shadow:none!important;cursor:pointer;font-size:12px;font-weight:800;line-height:1.2;letter-spacing:.01em;text-align:center;text-transform:uppercase;white-space:normal;transition:color .2s,background .2s}
+.cdx-nav td label:hover{color:var(--ink);background:#ffffff}
+.cdx-panels{margin:0!important;padding:0!important;border:0;border-radius:0;overflow:hidden;background:#f8f9fb}
+.cdx-panel{display:none;min-height:120px;margin:0!important;padding:28px 20px;text-align:center;background:linear-gradient(180deg,#f8f9fb 0%,#f1f3f6 100%)}
+.cdx-kicker{margin:0 0 12px;color:var(--accent);font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase}
+.cdx-value{margin:0 0 10px;color:var(--ink);font-size:clamp(24px,3vw,34px);font-weight:800;line-height:1.25}
+.cdx-sub{margin:0;color:var(--ink2);font-size:17px;font-weight:600;line-height:1.5}
+.cdx-old{display:inline-block;margin-right:12px;color:#6b7280;font-size:24px;font-weight:700;text-decoration:line-through}
+.cdx-new{display:inline-block;color:var(--green);font-size:36px;font-weight:800}
+.cdx-badge{display:inline-block;margin-top:16px;padding:8px 16px;color:var(--ink);background:#e5e7eb;border-radius:999px;font-size:13px;font-weight:800}
+.cdx-switch:has(#cdx-date:checked)~.cdx-nav td:nth-child(1),
+.cdx-switch:has(#cdx-format:checked)~.cdx-nav td:nth-child(2),
+.cdx-switch:has(#cdx-location:checked)~.cdx-nav td:nth-child(3),
+.cdx-switch:has(#cdx-ce:checked)~.cdx-nav td:nth-child(4),
+.cdx-switch:has(#cdx-fee:checked)~.cdx-nav td:nth-child(5){background:var(--accent)}
+.cdx-switch:has(#cdx-date:checked)~.cdx-nav td:nth-child(1) label,
+.cdx-switch:has(#cdx-format:checked)~.cdx-nav td:nth-child(2) label,
+.cdx-switch:has(#cdx-location:checked)~.cdx-nav td:nth-child(3) label,
+.cdx-switch:has(#cdx-ce:checked)~.cdx-nav td:nth-child(4) label,
+.cdx-switch:has(#cdx-fee:checked)~.cdx-nav td:nth-child(5) label{color:#ffffff;background:transparent}
+.cdx-switch:has(#cdx-date:checked)~.cdx-panels #cdx-p-date,
+.cdx-switch:has(#cdx-format:checked)~.cdx-panels #cdx-p-format,
+.cdx-switch:has(#cdx-location:checked)~.cdx-panels #cdx-p-location,
+.cdx-switch:has(#cdx-ce:checked)~.cdx-panels #cdx-p-ce,
+.cdx-switch:has(#cdx-fee:checked)~.cdx-panels #cdx-p-fee{display:block}
+@media only screen and (max-width:640px){.cdx-lead{font-size:16px;margin-bottom:10px}.cdx-body{font-size:17px;line-height:1.75}.cdx-body h3{font-size:22px}.cdx-tabs{border-radius:4px}.cdx-nav td label{min-height:58px;padding:8px 2px!important;font-size:9px}.cdx-panel{min-height:100px;padding:22px 12px}.cdx-value{font-size:22px}.cdx-sub{font-size:15px}.cdx-old{font-size:18px}.cdx-new{font-size:28px}}
+</style>
+
+<div class="cdx">
+  <p class="cdx-lead">How to obtain a comprehensive understanding of predictable, minimally invasive, and long-lasting restorative workflows with zero post-operative sensitivity.</p>
+
+  <div class="cdx-body" style="font-size:20px;line-height:1.85;">
+    <p>Transitioning to a truly biomimetic and minimally invasive practice requires moving past traditional mechanical retention and understanding the sophisticated mechanics of modern adhesion. Because advanced adhesive dentistry is an incredibly comprehensive and multi-layered discipline, it cannot be mastered in a single day. Instead, this intensive 6-hour course is designed to serve as your ultimate foundational platform and comprehensive overview. Led by an experienced clinician and educator, this session maps out the entire adhesive landscape, providing the big-picture clarity you need before diving into specific technical execution.</p>
+
+    <p>This course serves as the mandatory preliminary blueprint for a series of upcoming, consecutive deep-dive sessions. Over 6 hours, we will establish the structural framework of modern adhesion, covering the core principles of advanced rubber dam isolation, dental histology, and modern caries and crack management. We will break down the chemistry behind modern dentin bonding agents, and explore the clinical logic behind Immediate Dentin Sealing (IDS) and Deep Margin Elevation (DME). Finally, we will overview how to control the C-factor to manage polymerization stress, shifting from direct composite restorations to semi-direct and indirect options. By the end of this course, participants will not only understand how these components interconnect to eliminate post-operative sensitivity, but they will also possess the essential conceptual roadmap required to excel in the subsequent step-by-step, hands-on modules.</p>
+
+    <h3 style="font-size:26px;">Learning Objectives:</h3>
+
+    <p>By the end of this 6-hour course, participants will be able to:</p>
+    <ol>
+      <li><strong>Understand Absolute Isolation Dynamics:</strong> Gain a clear understanding of how advanced rubber dam isolation, clamp selection, and inversion techniques protect the hybrid layer from moisture.</li>
+      <li><strong>Correlate Histology with Substrate Chemistry:</strong> Comprehend how bonding protocols must change when treating enamel versus deep, cracked, or caries-affected dentin.</li>
+      <li><strong>Differentiate Bonding Systems:</strong> Grasp the fundamental differences between various generations of dentin bonding agents to eliminate clinical guesswork.</li>
+      <li><strong>Recognize Sensitivity-Prevention Protocols:</strong> Understand the clinical rationale and biological benefits of utilizing Immediate Dentin Sealing (IDS) and Deep Margin Elevation (DME).</li>
+      <li><strong>Identify Stress Management Strategies:</strong> Learn how the C-factor impacts the adhesive interface and understand the concepts behind decoupled mechanics and layering.</li>
+      <li><strong>Navigate the Restorative Spectrum:</strong> Establish a clear conceptual framework for deciding when a clinical case calls for direct, semi-direct, or indirect adhesive restorations.</li>
+    </ol>
+  </div>
+
+  <div class="cdx-tabs">
+    <div class="cdx-switch">
+      <input type="radio" name="cdx-tabs" id="cdx-date" checked="checked" />
+      <input type="radio" name="cdx-tabs" id="cdx-format" />
+      <input type="radio" name="cdx-tabs" id="cdx-location" />
+      <input type="radio" name="cdx-tabs" id="cdx-ce" />
+      <input type="radio" name="cdx-tabs" id="cdx-fee" />
+    </div>
+
+    <table class="cdx-nav" role="presentation" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><label for="cdx-date">📅 Date &amp; Time</label></td>
+        <td><label for="cdx-format">📚 Format</label></td>
+        <td><label for="cdx-location">📍 Location</label></td>
+        <td><label for="cdx-ce">🎓 CE Credits</label></td>
+        <td><label for="cdx-fee">💲 Fee</label></td>
+      </tr>
+    </table>
+
+    <div class="cdx-panels">
+      <div class="cdx-panel" id="cdx-p-date">
+        <p class="cdx-kicker">Date &amp; Time</p>
+        <p class="cdx-value">September 6, 2026</p>
+        <p class="cdx-sub">9:00 AM – 4:00 PM</p>
+      </div>
+
+      <div class="cdx-panel" id="cdx-p-format">
+        <p class="cdx-kicker">Format</p>
+        <p class="cdx-value">In-Person</p>
+        <p class="cdx-sub">6-hour intensive lecture</p>
+      </div>
+
+      <div class="cdx-panel" id="cdx-p-location">
+        <p class="cdx-kicker">Location</p>
+        <p class="cdx-value">Rimrock Rd, Suite 209</p>
+        <p class="cdx-sub">North York, ON M3J 3A6</p>
+      </div>
+
+      <div class="cdx-panel" id="cdx-p-ce">
+        <p class="cdx-kicker">CE Credits</p>
+        <p class="cdx-value">🎓 6 CE Credits</p>
+        <p class="cdx-sub">Continuing education hours</p>
+      </div>
+
+      <div class="cdx-panel" id="cdx-p-fee">
+        <p class="cdx-kicker">Registration Fee</p>
+        <p class="cdx-value"><span class="cdx-old">$799</span><span class="cdx-new">$599</span></p>
+        <span class="cdx-badge">Early Bird valid until July 24</span>
+      </div>
+    </div>
+  </div>
+</div>
