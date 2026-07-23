@@ -15,10 +15,12 @@
 .cdx-tabs>p,.cdx-tabs>br{display:none!important;margin:0!important;padding:0!important;height:0!important;line-height:0!important;font-size:0!important;overflow:hidden!important}
 .cdx-switch{position:absolute!important;left:0!important;top:0!important;width:0!important;height:0!important;margin:0!important;padding:0!important;overflow:hidden!important;border:0!important;clip:rect(0,0,0,0)!important}
 .cdx-switch input{position:absolute!important;opacity:0!important;pointer-events:none!important}
-.cdx-nav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;margin:0!important;padding:0!important;background:#eef0f4;border-bottom:2px solid #9aa3b2}
-.cdx-nav label{display:flex;min-height:50px;margin:0!important;padding:12px 6px;align-items:center;justify-content:center;gap:4px;color:var(--ink2);background:#f3f4f6;border:0;border-right:2px solid #9aa3b2;border-radius:0;box-shadow:none;cursor:pointer;font-size:12px;font-weight:800;line-height:1.2;letter-spacing:.02em;text-align:center;text-transform:uppercase;white-space:normal;transition:color .2s,background .2s,border-color .2s}
-.cdx-nav label:last-child{border-right:0}
-.cdx-nav label:hover{color:var(--ink);background:#ffffff}
+.cdx-nav{display:table!important;width:100%!important;table-layout:fixed!important;border-collapse:collapse!important;margin:0!important;padding:0!important;background:#eef0f4;border-bottom:2px solid #9aa3b2}
+.cdx-nav tr{display:table-row!important}
+.cdx-nav td{display:table-cell!important;width:20%!important;vertical-align:middle!important;margin:0!important;padding:0!important;border-right:2px solid #9aa3b2;background:#f3f4f6}
+.cdx-nav td:last-child{border-right:0!important}
+.cdx-nav td label{display:block!important;width:100%!important;min-height:52px;margin:0!important;padding:12px 4px!important;color:var(--ink2);background:transparent;border:0!important;border-radius:0!important;box-shadow:none!important;cursor:pointer;font-size:12px;font-weight:800;line-height:1.2;letter-spacing:.01em;text-align:center;text-transform:uppercase;white-space:normal;transition:color .2s,background .2s}
+.cdx-nav td label:hover{color:var(--ink);background:#ffffff}
 .cdx-panels{margin:0!important;padding:0!important;border:0;border-radius:0;overflow:hidden;background:#f8f9fb}
 .cdx-panel{display:none;min-height:120px;margin:0!important;padding:28px 20px;text-align:center;background:linear-gradient(180deg,#f8f9fb 0%,#f1f3f6 100%)}
 .cdx-kicker{margin:0 0 12px;color:var(--accent);font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase}
@@ -27,18 +29,22 @@
 .cdx-old{display:inline-block;margin-right:12px;color:#6b7280;font-size:24px;font-weight:700;text-decoration:line-through}
 .cdx-new{display:inline-block;color:var(--green);font-size:36px;font-weight:800}
 .cdx-badge{display:inline-block;margin-top:16px;padding:8px 16px;color:var(--ink);background:#e5e7eb;border-radius:999px;font-size:13px;font-weight:800}
-.cdx-switch:has(#cdx-date:checked)~.cdx-nav label[for=cdx-date],
-.cdx-switch:has(#cdx-format:checked)~.cdx-nav label[for=cdx-format],
-.cdx-switch:has(#cdx-location:checked)~.cdx-nav label[for=cdx-location],
-.cdx-switch:has(#cdx-ce:checked)~.cdx-nav label[for=cdx-ce],
-.cdx-switch:has(#cdx-fee:checked)~.cdx-nav label[for=cdx-fee]{color:#ffffff;background:var(--accent);border-color:#9aa3b2;box-shadow:none;transform:none;position:relative;z-index:1;margin-bottom:-2px;border-bottom:2px solid var(--accent)}
+.cdx-switch:has(#cdx-date:checked)~.cdx-nav td:nth-child(1),
+.cdx-switch:has(#cdx-format:checked)~.cdx-nav td:nth-child(2),
+.cdx-switch:has(#cdx-location:checked)~.cdx-nav td:nth-child(3),
+.cdx-switch:has(#cdx-ce:checked)~.cdx-nav td:nth-child(4),
+.cdx-switch:has(#cdx-fee:checked)~.cdx-nav td:nth-child(5){background:var(--accent)}
+.cdx-switch:has(#cdx-date:checked)~.cdx-nav td:nth-child(1) label,
+.cdx-switch:has(#cdx-format:checked)~.cdx-nav td:nth-child(2) label,
+.cdx-switch:has(#cdx-location:checked)~.cdx-nav td:nth-child(3) label,
+.cdx-switch:has(#cdx-ce:checked)~.cdx-nav td:nth-child(4) label,
+.cdx-switch:has(#cdx-fee:checked)~.cdx-nav td:nth-child(5) label{color:#ffffff;background:transparent}
 .cdx-switch:has(#cdx-date:checked)~.cdx-panels #cdx-p-date,
 .cdx-switch:has(#cdx-format:checked)~.cdx-panels #cdx-p-format,
 .cdx-switch:has(#cdx-location:checked)~.cdx-panels #cdx-p-location,
 .cdx-switch:has(#cdx-ce:checked)~.cdx-panels #cdx-p-ce,
 .cdx-switch:has(#cdx-fee:checked)~.cdx-panels #cdx-p-fee{display:block}
-@media only screen and (max-width:900px){.cdx-nav{grid-template-columns:repeat(5,minmax(0,1fr))!important}.cdx-nav label{min-height:48px;padding:10px 4px;font-size:11px;letter-spacing:0;border-bottom:0!important;border-right:2px solid #9aa3b2}.cdx-nav label:nth-child(3){border-right:2px solid #9aa3b2}.cdx-nav label:last-child{border-right:0;grid-column:auto}}
-@media only screen and (max-width:640px){.cdx-lead{font-size:16px;margin-bottom:10px}.cdx-body{font-size:17px;line-height:1.75}.cdx-body h3{font-size:22px}.cdx-tabs{padding:0;border-radius:4px}.cdx-nav{grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:0}.cdx-nav label{min-height:56px;padding:8px 2px;font-size:10px;letter-spacing:0;border-radius:0;border-right:2px solid #9aa3b2;border-bottom:0!important;box-shadow:none;grid-column:auto!important}.cdx-nav label:nth-child(even){border-right:2px solid #9aa3b2}.cdx-nav label:last-child{border-right:0;grid-column:auto!important}.cdx-panel{min-height:100px;padding:22px 14px}.cdx-value{font-size:24px}.cdx-sub{font-size:15px}.cdx-old{font-size:20px}.cdx-new{font-size:30px}}
+@media only screen and (max-width:640px){.cdx-lead{font-size:16px;margin-bottom:10px}.cdx-body{font-size:17px;line-height:1.75}.cdx-body h3{font-size:22px}.cdx-tabs{border-radius:4px}.cdx-nav td label{min-height:58px;padding:8px 2px!important;font-size:9px}.cdx-panel{min-height:100px;padding:22px 12px}.cdx-value{font-size:22px}.cdx-sub{font-size:15px}.cdx-old{font-size:18px}.cdx-new{font-size:28px}}
 </style>
 
 <div class="cdx">
@@ -53,13 +59,15 @@
       <input type="radio" name="cdx-tabs" id="cdx-fee" />
     </div>
 
-    <div class="cdx-nav">
-      <label for="cdx-date">📅 Date &amp; Time</label>
-      <label for="cdx-format">📚 Format</label>
-      <label for="cdx-location">📍 Location</label>
-      <label for="cdx-ce">🎓 CE Credits</label>
-      <label for="cdx-fee">💲 Fee</label>
-    </div>
+    <table class="cdx-nav" role="presentation" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><label for="cdx-date">📅 Date &amp; Time</label></td>
+        <td><label for="cdx-format">📚 Format</label></td>
+        <td><label for="cdx-location">📍 Location</label></td>
+        <td><label for="cdx-ce">🎓 CE Credits</label></td>
+        <td><label for="cdx-fee">💲 Fee</label></td>
+      </tr>
+    </table>
 
     <div class="cdx-panels">
       <div class="cdx-panel" id="cdx-p-date">
