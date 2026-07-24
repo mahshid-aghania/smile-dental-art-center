@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI Smile Preview | Smile Dental Arts Centre",
+  title: "AI Smile Preview | CanaDent",
   description:
-    "Visualize smile enhancements with AI. Capture a photo, choose a treatment direction, and preview a concept to discuss with your dentist.",
+    "Visualize smile enhancements with AI. Capture a photo, choose a treatment direction, and preview a concept.",
 };
 
 export default function SmilePreviewLayout({

@@ -5,7 +5,7 @@ export const FORMSPREE_FORM_ID = "xojzwvzd";
 
 const FORM_TYPE_LABELS: Record<FormspreeFormType, string> = {
   appointment: "Appointment request",
-  contact: "Contact message",
+  contact: "CanaDent enquiry",
   patientIntake: "AI smile preview intake",
 };
 
@@ -41,7 +41,10 @@ export async function submitToFormspree(
 
   const body: Record<string, string> = {
     formType,
-    _subject: `${FORM_TYPE_LABELS[formType]} — Smile Dental Arts Centre`,
+    _subject:
+      typeof fields._subject === "string" && fields._subject.trim()
+        ? String(fields._subject)
+        : `${FORM_TYPE_LABELS[formType]} — CanaDent Education Center`,
   };
   for (const [k, v] of Object.entries(fields)) {
     if (v === undefined || v === null) continue;
@@ -73,6 +76,6 @@ export async function submitToFormspree(
     }
     return { ok: false, message, status: res.status };
   } catch {
-    return { ok: false, message: "Network error. Please try again or call the clinic." };
+    return { ok: false, message: "Network error. Please try again or email canadent.edu@gmail.com." };
   }
 }
