@@ -1,0 +1,121 @@
+.theme-canadent {
+  --cd-navy: #0f2a4a;
+  --cd-navy-deep: #0a1c33;
+  --cd-gold: #c4a35a;
+  --cd-gold-hover: #b08f45;
+  --cd-muted: #5c6b7a;
+  --cd-text: #1a2430;
+  --cd-bg: #f7f5f0;
+  --cd-surface: #ffffff;
+  --cd-border: #e6e2d8;
+  --cd-fog: rgba(15, 42, 74, 0.06);
+  color-scheme: light;
+  background: var(--cd-bg);
+  color: var(--cd-text);
+}
+
+.theme-canadent ::selection {
+  background-color: rgba(196, 163, 90, 0.35);
+  color: var(--cd-navy);
+}
+
+.theme-canadent input,
+.theme-canadent select,
+.theme-canadent textarea {
+  color: var(--cd-text);
+  background-color: #ffffff;
+}
+
+.theme-canadent input::placeholder,
+.theme-canadent textarea::placeholder {
+  color: #94a3b8;
+}
+
+.theme-canadent .cd-btn-primary {
+  background: var(--cd-gold);
+  color: var(--cd-navy-deep);
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.theme-canadent .cd-btn-primary:hover {
+  background: var(--cd-gold-hover);
+}
+
+.theme-canadent .cd-btn-secondary {
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  font-weight: 600;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.theme-canadent .cd-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #fff;
+}
+
+.theme-canadent .cd-heading {
+  color: var(--cd-navy);
+  font-family: var(--font-canadent-display), ui-serif, Georgia, serif;
+}
+
+@keyframes cd-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes cd-kenburns {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.06);
+  }
+}
+
+@keyframes cd-rule-grow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.cd-animate-fade-up {
+  animation: cd-fade-up 0.8s ease-out both;
+}
+
+.cd-animate-fade-up-delay {
+  animation: cd-fade-up 0.9s ease-out 0.15s both;
+}
+
+.cd-animate-fade-up-delay-2 {
+  animation: cd-fade-up 0.9s ease-out 0.28s both;
+}
+
+.cd-kenburns {
+  animation: cd-kenburns 18s ease-out forwards;
+}
+
+.cd-rule {
+  transform-origin: left center;
+  animation: cd-rule-grow 0.9s ease-out 0.2s both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cd-animate-fade-up,
+  .cd-animate-fade-up-delay,
+  .cd-animate-fade-up-delay-2,
+  .cd-kenburns,
+  .cd-rule {
+    animation: none !important;
+  }
+}

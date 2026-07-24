@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-import { SITE_URL } from "@/lib/implants/data";
+import { SITE_URL } from "@/lib/canadent/site";
 
 export default function robots(): MetadataRoute.Robots {
   return {
