@@ -277,7 +277,7 @@ export function ServiceIconsSection() {
           href={CLINIC.pages.appointments}
           className="clinic-btn-primary mt-8 inline-block px-8 py-3 text-sm"
         >
-          Request Appoinment
+          Request Appointment
         </Link>
         <div className="mt-12 grid grid-cols-2 gap-6 sm:grid-cols-4">
           {SERVICE_ICONS.map(({ label, slug, href }) => {

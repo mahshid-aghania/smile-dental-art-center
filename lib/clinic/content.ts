@@ -44,7 +44,7 @@ export const HERO_SLIDES = [
   {
     image: "/clinic/hero-dr.jpg",
     position: "58% 12%",
-    eyebrow: "ONLY ONE KIND OF TREATEMENT",
+    eyebrow: "COMPREHENSIVE DENTAL CARE IN MARKHAM",
     title: "YOUR NEW SMILE",
     ctaTitle: "Plan Your Visit Now",
     ctaSubtitle: "Begin the Change",

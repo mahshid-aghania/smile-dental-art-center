@@ -118,8 +118,7 @@ export function ClinicFooter() {
 
       <div className="border-t border-white/10 px-4 py-6 text-center text-xs text-slate-400 sm:px-6">
         <p>
-          © {new Date().getFullYear()} {CLINIC.name}. Clone for development — not affiliated with the
-          live site.
+          © {new Date().getFullYear()} {CLINIC.name}. All rights reserved.
         </p>
         <p className="mt-2">
           <Link href="/smile-preview" className="text-[var(--clinic-gold)] hover:underline">

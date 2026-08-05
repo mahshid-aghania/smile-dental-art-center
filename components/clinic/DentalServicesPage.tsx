@@ -37,7 +37,7 @@ export function DentalServicesPage() {
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
           <div>
             <h1 className="clinic-heading text-3xl font-semibold text-[var(--clinic-navy)] sm:text-4xl">
-              10 Best Dental Services in Markham, ON
+              Comprehensive Dental Services in Markham
             </h1>
             <p className="mt-6 text-base leading-relaxed text-[var(--clinic-muted)]">
               Welcome to <strong className="text-[var(--clinic-navy)]">Smile Dental Arts Centre</strong>
