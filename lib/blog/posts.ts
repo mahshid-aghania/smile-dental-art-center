@@ -10,7 +10,8 @@ export type BlogBlock =
   | { type: "ul"; items: string[] }
   | { type: "ol"; items: string[] }
   | { type: "h3"; text: string }
-  | { type: "callout"; text: string };
+  | { type: "callout"; text: string }
+  | { type: "youtube"; videoId: string; title?: string };
 
 export type BlogSection = {
   heading: string;

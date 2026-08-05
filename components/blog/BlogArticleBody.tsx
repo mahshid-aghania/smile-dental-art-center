@@ -84,6 +84,26 @@ export function BlogArticleBody({ post }: { post: BlogPost }) {
                       ))}
                     </ol>
                   );
+                if (block.type === "youtube")
+                  return (
+                    <figure key={bi} className="overflow-hidden rounded-xl border border-[var(--clinic-border)] shadow-sm">
+                      <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+                        <iframe
+                          className="absolute inset-0 h-full w-full"
+                          src={`https://www.youtube.com/embed/${block.videoId}?rel=0&modestbranding=1`}
+                          title={block.title ?? "Video"}
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                          loading="lazy"
+                        />
+                      </div>
+                      {block.title && (
+                        <figcaption className="bg-[var(--clinic-surface)] px-4 py-2 text-xs text-[var(--clinic-muted)]">
+                          {block.title}
+                        </figcaption>
+                      )}
+                    </figure>
+                  );
                 return null;
               })}
             </div>
