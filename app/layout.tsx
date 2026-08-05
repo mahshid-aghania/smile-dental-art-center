@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import { JsonLd } from "@/components/seo/JsonLd";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -79,6 +80,12 @@ export const metadata: Metadata = {
     description: DEFAULT_DESCRIPTION,
     images: ["/clinic/implants-hero.png"],
   },
+  other: {
+    "geo.region": "CA-ON",
+    "geo.placename": "Markham",
+    "geo.position": "43.841063;-79.321822",
+    ICBM: "43.841063, -79.321822",
+  },
   robots: {
     index: true,
     follow: true,
@@ -109,6 +116,7 @@ export default function RootLayout({
       className={`${cormorant.variable} ${playfair.variable} ${geistSans.variable} ${geistMono.variable} h-full bg-background antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <JsonLd />
         {children}
       </body>
     </html>
