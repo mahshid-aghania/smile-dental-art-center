@@ -8,9 +8,11 @@ import { DentalServicesPage } from "@/components/clinic/DentalServicesPage";
 import { DrKadivarPage } from "@/components/clinic/DrKadivarPage";
 import { ServiceCategoryHubPage } from "@/components/clinic/ServiceCategoryHubPage";
 import { ServiceSubmenuList } from "@/components/clinic/ServiceSubmenuList";
+import { LocalServiceLandingPage } from "@/components/clinic/LocalServiceLandingPage";
 import { CLINIC } from "@/lib/clinic/content";
 import { SERVICE_CATEGORY_HUBS } from "@/lib/clinic/service-category-hubs";
 import { getServiceCategoryForPath } from "@/lib/clinic/service-nav";
+import { LOCAL_LANDING_PAGES } from "@/lib/clinic/local-landing-pages";
 import {
   getRelatedServicePaths,
   pathToHref,
@@ -34,6 +36,11 @@ function BookCta() {
 }
 
 export function ClinicPageView({ path, page }: ClinicPageViewProps) {
+  const landingPage = LOCAL_LANDING_PAGES[path];
+  if (landingPage) {
+    return <LocalServiceLandingPage page={landingPage} />;
+  }
+
   if (path === "dental-services") {
     return <DentalServicesPage />;
   }
