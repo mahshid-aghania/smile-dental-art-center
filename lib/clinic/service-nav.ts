@@ -99,6 +99,23 @@ export const SERVICE_NAV_ITEMS: readonly ServiceNavItem[] = [
   },
   { label: "Dental Emergencies", href: "/dental-services/dental-emergencies" },
   { label: "Pediatric Dentistry", href: "/dental-services/pediatric-dentistry" },
+  {
+    label: "Local Services",
+    href: "/emergency-dentist-markham",
+    children: [
+      { label: "Emergency Dentist", href: "/emergency-dentist-markham" },
+      { label: "Root Canal Treatment", href: "/root-canal-markham" },
+      { label: "Dental Cleaning", href: "/dental-cleaning-markham" },
+      { label: "Family Dentist", href: "/family-dentist-markham" },
+      { label: "Cosmetic Dentist", href: "/cosmetic-dentist-markham" },
+      { label: "Wisdom Teeth Removal", href: "/wisdom-teeth-removal-markham" },
+      { label: "Dental Veneers", href: "/dental-veneers-markham" },
+      { label: "Dental Bonding", href: "/dental-bonding-markham" },
+      { label: "Teeth Whitening", href: "/teeth-whitening-markham" },
+      { label: "Dental Crowns", href: "/dental-crowns-markham" },
+      { label: "Children's Dentist", href: "/childrens-dentist-markham" },
+    ],
+  },
 ] as const;
 
 export function getServiceCategoryForPath(path: string): ServiceNavItem | undefined {

@@ -18,6 +18,49 @@ const nextConfig: NextConfig = {
         destination: "/dental-services/:path*",
         permanent: true,
       },
+      // Taxonomy corrections
+      {
+        source: "/dental-services/oral-surgery/root-canal-markham",
+        destination: "/root-canal-markham",
+        permanent: true,
+      },
+      {
+        source: "/dental-services/oral-surgery/wisdom-teeth-surgery",
+        destination: "/wisdom-teeth-removal-markham",
+        permanent: true,
+      },
+      // Veneer consolidation
+      {
+        source: "/dental-services/oral-surgery/dental-veneers-markham",
+        destination: "/dental-veneers-markham",
+        permanent: true,
+      },
+      {
+        source: "/dental-services/oral-surgery/porcelain-veneers-markham",
+        destination: "/dental-veneers-markham",
+        permanent: true,
+      },
+      {
+        source: "/dental-services/oral-surgery/composite-veneers-markham",
+        destination: "/dental-veneers-markham",
+        permanent: true,
+      },
+      // Other oral-surgery misplacements
+      {
+        source: "/dental-services/oral-surgery/implant-markham",
+        destination: "/dental-implants",
+        permanent: true,
+      },
+      {
+        source: "/dental-services/oral-surgery/invisalign-markham",
+        destination: "/dental-services/invisalign-in-markham",
+        permanent: true,
+      },
+      {
+        source: "/dental-services/oral-surgery/bone-grafting-markham",
+        destination: "/dental-services/oral-surgery/bone-grafting",
+        permanent: true,
+      },
     ];
   },
   images: {

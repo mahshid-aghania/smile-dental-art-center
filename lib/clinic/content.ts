@@ -318,6 +318,8 @@ export const FOOTER_LINKS = {
   ],
   services: [
     { label: "Dental Implants in Markham", href: "/dental-implants" },
+    { label: "Emergency Dentist in Markham", href: "/emergency-dentist-markham" },
+    { label: "Root Canal Treatment in Markham", href: "/root-canal-markham" },
     { label: "Cleanings & Prevention", href: "/dental-services/cleanings-prevention" },
     { label: "Cosmetic Dentistry", href: "/dental-services/cosmetic-dentistry" },
     { label: "Restorations", href: "/dental-services/restorations" },
