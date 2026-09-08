@@ -58,6 +58,14 @@ A dentist recommends the route based on why the original treatment failed, how m
 
 Retreatment saves many teeth that would otherwise be lost, though — as with any treatment — success is not guaranteed and depends on the individual tooth. We don't quote specific success figures here; ask your dentist for a realistic assessment of your tooth's outlook. What is fair to say is that retreatment is a well-established way to give a struggling treated tooth another chance before considering extraction.
 
+## Retreatment vs starting over with an implant
+
+When a root canal fails, some people wonder whether it is worth retreating the tooth at all, or whether they should simply have it out and replaced with an implant. It is a fair question, and the answer usually favours trying to keep the natural tooth first, provided it is restorable. Retreatment is generally more conservative than extraction and replacement: it preserves your own tooth and its root, avoids the staged process of implant placement and healing, and keeps the implant option available for later if it is ever truly needed. Extraction and an implant become the sensible route when the tooth genuinely cannot be saved — for example, a fracture that leaves too little sound structure. So the typical order of preference is: retreat if restorable, consider surgery if retreatment isn't suitable, and reserve extraction-plus-implant for teeth that are beyond saving. The comparison is explored further in [root canal vs implant](/blog/root-canal-vs-implant).
+
+## What recovery and follow-up look like
+
+Recovery from retreatment is broadly similar to a first root canal: some tenderness for a few days that settles with simple measures, and a new permanent restoration to protect the tooth (often a crown). Because retreatment addresses a tooth that has already had problems, your dentist will usually want to follow up to confirm the infection is resolving and the tooth is healing well — sometimes with a check-up and X-ray after a period of months. This monitoring matters, because the whole point of retreatment is to give the tooth a durable second chance, and confirming it is healing is part of that. If symptoms persist despite retreatment, the next consideration is usually endodontic surgery (see [apicoectomy and endodontic surgery](/blog/apicoectomy-endodontic-surgery)), so keeping those follow-up appointments lets any further step be taken early rather than late.
+
 ## Frequently asked questions
 
 **Can a root canal be redone?**

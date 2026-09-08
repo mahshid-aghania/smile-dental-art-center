@@ -47,6 +47,14 @@ Front teeth often retain more structure and face lighter chewing forces than mol
 
 Front teeth are central to your smile and speech, and replacing one is not trivial. Saving a restorable front tooth with a root canal keeps your natural tooth, its root, and the surrounding bone — usually preferable to extraction and replacement. The general save-versus-replace reasoning is in [root canal vs extraction](/blog/root-canal-vs-extraction) and [root canal vs implant](/blog/root-canal-vs-implant).
 
+## Why front teeth so often need treatment after an injury
+
+Front teeth have a particular reason for ending up needing root canals: they are the teeth most exposed to trauma. A fall, a sports impact, or a knock to the face lands disproportionately on the incisors, and a blow can damage the pulp's blood supply even when the tooth looks intact. Sometimes the effect is immediate; often it is delayed, showing up months or years later as the tooth darkens or becomes tender — the delayed-trauma story covered in [root canal after a dental injury](/blog/root-canal-after-a-dental-injury) and [why a tooth turns grey](/blog/why-a-tooth-turns-grey). This is why a front tooth that was knocked long ago deserves attention if it changes colour or starts to ache: the old injury may finally be declaring itself, and a root canal can save the tooth while addressing its appearance.
+
+## Keeping a treated front tooth looking natural
+
+Because a front tooth is on show, appearance is part of a good result, not an afterthought. The reassuring news is that the access opening for a front-tooth root canal is small and usually on the back of the tooth, so the visible surface is typically left intact. If the tooth has darkened from within, options such as internal (non-vital) whitening, a veneer, or a crown can restore its appearance, chosen to match the neighbouring teeth as closely as possible. Which suits you depends on the tooth's condition and how much structure remains, and results vary, so it is worth discussing realistic expectations with your dentist. The key point is that saving a front tooth with a root canal and keeping it looking natural are usually compatible goals — you rarely have to choose between the tooth's health and your smile.
+
 ## Frequently asked questions
 
 **Is a front-tooth root canal easier than a molar?**
@@ -60,6 +68,12 @@ Not always. Front teeth with lots of remaining structure may be fine with a fill
 
 **Why is my treated front tooth turning grey?**
 Internal discolouration from the treatment or a past injury can darken a front tooth. It's addressable — see [why a tooth turns grey](/blog/why-a-tooth-turns-grey).
+
+**Will there be a visible hole or mark on my front tooth?**
+Usually not. The access opening is small and typically made on the back of the tooth, then sealed, so the front surface is generally left intact. If a filling on the back is visible when you talk, your dentist can match its colour to the tooth.
+
+**Is a front-tooth root canal quicker to recover from?**
+Recovery is broadly similar to any root canal — mild tenderness for a few days that settles. Front teeth are often simpler to treat, but aftercare and the importance of completing the restoration are the same.
 
 ## Care for your smile in Markham
 

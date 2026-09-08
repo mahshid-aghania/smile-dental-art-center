@@ -50,6 +50,14 @@ This is why follow-up after a dental injury matters even if the tooth seems fine
 
 After an injury, expect an examination and X-rays to assess the tooth, its root and the surrounding bone, plus tests of whether the pulp is still alive (see [how dentists diagnose a root canal](/blog/how-dentists-diagnose-root-canal)). Treatment depends on the findings — from simply monitoring, to a root canal, to a restoration for a fracture, to splinting a loosened tooth. If a root canal is needed, it follows the usual steps in [what happens during a root canal](/blog/what-happens-during-a-root-canal).
 
+## Why follow-up after any dental injury matters
+
+Perhaps the most important message about dental trauma is that the story does not end when the immediate injury is dealt with — or when a knocked tooth "seems fine." Because a blow can quietly damage the pulp's blood supply, an injured tooth needs to be followed over time, often with checks and occasional X-rays, to see whether the pulp survives or slowly dies. A tooth that looked and felt normal after the accident can darken, ache, or develop a gum bump months or even years later, signalling delayed pulp death that now needs a root canal. Keeping the follow-up appointments your dentist recommends — even when nothing seems wrong — is what catches these delayed problems early, while the tooth is still straightforward to save. An injured tooth that is "watched" properly is far better off than one assumed to be fine and forgotten.
+
+## Special care for children's teeth
+
+Dental injuries in children and teenagers deserve particular mention, because young teeth are still developing and are handled differently from adult teeth. A knocked or damaged tooth in a child may be managed with approaches aimed at preserving the developing root, and the decisions differ from those for a fully formed adult tooth. Baby (primary) teeth are also handled differently from permanent ones. For these reasons, a child's dental injury should be assessed promptly by a dentist who can advise on the right approach — the general first-aid urgency (especially for a knocked-out permanent tooth) still applies, but the treatment plan is tailored to a young, growing mouth. If your child injures a tooth, phone for guidance right away rather than assuming it can wait.
+
 ## Frequently asked questions
 
 **My knocked-out tooth — can it be saved?**

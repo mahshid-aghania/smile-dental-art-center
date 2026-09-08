@@ -48,6 +48,19 @@ A tooth that has had a root canal — and often lost structure to decay or old f
 
 These are the same habits that support all your teeth; the treated tooth simply cannot warn you itself, so consistency matters that bit more.
 
+## The two vulnerabilities, and how they differ
+
+It helps to separate the two ways a treated tooth can run into trouble, because they call for slightly different vigilance:
+
+- **New decay** tends to start at the **margins** — the join between a crown or filling and the natural tooth — where plaque collects. The defence is meticulous daily cleaning right at the gumline and around that join, plus regular check-ups so any decay is caught early.
+- **Fracture** comes from **force** on a weakened tooth, especially a back tooth without a protective crown. The defence is the crown itself, avoiding ice and very hard foods, and a night guard if you grind.
+
+Both share one feature: because the tooth has no nerve, you may get little or no early warning. That shared blind spot is exactly why routine dental visits matter so much for treated teeth — your dentist and the occasional X-ray are your early-warning system.
+
+## Turning "it can still go wrong" into practical reassurance
+
+It would be easy to read all this as worrying, but the message is actually empowering: the main threats to a treated tooth are largely preventable with ordinary habits. Keep the margins clean, protect the tooth with the recommended restoration, avoid the obvious fracture risks, and see your dentist regularly, and a root-canal-treated tooth can serve you for many years — often a lifetime (see [how long does a root canal last](/blog/how-long-does-a-root-canal-last)). The point of knowing a treated tooth can still decay or crack is not to make you anxious but to make you attentive: because the tooth can't warn you itself, your habits and check-ups do that job. Do those, and the "it can still go wrong" caveat rarely comes to anything.
+
 ## Frequently asked questions
 
 **Can a root-canal tooth get a cavity if the nerve is gone?**
@@ -61,6 +74,12 @@ It's more prone to fracture than an intact tooth, particularly without a crown. 
 
 **If it decays or cracks, can it be fixed?**
 Sometimes with a new restoration or retreatment; sometimes, if the damage is severe, the tooth may need to be extracted. Early detection improves the odds, which is why check-ups matter.
+
+**Do I need to worry about this constantly?**
+No. The threats are largely preventable with ordinary habits — good daily cleaning, the recommended crown, avoiding obvious fracture risks, and regular check-ups. Awareness should make you attentive, not anxious.
+
+**Is a treated tooth weaker than a normal tooth?**
+It can be more prone to fracture, especially a back tooth without a crown, which is why protection matters. With the right restoration and care, though, it can function and last much like your other teeth.
 
 ## Keep your treated tooth healthy — in Markham
 

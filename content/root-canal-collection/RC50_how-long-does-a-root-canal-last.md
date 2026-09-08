@@ -56,6 +56,22 @@ Do these, and you give the tooth its best chance at the "lifetime" end of the ra
 
 Even long-lasting treatments can occasionally run into trouble years later. If that happens, it doesn't automatically mean losing the tooth — [retreatment](/blog/root-canal-retreatment-explained) or minor surgery can often save it. So a problem down the road is a reason to get checked, not to assume the worst.
 
+## A simple maintenance plan for the long haul
+
+If you want a treated tooth to reach the "lasts a lifetime" end of the range, it comes down to a short, repeatable routine:
+
+- **Finish the restoration promptly** — get the recommended crown or filling and don't leave a back tooth under a temporary.
+- **Clean thoroughly every day**, paying special attention to the margins where the restoration meets the tooth.
+- **Keep regular check-ups and cleanings**, so silent decay, cracks or reinfection are caught early.
+- **Protect against fracture** — avoid ice and very hard foods, and use a night guard if you grind.
+- **Act on any change** rather than waiting — a bump on the gum, a tender bite, or a rough edge deserves a prompt look.
+
+None of this is onerous; it is essentially good general dental care, applied consistently to a tooth that can no longer warn you itself.
+
+## Longevity is a partnership
+
+It is worth ending on the idea that how long a root canal lasts is not decided solely in the dental chair — it is a partnership between the treatment and what happens afterward. The dentist's job is to clean and seal the tooth well and restore it appropriately; your job is the daily cleaning, the check-ups, and the sensible protection against fracture. When both parts are done well, a treated tooth is a genuinely durable, long-term way to keep your natural tooth, frequently for the rest of your life. When the aftercare slips — a delayed crown, neglected cleaning, missed check-ups — even a perfectly performed root canal can be undermined. So the most useful takeaway is empowering: you have real influence over how long your treated tooth lasts, and the habits that extend it are the same ones that keep the rest of your mouth healthy.
+
 ## Frequently asked questions
 
 **Do root canals last forever?**

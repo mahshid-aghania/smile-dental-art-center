@@ -54,6 +54,14 @@ Good communication lets your dental team tailor everything from timing to positi
 | Anaesthetic/medications | Chosen appropriately; coordinate with your prenatal provider |
 | Your role | Inform your dentist; coordinate care |
 
+## Why an untreated infection can be the bigger risk
+
+It is natural to focus on the safety of *having* treatment during pregnancy, but it is just as important to weigh the risk of *not* treating a genuine problem. A significant tooth infection or unrelenting dental pain is not benign: it can affect your ability to eat, sleep and function, and an active infection is generally something to address rather than leave to worsen. Health and dental bodies broadly advise that necessary dental care should not be deferred purely because someone is pregnant, precisely because leaving infection untreated carries its own risks. This is why the framing throughout is "treat the real problem with appropriate precautions," not "avoid all treatment." If you have a painful or infected tooth while pregnant, the safest path is usually to have it assessed promptly and cared for in coordination with your providers — not to endure it until after delivery.
+
+## Comfort during the appointment
+
+Pregnancy can make a longer dental appointment less comfortable, so it is worth knowing that small adjustments help. Later in pregnancy, lying flat for a while can be uncomfortable; your dental team can adjust your position, offer a cushion, or let you shift and take breaks. Appointments can be timed for when you feel best during the day, and if nausea is an issue that too can be worked around. And if you feel anxious — which is common, and can be heightened during pregnancy — say so; the strategies in [coping with root canal anxiety](/blog/coping-with-root-canal-anxiety) apply just as well. The goal is care that is safe *and* comfortable, and a dental team that knows you are pregnant can tailor the visit accordingly. As with everything here, decisions are made together with your dentist and prenatal provider.
+
 ## Frequently asked questions
 
 **Can I wait until after the baby to have a root canal?**

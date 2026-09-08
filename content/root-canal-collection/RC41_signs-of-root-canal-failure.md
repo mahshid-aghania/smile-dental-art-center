@@ -67,6 +67,22 @@ Which route fits depends on the cause and the tooth, determined by examination a
 - **Act on urgent signs** — swelling or fever warrants prompt care.
 - **Mention the history** — tell your dentist when the tooth was treated and what you're noticing.
 
+## How to reduce the risk of failure in the first place
+
+While no treatment is guaranteed, several things genuinely improve the odds that a root canal lasts — and most are within your control:
+
+- **Get the permanent restoration promptly.** A delayed or leaking crown/filling is a leading route to reinfection; don't leave a treated back tooth under a temporary for long (see [delaying the crown after a root canal](/blog/delaying-the-crown-after-a-root-canal)).
+- **Clean well at the margins**, where new decay tends to start on a treated tooth.
+- **Protect against fracture** — a crown on back teeth, avoiding ice and very hard foods, and a night guard if you grind.
+- **Keep regular check-ups**, so silent problems are caught early on examination and X-ray.
+- **Act on early changes** rather than waiting — small problems are far more treatable than advanced ones.
+
+These habits won't override difficult anatomy or bad luck, but they remove the most common, avoidable causes of failure.
+
+## Why finding out early makes all the difference
+
+The theme running through every option for a failed root canal is the same: earlier is better. A reinfection caught early — while there is still healthy tooth structure and the infection is contained — is far more likely to be resolved by non-surgical retreatment, keeping your tooth. Left to advance, the same problem can erode more bone, undermine the tooth, and shift the realistic options toward surgery or extraction. This is precisely why the "silent failure" scenario matters so much: because a treated tooth can't warn you with pain, routine check-ups and prompt attention to any change (a bump on the gum, a tender bite, swelling) are what let a fixable problem be fixed while it is still small. Regular monitoring isn't box-ticking; for a treated tooth, it is the early-warning system the tooth itself no longer has.
+
 ## Frequently asked questions
 
 **Can a root canal fail years later?**

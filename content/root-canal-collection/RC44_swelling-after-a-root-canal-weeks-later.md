@@ -58,6 +58,23 @@ Depending on the cause, options include:
 
 Many late-flaring treated teeth are successfully saved, so a flare-up is a reason to seek care, not a verdict on the tooth.
 
+## How to describe a late flare-up to your dentist
+
+Because late problems can have several causes, the details you provide help your dentist zero in quickly. Before you call or attend, it is worth noting:
+
+- **When it started** and whether it is constant or comes and goes.
+- **Whether there is a bump on the gum** near the tooth, and if it drains anything.
+- **Whether biting or pressure hurts**, or the tooth feels different.
+- **Any swelling** — where, how much, and whether it is spreading.
+- **Any fever or feeling unwell.**
+- **The tooth's history** — roughly when it had its root canal, and whether it has a crown.
+
+These specifics turn a vague "it hurts again" into useful diagnostic clues, and they help distinguish an urgent situation from one that needs a prompt-but-routine appointment.
+
+## Why late problems are usually still fixable
+
+It is easy to assume that a treated tooth acting up years later is "done for," but that pessimism is usually unwarranted. Many late flare-ups stem from reinfection or a new crack or cavity — problems that retreatment, or in some cases minor surgery, can often resolve while keeping the tooth. Even when a tooth cannot be saved, identifying that early lets you plan a good replacement rather than face an emergency extraction. The consistent theme is that acting on a late flare-up promptly preserves options, whereas ignoring it — hoping it settles as it might have in the first days after treatment — tends to let the underlying problem advance. A treated tooth that suddenly swells or aches after a long quiet period is simply telling you it needs to be looked at again; more often than not, that look leads to a fix rather than a loss.
+
 ## Frequently asked questions
 
 **Is it normal to have swelling weeks after a root canal?**
@@ -71,6 +88,12 @@ No. Self-treating with leftover antibiotics won't fix the cause and can do harm.
 
 **Will I lose the tooth?**
 Often not. Retreatment or minor surgery saves many teeth with late problems. Extraction is only for teeth that truly can't be saved.
+
+**Can a problem really appear years after a successful root canal?**
+Yes. A treated tooth can develop a new crack, new decay, or a reinfection long after it healed well initially. It is uncommon, but it is why a treated tooth that suddenly changes deserves a look rather than being assumed permanently "sorted."
+
+**The swelling went down on its own — do I still need to be seen?**
+Yes. As with an abscess, reduced swelling often means pressure has escaped, not that the problem has resolved. It commonly returns until the underlying cause is treated, so book an assessment even after it settles.
 
 ## Get a flare-up checked in Markham
 

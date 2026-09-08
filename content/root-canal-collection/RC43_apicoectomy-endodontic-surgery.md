@@ -51,6 +51,22 @@ Recovery is generally straightforward. You can expect some swelling and mild dis
 
 The aim of both retreatment and apicoectomy is the same: to keep your natural tooth. Extraction is the option only when the tooth genuinely cannot be saved (then see [root canal vs implant](/blog/root-canal-vs-implant) for replacement).
 
+## Aftercare in the days following surgery
+
+Because an apicoectomy involves a small incision in the gum, aftercare focuses on protecting the healing site. Your dentist or specialist will give you specific instructions, which commonly include:
+
+- **Managing swelling** with a cold compress on the outside of the cheek for the first day.
+- **Eating gently** — soft foods, avoiding the surgical area.
+- **Careful oral hygiene** around (not directly on) the site while it heals, as advised.
+- **Avoiding disturbing the stitches**, and not poking the area.
+- **Using any prescribed medication as directed**, and taking pain relief per the label or advice given.
+
+Some swelling and mild discomfort for a few days is normal. Worsening pain, significant swelling, or fever should be reported. Stitches are often removed or dissolve within a week or so, and the bone gradually heals over the following weeks and months.
+
+## Putting the surgery in perspective
+
+The word "surgery" understandably raises anxiety, so it helps to keep an apicoectomy in proportion. It is a small, targeted, well-established procedure done under local anaesthetic to treat the very tip of a root — not a major operation. Its purpose is preservation: it exists to save a tooth that a standard root canal or retreatment cannot resolve, so for the right case it is the step that lets you keep your natural tooth rather than lose it. Framed that way, an apicoectomy is less a last resort and more a specialised tool that expands the options for saving teeth. If it has been recommended, the most useful thing is to ask why it suits your particular situation, what the realistic outlook is, and what the alternative would be — the answers usually make the recommendation clear.
+
 ## Frequently asked questions
 
 **Is an apicoectomy the same as a root canal?**
@@ -64,6 +80,12 @@ Expect some swelling and mild discomfort for a few days, easing over the followi
 
 **Is an apicoectomy a last resort before extraction?**
 Often it is a way to save a tooth when retreatment isn't suitable or hasn't worked — so it can be the step that *avoids* extraction, not simply a last resort.
+
+**How long does the procedure itself take?**
+It is typically a relatively short procedure, though the exact time depends on the tooth and its location. Your dentist or specialist will give you an estimate; because it targets just the root tip, it is more focused than a full root canal.
+
+**Will I need time off work afterward?**
+Many people take it easy for the rest of the day and are back to normal activities soon after, but this depends on the individual and the extent of the surgery. Follow the specific advice you are given, and plan a lighter day immediately afterward.
 
 ## Discuss your options in Markham
 
