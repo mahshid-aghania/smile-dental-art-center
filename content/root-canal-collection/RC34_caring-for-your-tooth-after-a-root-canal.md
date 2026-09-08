@@ -51,6 +51,26 @@ You may not feel a new cavity the way you would in a live tooth, because the ner
 
 Looked after well, a treated and properly restored tooth can serve you for many years — often a lifetime. The habits above are what make that likely. For the bigger picture on longevity and what influences it, see [how long does a root canal last](/blog/how-long-does-a-root-canal-last).
 
+## A simple daily and long-term routine
+
+Caring for a treated tooth is not complicated; it is mostly consistency. A practical routine looks like:
+
+**Every day**
+- Brush twice with fluoride toothpaste, including gently around the treated tooth and its crown margin.
+- Clean between your teeth once a day, reaching the edges where a crown or filling meets the tooth.
+- If you have a temporary filling, floss out sideways rather than snapping upward, so you don't lift it.
+
+**Ongoing**
+- Keep your regular check-ups and professional cleanings so the tooth and restoration are monitored.
+- Avoid using the tooth on ice or very hard foods; wear a night guard if you grind (ask your dentist).
+- Report any change — new pain, a rough edge, a bump on the gum — promptly.
+
+That is genuinely most of it: good daily cleaning, regular visits, and a bit of protection against fracture.
+
+## Why the margins deserve special attention
+
+If there is one spot to focus your cleaning, it is the margin — the line where a crown or filling meets your natural tooth. This junction is where plaque can accumulate and where new decay is most likely to start on a treated tooth. Because the tooth has no live nerve, decay here can advance without the early warning of sensitivity, so it is easy to miss between check-ups. Diligent daily cleaning right at the gumline and around that margin, combined with your dentist checking it (and taking the occasional X-ray) at routine visits, is what keeps a small problem from becoming a reinfected or lost tooth. It is a small habit with an outsized effect on how long your treated tooth lasts — the bigger picture on longevity is in [how long does a root canal last](/blog/how-long-does-a-root-canal-last).
+
 ## Frequently asked questions
 
 **Can I brush the tooth normally right after treatment?**

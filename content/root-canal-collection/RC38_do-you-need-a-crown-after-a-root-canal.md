@@ -52,6 +52,14 @@ It helps to think of the root canal and its restoration as **one complete job**:
 - What happens if I delay it?
 - What will it cost, and how is it covered? (Crowns are often covered differently from root canals — see [does insurance cover a root canal](/blog/does-insurance-cover-root-canal).)
 
+## The reasoning in one idea: force and structure
+
+If you strip the decision down to its essence, two factors drive it: how much *force* the tooth handles, and how much healthy *structure* it has left. Back teeth generate and absorb far greater chewing forces than front teeth, and a tooth that has lost substance to decay, an old filling and the root canal access has less of itself left to resist those forces. Put high force and reduced structure together — the typical molar situation — and you get a real risk of fracture, which is exactly what a crown guards against by wrapping and binding the tooth. Flip both factors — a front tooth under light force with most of its structure intact — and a filling may safely suffice. Almost every crown-or-filling recommendation you hear is really an application of this single force-versus-structure trade-off to your particular tooth.
+
+## What happens if a back tooth isn't crowned
+
+It is worth being concrete about the risk, because "you should get a crown" can sound like an upsell if the reason isn't clear. An unprotected, root-canal-treated back tooth is prone to cracking under normal chewing. A minor crack might still be restorable, but a crack that runs deep — below the gum or into the root — can make the tooth unsavable, meaning extraction and the need for a replacement. In other words, skipping the crown on a molar risks losing the very tooth the root canal just saved, and trading a crown for the larger cost and effort of an implant or bridge. That is why dentists press the point: the crown is not a cosmetic add-on but the structural protection that lets the treatment last, as detailed in [delaying the crown after a root canal](/blog/delaying-the-crown-after-a-root-canal).
+
 ## Frequently asked questions
 
 **Is a crown always necessary after a root canal?**

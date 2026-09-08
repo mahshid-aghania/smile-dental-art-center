@@ -49,6 +49,19 @@ If it has been a while since your root canal and you still have a temporary fill
 
 The tooth may well be fine, but the way to keep it that way is to finish the job.
 
+## The false comfort of a tooth that "feels fine"
+
+The reason crowns get postponed is almost always the same: the tooth stops hurting after the root canal, so it feels finished. This is the trap. Comfort tells you the pulp is no longer inflamed; it tells you nothing about whether the tooth is structurally protected or whether the temporary filling is still sealing. A treated back tooth can feel perfectly fine right up until the moment it cracks under an ordinary bite. So "it doesn't bother me, I'll wait" is reasoning from the wrong signal. The right signal is structural: an unprotected, weakened back tooth is at risk regardless of how it feels, and that risk grows the longer the crown is delayed. Judging by comfort is exactly how people end up losing teeth that a timely crown would have saved.
+
+## If money or time is the obstacle
+
+Often the crown is delayed not from neglect but because of cost or a busy schedule. Both have better solutions than leaving the tooth exposed:
+
+- **If it's cost:** ask the clinic for the crown's estimate and how your coverage applies (crowns are often covered differently from root canals — see [root canal and crown cost](/blog/root-canal-and-crown-cost)). Losing the tooth and needing a replacement is the more expensive outcome, so protecting it is usually the economical choice.
+- **If it's timing:** ask your dentist how long is genuinely safe for your tooth, and book the soonest reasonable slot rather than leaving it open-ended. Some timing flexibility exists, but "weeks, not months" is the guiding principle.
+
+The key is to keep the conversation going with the clinic rather than letting the appointment quietly slip. A protected tooth is the goal; the crown is how you get there.
+
 ## Frequently asked questions
 
 **How long can I really leave it before getting the crown?**

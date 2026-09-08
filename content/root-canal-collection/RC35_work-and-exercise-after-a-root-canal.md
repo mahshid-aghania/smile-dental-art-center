@@ -55,6 +55,21 @@ This is a gentle guideline for comfort, not a strict medical restriction; most p
 - **Very strenuous exercise** on the day if you have swelling or throbbing.
 - **Skipping your follow-up or crown appointment** — finishing the restoration matters more than any activity restriction.
 
+## Planning the rest of your day
+
+Because a routine root canal rarely disrupts your schedule, the main planning is around the few hours of numbness and any mild tenderness:
+
+- **Meetings and presentations:** if you have one soon after, remember your speech may feel slightly odd until the freezing wears off — you might schedule the appointment accordingly.
+- **Meals:** wait until sensation returns before eating, so plan lunch or dinner around that few-hour window (see [what to eat after a root canal](/blog/what-to-eat-after-a-root-canal)).
+- **Physical work or workouts:** fine for most, but ease off the most intense efforts on day one, especially if you have any throbbing or swelling.
+- **The evening:** a lighter evening after your first root canal is sensible, though far from essential.
+
+For most people it is a normal day with a numb mouth for a while — no more disruptive than that.
+
+## When to take it easier than usual
+
+There are a few situations where a bit more caution is warranted. If your treatment involved significant infection or swelling, or was more complex than a routine case, you may feel more tender and might prefer a quieter day. If you had any sedation beyond local anaesthetic, follow the specific instructions you were given — you will not be driving, and you may need most of the day to recover. And if you do physically strenuous work, use judgement on the first day: heavy exertion can make a freshly treated area throb more, so easing off briefly is kinder to yourself. These are comfort-based adjustments rather than strict medical rules, and most people find they are back to their full routine very quickly. If you are unsure what applies to your situation, ask your dentist before you leave.
+
 ## Frequently asked questions
 
 **Can I drive myself home after a root canal?**

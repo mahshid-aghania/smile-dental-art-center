@@ -54,6 +54,21 @@ There is genuine judgement involved, which is why two people with "a root canal"
 
 Most restorations follow the root canal within a few weeks, often after a temporary filling holds the tooth in the meantime (see [temporary fillings after a root canal](/blog/temporary-fillings-after-a-root-canal)). Whatever the final restoration, care it for like any tooth — brushing, flossing and check-ups — as covered in [caring for your tooth after a root canal](/blog/caring-for-your-tooth-after-a-root-canal).
 
+## How the pieces fit together in a treatment plan
+
+These options are not competing alternatives so much as a toolkit the dentist assembles for your tooth. A common sequence illustrates how they combine:
+
+- A back tooth with **plenty of structure** left might simply get a **crown**.
+- A back tooth with **a lot of structure missing** might need a **post and core** first, to build a foundation, and *then* a crown.
+- A tooth with **moderate** loss on the biting surface might be well served by an **onlay** rather than a full crown.
+- A front tooth with **most of its structure intact** might need only a **filling** in the access opening.
+
+So when your dentist proposes, say, "a build-up and a crown," they are stacking these components to suit how much tooth remains. Understanding the pieces makes the plan — and the estimate — far easier to follow.
+
+## Balancing protection, tooth preservation and appearance
+
+Choosing a restoration is a balancing act between three things: protecting the tooth from fracture, conserving as much natural tooth as possible, and (for visible teeth) appearance. A full crown offers the most protection but removes the most tooth structure to fit it; an onlay preserves more of the tooth while still covering vulnerable cusps; a filling is the most conservative but offers the least protection. For a heavily loaded, broken-down molar, protection wins and a crown makes sense. For a largely intact front tooth, preservation and appearance may point to a filling or veneer. There is rarely a single "right" answer — it is about the best trade-off for your specific tooth, which is exactly the judgement your dentist is making when they recommend one option over another. Asking "why this one for my tooth?" usually yields a clear, sensible explanation.
+
 ## Frequently asked questions
 
 **Can I just have a filling instead of a crown?**

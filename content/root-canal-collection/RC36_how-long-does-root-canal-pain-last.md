@@ -55,6 +55,20 @@ This article is about the days right after treatment. Sometimes a treated tooth 
 - **Keep your restoration appointment** — an unprotected back tooth can stay sensitive and is at risk of fracture (see [delaying the crown after a root canal](/blog/delaying-the-crown-after-a-root-canal)).
 - **Call if it's not improving** — a slightly high filling is a common, easily fixed cause of lingering soreness.
 
+## Why direction matters more than intensity
+
+When you are judging your own recovery, the single most useful question is not "how much does it hurt?" but "which way is it heading?" Normal healing has a clear shape: tenderness that is at its worst in the first day or two and then eases steadily. A tooth can be quite sore on day one and still be recovering perfectly well, as long as it is improving by day three or four. Conversely, pain that is mild but *increasing* after the first couple of days is more concerning than moderate pain that is fading. So track the trend, not just the level. A soreness diary — even a mental one — of "better, same, or worse than yesterday" tells you and your dentist far more than a single snapshot of how it feels right now.
+
+## Common, harmless reasons a tooth stays a bit sore
+
+If your recovery is dragging slightly but not alarmingly, there are a few ordinary explanations worth knowing:
+
+- **A slightly high filling or temporary.** If the restoration sits a touch too tall, the tooth takes extra force with every bite and stays tender. A quick adjustment usually fixes it — worth a call.
+- **A tooth that was badly infected beforehand.** These sometimes take a little longer to settle, though still trending better.
+- **Jaw fatigue** from keeping your mouth open, which can linger a day or two and is separate from the tooth itself.
+
+None of these is an emergency, but the first — a high bite — is both common and easily remedied, so if the tooth feels like it "hits first" or the bite seems off, mention it rather than waiting it out. Anything trending the wrong way, or with swelling or fever, moves into the "call your dentist" category above.
+
 ## Frequently asked questions
 
 **Is it normal for my tooth to hurt a week after a root canal?**

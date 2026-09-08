@@ -60,6 +60,29 @@ Mild, easing tenderness is expected. Contact your dentist if you have:
 
 Difficulty breathing or swallowing is a medical emergency — seek immediate care. For other urgent dental symptoms, see [dental abscess warning signs](/blog/dental-abscess-warning-signs). Otherwise, ordinary post-treatment soreness does not require a call.
 
+## A simple hour-by-hour picture
+
+Everyone differs, but a typical first day or two looks roughly like this:
+
+- **First few hours:** the tooth, lip and cheek are numb. Don't eat yet; be careful with hot drinks; take it easy.
+- **As the numbness fades (a few hours in):** you may notice tenderness begin. Now you can eat — soft foods, chewing on the other side.
+- **That evening:** mild soreness and a tired jaw are common. Simple pain relief used as directed, a soft diet, and an early night help.
+- **Next day or two:** tenderness when biting, steadily easing. Most people are back to normal activities.
+- **Toward the end of the week:** discomfort is usually gone or nearly so.
+
+If your experience is trending the other way — worsening rather than easing — that is your cue to call, as set out below.
+
+## Looking after the tooth while it settles
+
+Beyond managing comfort, a few habits protect the tooth during this early window:
+
+- **Chew on the other side** until the tooth is comfortable and, for back teeth, until the permanent crown is placed.
+- **Protect a temporary filling** by avoiding sticky and hard foods (see [temporary fillings after a root canal](/blog/temporary-fillings-after-a-root-canal)).
+- **Keep up gentle brushing and flossing** around the area — a clean mouth supports healing.
+- **Don't test the tooth** with hard foods to "see if it's better"; give it time.
+
+These small measures reduce the chance of a setback and help the tooth move smoothly toward its final restoration. Remember that comfort is not the same as completion — the crown most back teeth need is what makes the result last.
+
 ## Frequently asked questions
 
 **How long will my tooth be sore?**

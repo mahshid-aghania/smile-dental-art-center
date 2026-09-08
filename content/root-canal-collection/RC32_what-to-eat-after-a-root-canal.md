@@ -67,6 +67,21 @@ More on this in [temporary fillings after a root canal](/blog/temporary-fillings
 
 As the tenderness fades over a few days, you can gradually return to your usual diet — with the important exception that you should keep protecting the tooth until its permanent crown or filling is done. Once fully restored, a root-canal-treated tooth can generally handle normal eating; keeping it healthy long-term is covered in [caring for your tooth after a root canal](/blog/caring-for-your-tooth-after-a-root-canal).
 
+## A rough timeline for getting back to normal eating
+
+Rather than a rigid diet, think of it as easing back over a few days:
+
+- **First few hours:** nothing until the numbness fully fades, to avoid biting your cheek, lip or tongue.
+- **Rest of day one:** soft, easy foods — yoghurt, eggs, soup (warm, not hot), mashed potato — chewing on the other side.
+- **Days two to a few:** gradually reintroduce your normal foods as the tenderness settles, still favouring the treated side's opposite and steering clear of very hard or chewy items.
+- **Until the permanent restoration is placed:** keep avoiding hard and sticky foods on that tooth, especially if a temporary filling is in place — this is the main ongoing restriction.
+
+The pace is guided by comfort: if something hurts to chew, give it another day and keep to softer options.
+
+## A note on nutrition while you eat soft
+
+Eating soft for a day or two is easy, but if a two-visit treatment or a wait for your crown means a longer stretch of caution on one side, it is worth keeping meals balanced rather than defaulting to only soft, sugary comfort foods. Plenty of nourishing options are naturally soft or easily made so — eggs, fish, tofu, well-cooked vegetables, smoothies, oatmeal, soups, beans and soft fruit — so you can eat well while protecting the tooth. Staying hydrated and keeping up your usual oral hygiene (gently around the treated tooth) rounds it out. None of this is a special "root canal diet"; it is simply sensible eating that happens to be kind to a tooth that is settling.
+
 ## Frequently asked questions
 
 **How soon can I eat after a root canal?**

@@ -54,6 +54,22 @@ The dividing line is direction: normal soreness **improves** day by day. Pain th
 
 Contact your dentist promptly for worsening pain, swelling or fever. Treat spreading facial swelling, or any difficulty breathing or swallowing, as a medical emergency and seek immediate help — see [dental abscess warning signs](/blog/dental-abscess-warning-signs).
 
+## Why comfort measures work
+
+It can be reassuring to know *why* the simple measures help, rather than treating them as folk remedies:
+
+- **Keeping pressure off the tooth** (soft foods, chewing on the other side) avoids irritating the tissues around the root while they settle — biting is exactly what tends to reproduce the soreness.
+- **A cold compress on the cheek** can ease a sore jaw and reduce minor swelling in the first day by calming the local response.
+- **Warm salt-water rinses** soothe the surrounding gum and keep the area clean.
+- **Elevating your head** on the first night reduces the throbbing some people notice when lying flat, because it eases blood flow to the area.
+- **Over-the-counter pain relief, used as directed,** dampens the normal post-treatment inflammation while it resolves.
+
+None of these treat a problem — there usually isn't one — they simply keep you comfortable while normal healing runs its course.
+
+## Managing expectations across the first week
+
+Perhaps the most useful thing is a realistic mental model of the week ahead. Expect the tooth to be at its most tender in the first day or two, particularly when biting, and then to improve steadily from there, with most people comfortable by around the end of the week. Some days may be slightly better or worse than others; what matters is the overall trend downward. If you keep that arc in mind, the normal ups and downs are far less worrying, and you will also spot more clearly if something departs from it — pain that climbs after day two or three, or new swelling, is the signal to call rather than to keep self-managing. Trusting the expected pattern, while knowing the exceptions, is what lets you recover without anxiety.
+
 ## Frequently asked questions
 
 **How much pain is normal after a root canal?**

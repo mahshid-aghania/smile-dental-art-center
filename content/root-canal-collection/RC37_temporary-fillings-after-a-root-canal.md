@@ -61,6 +61,28 @@ The concern is that, without the seal, bacteria can re-enter the cleaned tooth. 
 
 The temporary buys time; the permanent restoration is what lets the tooth work normally and last. Don't let the "it feels fine" of a comfortable temporary tempt you to postpone the crown.
 
+## Everyday do's and don'ts with a temporary
+
+To keep a temporary filling doing its job until your next appointment:
+
+**Do**
+- Wait about an hour before eating (follow your dentist's advice) to let it set.
+- Chew on the opposite side.
+- Keep brushing and flossing gently, sliding floss out sideways near the temporary.
+- Call your dentist if it feels loose, cracks, or comes out.
+
+**Don't**
+- Eat sticky foods (gum, caramel, toffee) that can pull it out.
+- Bite hard foods (nuts, ice, hard candy) that can crack it or the tooth.
+- Poke at it with your tongue or objects.
+- Leave it in place longer than your dentist advises, assuming "it's fine."
+
+A little care here protects both the temporary and the cleaned tooth beneath it.
+
+## Why the permanent restoration can't be skipped
+
+It is worth being clear that a temporary filling, however comfortable, is a placeholder — not a finish line. Temporaries are made of materials designed to be removable and to last weeks, not the strong, long-lasting materials of a permanent filling or crown. Left too long, a temporary can wear down, leak and let bacteria back into the cleaned canals, or allow the weakened tooth to fracture — any of which can undo the root canal and risk the tooth. This is why "it feels fine, I'll leave it" is a trap: comfort tells you nothing about whether the seal is still intact or the tooth is protected. Returning promptly for the permanent restoration, usually a crown on back teeth, is what turns a successful root canal into a tooth that lasts — the risks of delay are detailed in [delaying the crown after a root canal](/blog/delaying-the-crown-after-a-root-canal).
+
 ## Frequently asked questions
 
 **How long can I leave a temporary filling in?**
