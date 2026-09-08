@@ -84,6 +84,12 @@ Light activity is generally fine. Ease off intense exercise for the first day, e
 **Why does exercise make the tooth throb more?**
 Vigorous activity temporarily increases blood flow, which can make a freshly treated area feel more sensitive. It usually settles quickly.
 
+**Can I fly after a root canal?**
+Most people can. Cabin pressure changes are generally not a problem after routine treatment, though if you have significant infection or discomfort it is worth asking your dentist before travelling, especially if you would be far from care.
+
+**Is it okay to drink coffee or smoke afterwards?**
+Wait for the numbness to fade before hot drinks so you don't scald yourself. Smoking is best avoided while the area heals, as it can impair healing generally; if you have a temporary filling, also avoid habits that stress the tooth. Ask your dentist for advice specific to your situation.
+
 ## Fit treatment around your life — in Markham
 
 We can help you plan your appointment around work and other commitments. Learn about [root canal treatment in Markham](/root-canal-markham) or [book a convenient time](/appointments).

@@ -96,6 +96,12 @@ Avoid sticky and hard foods that could dislodge or damage it, and favour the oth
 **When can I chew normally on that tooth again?**
 Once the tenderness settles and, for back teeth, ideally once the permanent crown is in place to protect it against fracture.
 
+**Is it okay to drink alcohol after a root canal?**
+Wait until the numbness has worn off, and be cautious if you have taken pain relief — some medications shouldn't be combined with alcohol. If in doubt, ask your dentist or pharmacist. There is no special long-term restriction once the area has healed.
+
+**Can I eat sugary foods after a root canal?**
+The treated tooth can still develop decay at the edges of its restoration, so ordinary sensible limits on sugar (and good cleaning) apply — but there is no unique post-root-canal sugar ban. Just avoid sticky sweets while a temporary filling is in place.
+
 ## Questions about your recovery? We're in Markham
 
 If you are unsure what is safe to eat or how your tooth should feel, we are happy to help. Learn about [root canal treatment in Markham](/root-canal-markham) or [book a visit](/appointments).

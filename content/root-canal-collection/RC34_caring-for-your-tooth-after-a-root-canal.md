@@ -85,6 +85,12 @@ No. Regular fluoride toothpaste and normal flossing are fine. The key extras are
 **If the nerve is gone, can the tooth still get a cavity?**
 Yes. It can decay at the margins of the restoration and can crack. Because you may not feel it, daily cleaning and regular visits are essential.
 
+**How often should I have the treated tooth checked?**
+Keeping your normal check-up schedule is usually enough, since your dentist will monitor the tooth and its restoration then, often with the occasional X-ray. If you notice any change between visits, book sooner rather than waiting for the next routine appointment.
+
+**Should I avoid whitening a treated tooth?**
+Ordinary whitening works on surface stains and won't lighten an internally discoloured treated tooth, and a single treated tooth is best assessed by your dentist first. If appearance is a concern, ask about options suited to a treated tooth rather than using over-the-counter products on it.
+
 ## Keep your treated tooth healthy — in Markham
 
 Regular check-ups let us keep an eye on your treated tooth and its restoration so it lasts. Learn about [root canal treatment in Markham](/root-canal-markham) or [book a check-up](/appointments).

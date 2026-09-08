@@ -76,6 +76,12 @@ Book an appointment promptly. The temporary may be worn or leaking, and the toot
 **Could delaying really cost me the tooth?**
 Yes — that is the core message. Fracture or reinfection from a long-delayed crown is a common reason treated teeth are ultimately lost.
 
+**I had my root canal a year ago and never got the crown — is it too late?**
+Not necessarily, but see your dentist promptly. They will check whether the tooth is still sound and whether the temporary (if any) is still sealing. If the tooth has survived intact, restoring it now protects it going forward; the sooner you act, the better.
+
+**Does a front tooth also need the crown urgently?**
+Front teeth face lighter forces and sometimes need only a filling, so the urgency can be lower — but you should still complete whatever permanent restoration your dentist recommended rather than leaving a temporary in indefinitely.
+
 ## Finish the job — in Markham
 
 If you're overdue for the crown after a root canal, don't wait for a problem. Learn about [dental crowns in Markham](/dental-crowns-markham), read about [root canal treatment](/root-canal-markham), or [book the restoration](/appointments).

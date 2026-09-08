@@ -84,6 +84,12 @@ It can be. If a filling or temporary sits slightly high, the tooth gets extra fo
 **When should soreness be gone?**
 Typically within a few days to about a week as things settle. If it lingers or worsens, contact your dentist; see [how long root canal pain lasts](/blog/how-long-does-root-canal-pain-last).
 
+**Can I use a cold compress or a heat pack?**
+A cold compress on the outside of the cheek can help a sore jaw or minor swelling in the first day (use short spells with a cloth between the ice and skin). Heat is generally not recommended early on, as it can worsen swelling. When in doubt, ask your dentist.
+
+**Is salt-water rinsing safe straight after treatment?**
+Gentle warm (not hot) salt-water rinses are commonly soothing and help keep the area clean. Be gentle rather than vigorous, especially in the first day, and follow any specific instructions your dentist gives you.
+
 ## Call us if you're uncomfortable — Markham
 
 If your recovery isn't going as expected, we would rather hear from you than have you wait it out. Learn about [root canal treatment in Markham](/root-canal-markham) or [contact our team](/appointments).
