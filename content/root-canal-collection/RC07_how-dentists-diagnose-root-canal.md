@@ -64,6 +64,22 @@ The dentist weighs all of it. A tooth with lingering cold pain, tenderness to ta
 
 Once the diagnosis is clear, the dentist explains whether the pulp can be saved, whether a root canal is needed, or whether another route fits better. If treatment is recommended, [what happens during a root canal](/blog/what-happens-during-a-root-canal) walks through it.
 
+## What to bring and expect at a diagnostic visit
+
+A diagnostic appointment is usually quick and painless, and you can make it more productive:
+
+- **Bring your history.** Note when symptoms started, what triggers them, how long any pain lasts, and whether the tooth has been treated or injured before.
+- **Mention past dental work** on the tooth — a large filling, a crown, or previous discomfort — since these shape what the dentist looks for.
+- **Expect comparisons.** The dentist will often test neighbouring and opposite teeth too, to establish your normal responses.
+- **Expect it to be gentle.** Cold tests, tapping and an X-ray are not painful (a lingering ache after a cold test is itself useful information, not a sign anything was done wrong).
+- **Ask to see the findings.** A good dentist will happily show you the X-ray and explain what each test suggested.
+
+You may leave with a clear answer, or with a plan to monitor a borderline tooth and re-check it. Both are legitimate outcomes of careful diagnosis.
+
+## When the diagnosis isn't black and white
+
+Not every tooth gives a tidy answer on the first visit, and a responsible dentist will say so rather than force a conclusion. A tooth might show borderline test results, or symptoms that could point to more than one cause. In those situations the sensible path is often to treat the most likely simpler cause first — for example, adjusting a high filling or placing a new filling — and then reassess, or to monitor the tooth's vitality over a few weeks with a planned recheck. This measured approach protects you from unnecessary treatment while making sure a genuine pulp problem is not missed. If you are ever told "let's watch it and test again," that is a sign of careful diagnosis, not indecision.
+
 ## Frequently asked questions
 
 **Why do you test the tooth next to the sore one?**

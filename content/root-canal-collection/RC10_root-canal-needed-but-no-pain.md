@@ -52,6 +52,22 @@ Yes, and a good dentist will not object. If you are surprised by a recommendatio
 - **Don't dismiss it because it's painless.** The lack of pain is exactly what makes these easy to neglect.
 - **Act while it's simple.** Early treatment tends to mean a better outcome for the tooth.
 
+## How to feel confident about a symptom-free diagnosis
+
+Being told a comfortable tooth needs treatment can feel counterintuitive, and it is completely reasonable to want to understand the recommendation before agreeing. A few steps help you feel confident rather than pressured:
+
+- **Ask to see the evidence.** Request that the dentist show you the X-ray and point out what concerns them — for example, a dark area at the root tip, or decay reaching the pulp.
+- **Ask what the tests showed.** If the tooth gave no response to cold or electric testing, ask what that indicates about the pulp.
+- **Ask what happens if you wait.** Understanding the likely progression helps you weigh the recommendation.
+- **Ask about the alternative.** If it is borderline, is monitoring an option, and what would the dentist watch for?
+- **Seek a second opinion if unsure.** A good dentist will not object to you confirming a significant recommendation elsewhere.
+
+The goal is informed consent: you should understand *why* treatment is advised, even for a tooth that feels fine.
+
+## The quiet cost of "wait until it hurts"
+
+The instinct to wait until a symptom-free tooth actually bothers you is understandable, but it usually works against you. Because the problem is silent, "waiting for pain" often means waiting until infection has advanced — until an abscess forms, bone is lost, or the tooth becomes unrestorable. At that point what could have been a routine root canal may become an extraction and the need for a replacement. Treating a symptom-free but diagnosed problem early is almost always the simpler, more predictable and less costly path. The absence of pain is not a reason to wait; it is simply the reason these problems are so easy to underestimate.
+
 ## Frequently asked questions
 
 **Could the dentist be wrong if my tooth feels perfectly normal?**

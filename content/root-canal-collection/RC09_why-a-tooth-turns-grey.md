@@ -51,6 +51,20 @@ The point is that chasing the colour with over-the-counter whitening rarely work
 - **Mention any past injury** to that tooth, however long ago — it is often the missing piece of the story.
 - **Hold off on whitening** the single tooth until a dentist has checked it; whitening will not fix internal discolouration and may distract from the real issue.
 
+## How a discoloured tooth's appearance can be improved
+
+Once the health of the tooth has been addressed, there are several ways to improve the look of an internally discoloured tooth. Which suits you depends on the tooth, the degree of discolouration, and whether the tooth also needs structural protection:
+
+- **Internal (non-vital) whitening.** For a tooth that has had a root canal, a whitening agent can sometimes be placed *inside* the tooth to lighten it from within — an approach specific to treated teeth and different from ordinary surface whitening.
+- **A veneer.** A thin custom facing bonded to the front of the tooth can mask discolouration while conserving more tooth structure than a crown, often chosen for front teeth.
+- **A crown.** If the tooth also needs protecting — for example, after significant structure loss — a crown both strengthens and covers it.
+
+Your dentist will weigh appearance against how much healthy tooth remains. There is no single "best" fix; it is matched to the individual tooth, and results vary, so it is worth discussing realistic expectations rather than assuming any option will make the tooth identical to its neighbours.
+
+## Don't chase the colour before checking the cause
+
+The most important message about a darkening tooth is one of sequence: health first, appearance second. It is tempting to reach for whitening strips or to ask about a veneer straight away, but a grey single tooth is usually a sign that the pulp has died, and that needs assessing before any cosmetic step. Treating a non-vital tooth's appearance while ignoring a possible infection at the root risks a painful flare-up later and can compromise the very restoration you paid for. So if a tooth is changing colour, book an assessment first; the cosmetic options will still be there once the tooth's health is confirmed, and they tend to work better on a tooth that has been properly treated.
+
 ## Frequently asked questions
 
 **My tooth went grey but doesn't hurt. Is that normal?**

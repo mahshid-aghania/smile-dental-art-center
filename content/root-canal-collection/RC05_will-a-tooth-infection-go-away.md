@@ -56,6 +56,21 @@ The practical takeaway: acting while the tooth is still restorable usually means
 - **Watch for urgent signs** — spreading swelling, fever, or trouble breathing or swallowing — and treat those as emergencies.
 - **Manage discomfort sensibly** with over-the-counter relief used as directed and warm salt-water rinses, understanding these are holding measures, not treatment.
 
+## The four beliefs that keep people waiting
+
+Almost everyone who delays treatment does so because of one of a handful of reasonable-sounding beliefs. It is worth naming them, because each has a catch:
+
+1. **"It stopped hurting, so it must be healing."** More often, the pulp finished dying and simply went quiet. The infection continues at the root even though the nerve can no longer signal pain.
+2. **"The abscess burst and drained, so it's gone."** Draining relieves pressure and pain, but the source inside the tooth remains and will refill.
+3. **"The antibiotics cleared it."** Antibiotics can calm a spreading infection for a while, but they cannot reach and clear the dead pulp sealed inside the tooth, so the problem returns once the course ends.
+4. **"I have no swelling, so it isn't serious."** Infection can sit quietly at the root, gradually damaging bone, long before any swelling appears.
+
+Recognising your own reasoning in this list is often the nudge that turns "I'll keep an eye on it" into "I'll book the appointment."
+
+## What waiting actually costs
+
+Because the infection persists, delay tends to move you along a predictable and unwelcome path: from a tooth that a straightforward root canal could save, toward a painful abscess, bone loss around the root, and eventually a tooth that must be extracted and replaced. Extraction plus an implant or bridge is generally more involved and more expensive than the root canal would have been — so waiting rarely saves money, and often costs more. The full progression is laid out in [what happens if you don't get a root canal](/blog/what-happens-if-you-dont-get-a-root-canal). The encouraging flip side is that acting early usually means simpler treatment and a better chance of keeping the tooth.
+
 ## Frequently asked questions
 
 **My tooth stopped hurting completely. Can I cancel the dentist?**

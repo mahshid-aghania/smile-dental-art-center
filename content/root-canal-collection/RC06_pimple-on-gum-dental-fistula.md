@@ -57,6 +57,20 @@ Antibiotics are not a stand-alone solution here, because they do not clear infec
 - **Book an assessment** even if it is painless and even if it has drained and "healed."
 - **Book a prompt routine appointment** for a simple recurring bump. If it ever escalates to spreading facial swelling, fever, or difficulty breathing or swallowing, treat that as urgent — see [dental abscess warning signs](/blog/dental-abscess-warning-signs) and [urgent care in Markham](/emergency-dentist-markham).
 
+## What the drainage and the taste are telling you
+
+The salty or unpleasant fluid that comes from a gum bump is pus — the product of your body walling off and trying to discharge an infection. That your body has created a drainage channel is, in a grim way, a sign of a chronic (long-standing) rather than acute situation: the infection has been present long enough to establish a route out. This is why a sinus tract is often relatively painless. Pressure, which is what causes most dental pain, keeps escaping instead of building. So the very feature that makes the bump easy to ignore — the lack of pain — is also a clue that the infection has been quietly persisting.
+
+## Why treating it early protects more than the tooth
+
+Addressing a draining sinus tract promptly is not only about the tooth itself. An ongoing infection at the root gradually affects the surrounding bone, and the longer it continues, the more bone can be lost around the root tip. Treating the source early — usually with a root canal that lets the tract heal and close — tends to mean:
+
+- **A better chance of saving the tooth**, before decay or infection make it unrestorable.
+- **Less bone involvement** to contend with.
+- **Fewer surprises**, since a chronic tract can flare into a painful, swollen abscess without much warning.
+
+In other words, the painless bump is an opportunity: it is the infection showing itself while things are still relatively simple to treat. Acting on it is far easier than waiting for the flare-up that often eventually comes.
+
 ## Frequently asked questions
 
 **It doesn't hurt at all — do I really need to see a dentist?**

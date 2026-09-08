@@ -61,6 +61,28 @@ For pain without those features, a prompt (not emergency) appointment is appropr
 
 Expect a bite test (you may be asked to bite on a small prop to find the exact spot and reproduce a crack's pain), gentle tapping to check tenderness, temperature testing to gauge the pulp, and X-rays. Sometimes a crack only reveals itself under magnification or with a special dye. The aim is to find *why* biting hurts before deciding treatment, which might be as simple as an adjustment or as involved as a root canal and crown. For the wider set of warning signs to watch for, see [signs you might need a root canal](/blog/signs-you-need-a-root-canal).
 
+## Protecting the tooth until your appointment
+
+Between noticing the pain and being seen, a few simple habits protect the tooth and keep you more comfortable:
+
+- **Chew on the other side.** Keeping force off the tooth avoids deepening a crack or aggravating inflammation.
+- **Avoid hard, crunchy and chewy foods** on that side — nuts, hard bread crusts, ice and tough meat all concentrate pressure.
+- **Ease off temperature extremes** if hot or cold also bother the tooth; lukewarm foods are kinder while you wait.
+- **Keep the area clean** with gentle brushing, so you are not adding food packing or plaque irritation to the problem.
+- **Note what triggers the pain** — biting down, releasing, a particular food or angle — and bring that to your appointment.
+
+These measures do not treat the cause, but they buy time without making things worse. If the pain escalates, swelling appears, or you develop a fever, move from "book soon" to "seek urgent care."
+
+## When chewing pain is *not* the tooth itself
+
+Occasionally the discomfort you feel on chewing does not come from the tooth you suspect:
+
+- **Referred pain** — a problem in one tooth can be felt in a neighbour, or upper and lower teeth can be confused, because they share nerve pathways.
+- **Sinus pressure** — the roots of upper back teeth sit close to the sinuses, so sinus congestion can make several upper teeth ache when you bite or bend forward.
+- **Clenching and grinding** — overworked jaw muscles and stressed teeth can produce a bite-related soreness that is not decay or infection at all.
+
+None of this is something to sort out yourself, but it is a useful reminder of why an exam beats guesswork: the fix for a high filling, a sinus issue, or a grinding habit is very different from the fix for an infected pulp.
+
 ## Frequently asked questions
 
 **Should I stop eating on that side?**

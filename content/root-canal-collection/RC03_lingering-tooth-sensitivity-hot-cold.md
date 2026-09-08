@@ -70,6 +70,22 @@ If your sensitivity is brief and general, try a desensitising toothpaste and gen
 
 Because a lingering-cold tooth and a settle-quickly tooth can look identical, your dentist will test rather than guess: comparing the suspect tooth against its neighbours with a cold test, checking the response to tapping, and taking X-rays to look for decay or changes around the root. That combination is what distinguishes reversible irritation from a pulp that needs treatment — the wider workup is described in [how dentists diagnose whether you need a root canal](/blog/how-dentists-diagnose-root-canal).
 
+## Everyday habits that reduce ordinary sensitivity
+
+If your sensitivity fits the harmless, everyday pattern — brief, generalised, tracking with exposed roots — a few habits often help while you monitor it. (These soothe surface sensitivity; they do **not** treat a pulp problem, so they are no substitute for an exam if your symptoms fit the "pulp may be involved" list above.)
+
+- **Switch to a desensitising toothpaste** and use it consistently for a few weeks; the effect builds over time rather than instantly.
+- **Brush gently with a soft brush.** Hard scrubbing wears enamel and exposes more root surface, making sensitivity worse.
+- **Ease off acidic foods and drinks** — citrus, soft drinks, wine — and avoid brushing immediately after them, when enamel is temporarily softened.
+- **Check for clenching or grinding**, which can stress teeth and worsen sensitivity; mention it to your dentist, who may suggest a night guard.
+- **Don't whiten a sensitive tooth** without advice, as whitening can temporarily increase sensitivity.
+
+If several weeks of these measures make no difference, or the sensitivity is clearly one tooth with a lingering or spontaneous character, that is your cue to book an assessment rather than keep experimenting at home.
+
+## Why "lingering" is the word that matters most
+
+If you remember one thing from this article, make it the duration of the response. Everyday sensitivity is like flicking a light switch — the sensation appears with the trigger and switches off almost as fast. A pulp that is inflamed beyond recovery behaves more like a dimmer that stays lit: the pain builds and then *lingers*, sometimes for minutes, after the cold or heat is gone. That lingering quality reflects inflammation inside the tooth that keeps firing after the stimulus has passed. It is the single most useful thing you can describe to your dentist, and it is far more telling than how sharp or intense the initial jolt feels.
+
 ## Frequently asked questions
 
 **My whole mouth is sensitive after whitening — is that a pulp problem?**

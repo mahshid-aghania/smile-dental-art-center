@@ -59,6 +59,22 @@ If a crack extends below the gum line, splits the tooth, or runs vertically up a
 
 Cracks tend to grow. A tooth that needs only a crown today can become a root canal — or an extraction — if a deepening crack is ignored.
 
+## Can cracked teeth be prevented?
+
+Not every crack is avoidable — accidents and years of normal use take their toll — but several habits genuinely reduce the risk:
+
+- **Don't chew hard objects.** Ice, popcorn kernels, hard candy, pens and fingernails are common crack culprits.
+- **Address grinding and clenching.** If you grind your teeth (often at night), the sustained force fatigues teeth over time. Ask your dentist whether a night guard would help.
+- **Protect teeth during sport.** A properly fitted mouthguard cushions impacts that could otherwise crack or knock a tooth.
+- **Keep large fillings under review.** Teeth with big old fillings are more prone to cracking; your dentist may suggest a protective crown or onlay before a crack develops.
+- **Don't use your teeth as tools** to open packaging or bite thread.
+
+Cracks tend to grow with repeated stress, so reducing that stress is the most practical prevention.
+
+## Why prompt assessment protects your options
+
+The reason dentists urge you not to wait with a suspected crack is that cracks propagate. A crack confined to the enamel or upper dentine today might need only a crown to hold the tooth together; the same crack, left to deepen under months of chewing, can reach the pulp (requiring a root canal) or extend below the gum or into the root (where the tooth may no longer be savable). In other words, the same tooth can move down the treatment ladder — from crown, to root canal and crown, to extraction — simply through delay. That is why "it only twinges sometimes" is not a reason to wait. Catching a crack while it is shallow keeps the simplest, most tooth-preserving options on the table.
+
 ## Frequently asked questions
 
 **My X-ray was clear but the tooth still hurts to bite. Is it cracked?**

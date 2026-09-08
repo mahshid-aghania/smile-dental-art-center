@@ -70,6 +70,21 @@ Treatment has two goals: drain the infection and remove its source. Depending on
 
 Which path fits depends on how far the infection has progressed and whether the tooth is restorable. Delaying tends to narrow the options, as we explain in [what happens if you don't get a root canal](/blog/what-happens-if-you-dont-get-a-root-canal).
 
+## What recovery looks like after an abscess is treated
+
+Once the infection is drained and its source is treated, most people feel markedly better quickly — the relief of releasing that pressure is often dramatic. Over the following days:
+
+- **Pain and swelling subside** as the infection resolves. Some tenderness while the area heals is normal.
+- **Any prescribed medication should be finished** exactly as directed, even once you feel well, if antibiotics were given as part of treatment.
+- **The tooth still needs its definitive treatment completed** — draining an abscess relieves symptoms, but the tooth itself (via root canal) or its removal is what prevents the infection returning.
+- **Follow-up matters** — your dentist may want to check healing and, if a root canal was done, arrange the permanent restoration such as a crown.
+
+If swelling or pain returns after initially improving, contact your dentist, as it can signal that the source has not been fully addressed.
+
+## Why an abscess should never be "waited out"
+
+It is worth being blunt about this, because the temptation to wait is strong — especially when a burst abscess brings sudden relief. The relief is misleading: the infection has found a way to drain, not disappeared. Left untreated, an abscess can erode the bone around the tooth, make the tooth unsavable, and, less commonly, allow infection to spread into the deeper spaces of the face and neck, which is genuinely dangerous. Every one of those outcomes is avoidable with prompt treatment. There is no version of an abscess that gets better on its own for good, which is why "book as soon as you can" is the right instinct even on a day the pain has eased.
+
 ## Frequently asked questions
 
 **Will a dental abscess go away if the swelling goes down?**
