@@ -44,6 +44,22 @@ It is normal for the tooth and jaw to feel tender for a few days after treatment
 
 Feeling nervous is completely normal, and it is not the same as the procedure being painful. There are practical ways to make treatment more comfortable — from agreeing a "stop" signal with your dentist to relaxation strategies — which we cover in [coping with root canal anxiety](/blog/coping-with-root-canal-anxiety), and a general overview of comfort and sedation approaches in [comfort and sedation options](/blog/root-canal-sedation-and-comfort-options). Telling your dental team you are anxious genuinely helps; they can pace the appointment and keep you informed.
 
+## Separating the toothache from the treatment
+
+A lot of root-canal dread comes from conflating two very different experiences: the pain that *precedes* treatment and the treatment itself. The toothache that sends you to the dentist — the throbbing, the sleepless nights, the wince at hot or cold — is the inflamed or infected pulp. That is genuinely painful. The root canal is what *ends* it. During the procedure the tooth is numb, so what you feel is pressure and vibration, not that toothache. When people say "my root canal was so painful," they are almost always remembering the days *before* it, not the appointment. Holding these two apart in your mind is oddly reassuring: the scary pain is the problem, and the procedure is the solution to it.
+
+## What helps the appointment go smoothly
+
+If you want the experience to be as comfortable as possible, a few things genuinely help:
+
+- **Tell your dentist you're anxious.** They can pace the appointment, explain as they go, and agree a stop signal so you stay in control.
+- **Flag any past trouble getting numb**, so extra time or technique can be planned.
+- **Don't overload on caffeine** beforehand, which can heighten jitteriness.
+- **Bring a distraction** — music or a podcast through headphones — for the longer stretches.
+- **Ask for updates** during treatment if knowing "we're halfway" reassures you.
+
+For a fuller set of strategies, see [coping with root canal anxiety](/blog/coping-with-root-canal-anxiety); the general comfort and sedation options that exist are outlined in [comfort and sedation options](/blog/root-canal-sedation-and-comfort-options).
+
 ## Frequently asked questions
 
 **Will I feel the dentist working on the nerve?**

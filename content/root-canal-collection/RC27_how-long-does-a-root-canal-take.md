@@ -49,6 +49,20 @@ The root canal itself is one part of the timeline. Most back teeth also need a *
 - **Most people return to normal activities the same day** (see [work and exercise after a root canal](/blog/work-and-exercise-after-a-root-canal)).
 - **Ask your dentist for a tailored estimate** of appointment length and number of visits for your specific tooth.
 
+## Why a longer appointment can be a good sign
+
+It is easy to assume a quick procedure is a better one, but with root canals the opposite is often true. A thorough root canal means finding *every* canal, cleaning each along its full length, and sealing them completely — and a molar with several curved canals simply cannot be rushed without cutting corners. So if your appointment runs longer, it usually reflects careful, complete treatment of a complex tooth, not a problem. The goal is a well-cleaned, well-sealed tooth that lasts, and that is worth the extra chair time. If keeping your mouth open is the hardest part, tell your dentist — short breaks can be built in.
+
+## Planning realistically around the whole process
+
+When you are arranging your schedule, it helps to plan for the *process*, not just a single appointment:
+
+- **The root canal:** one or two visits, each commonly around an hour to 90 minutes depending on the tooth.
+- **A gap between visits** (if two are needed), usually a week or two, with a temporary filling protecting the tooth.
+- **The crown** most back teeth need afterward, which is typically one or two further appointments to prepare and fit.
+
+Laid out like this, the full journey to a completely restored back tooth can span a few weeks, even when each individual appointment is short. Knowing that in advance prevents the mistaken assumption that "the root canal is done" means "the tooth is finished" — the restoration is the essential final stage, as explained in [do you need a crown after a root canal](/blog/do-you-need-a-crown-after-a-root-canal).
+
 ## Frequently asked questions
 
 **Can a root canal be done in one visit?**

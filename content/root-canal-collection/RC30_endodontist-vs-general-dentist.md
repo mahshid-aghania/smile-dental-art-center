@@ -54,6 +54,21 @@ If your dentist recommends an endodontist, they typically send your records and 
 - If referred, who handles the crown afterward — you or the specialist?
 - How does referral affect timing and cost? (Specialist fees can differ — see [what determines the cost of a root canal](/blog/root-canal-cost-ontario).)
 
+## What being referred does — and doesn't — mean
+
+If your dentist suggests seeing an endodontist, it can feel unexpected, so it helps to know what a referral does and doesn't signify. It **does** mean your dentist judges that a specialist's extra training or equipment would give your particular tooth the best outcome — most often for complex anatomy, a retreatment, or surgery. It **doesn't** mean anything has gone wrong, that your dentist "can't" do root canals, or that your case is dire. Referral for the trickier cases is normal across all of medicine and dentistry. You typically stay under your general dentist's overall care, return to them for the crown and your routine needs, and simply borrow a specialist's expertise for one difficult step.
+
+## Getting the most from either provider
+
+Whether a general dentist or an endodontist treats your tooth, a few things help you get the best result:
+
+- **Ask who will do what.** Clarify whether your dentist is treating or referring, and who places the final crown.
+- **Keep your records moving.** If referred, make sure X-rays and notes go with you so the specialist has the full picture.
+- **Don't skip the restoration.** After a specialist completes the root canal, returning promptly for the crown protects the work — see [do you need a crown after a root canal](/blog/do-you-need-a-crown-after-a-root-canal).
+- **Ask about cost and coverage** for a referral, since specialist fees can differ.
+
+The provider matters less than the care being thorough and well-coordinated. A general dentist handling a straightforward tooth and a specialist tackling a complex one are both good outcomes; what you want is the right match for your particular tooth.
+
 ## Frequently asked questions
 
 **Is an endodontist better than a general dentist for a root canal?**

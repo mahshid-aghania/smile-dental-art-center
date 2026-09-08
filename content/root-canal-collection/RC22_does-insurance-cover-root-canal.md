@@ -56,6 +56,22 @@ A few minutes with these questions can prevent a large surprise later.
 
 If you are uninsured or your coverage is thin, you still have options worth discussing with the clinic: a clear written estimate to plan around, checking CDCP eligibility if you qualify (again, see [does the CDCP cover a root canal](/blog/does-cdcp-cover-root-canal)), and understanding that treating the tooth is usually less costly over time than letting it fail (see [what happens if you don't get a root canal](/blog/what-happens-if-you-dont-get-a-root-canal)). This article does not discuss specific financing terms; ask the clinic what it offers.
 
+## The crown surprise, and how to avoid it
+
+The most common insurance shock with root canals is not the root canal at all — it is the crown. People see that their plan covers endodontic treatment well, assume the whole job is well covered, and are then caught out when the crown (usually a "major" service) comes back at a much lower percentage, sometimes with a waiting period attached. Avoiding this is simple in principle: before you start, ask your plan two separate questions — how is the *root canal* covered, and how is the *crown* covered? Treat them as two different line items, because your plan does. Getting both answers up front turns a nasty surprise into a number you have already planned for. Budgeting for the pair is covered in [root canal and crown cost](/blog/root-canal-and-crown-cost).
+
+## Making the most of the coverage you have
+
+A few habits help you get full value from a dental plan for a root canal:
+
+- **Use a predetermination** so you know the payout before committing.
+- **Mind the benefit-year reset** — if you are near your annual maximum, ask whether staging treatment across two years helps (without leaving a back tooth unprotected too long).
+- **Coordinate two plans** if you and a partner both have coverage; the rules for combining them can reduce your share.
+- **Keep records** of what has been claimed, so you know how much of your annual maximum remains.
+- **Ask about the difference** between the office fee and your plan's allowance, which is the part people most often overlook.
+
+None of this changes what your plan fundamentally covers, but it ensures you are not leaving benefits on the table or being surprised by the split between "basic" and "major" services.
+
 ## Frequently asked questions
 
 **Will my plan cover 100% of a root canal?**

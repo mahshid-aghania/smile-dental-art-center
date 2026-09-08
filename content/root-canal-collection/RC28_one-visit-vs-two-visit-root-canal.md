@@ -53,6 +53,21 @@ For suitable teeth, both approaches aim for — and can achieve — the same res
 
 For overall timing and appointment length, see [how long does a root canal take](/blog/how-long-does-a-root-canal-take).
 
+## What the medicated dressing actually does
+
+In a two-visit root canal, the star of the intermission is the medicated dressing placed inside the tooth between appointments. Its job is to continue reducing bacteria and to help calm a heavily infected tooth before the canals are permanently sealed. The thinking is straightforward: sealing a tooth while significant infection remains is less likely to succeed, so for some teeth it makes sense to disinfect, place the dressing, seal temporarily, and let the tooth settle for a week or two before finishing. This is why a two-visit plan is not a delay for its own sake — the gap is doing something useful. During that interval, a temporary filling protects the tooth, so caring for it (avoiding sticky and hard foods on that side) matters — see [temporary fillings after a root canal](/blog/temporary-fillings-after-a-root-canal).
+
+## Questions worth asking about your plan
+
+If you want to understand why your treatment is being staged one way or the other, these questions help:
+
+- **Is my tooth suitable for one visit, or do you recommend two — and why?**
+- **If two, is it because of infection, anatomy, or symptoms?**
+- **How long between the visits, and what protects the tooth in the meantime?**
+- **Will I still need a crown afterward, and when?**
+
+The answers usually reveal that the plan is tailored to your tooth's condition. A single visit for a straightforward tooth and two visits for a heavily infected one can both be exactly the right call — the number of appointments is a clinical decision aimed at the same destination: canals that are thoroughly cleaned and completely sealed.
+
 ## Frequently asked questions
 
 **Is a one-visit root canal lower quality?**

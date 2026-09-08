@@ -59,6 +59,28 @@ The best approach depends on your level of anxiety, your medical history, and wh
 
 Do not assume you must "tough it out." Equally, do not assume the deepest sedation is necessary — for many people, good local anaesthetic and a supportive team are plenty.
 
+## Matching the level of comfort to your level of anxiety
+
+A useful way to think about all of this is as a ladder, where you climb only as high as you need:
+
+- **Most people** are comfortable with local anaesthetic plus simple measures — a clear explanation, a stop signal, and perhaps some music.
+- **Moderately anxious patients** may benefit from light (inhaled) sedation to take the edge off while staying awake and able to respond.
+- **Highly anxious or phobic patients** might consider deeper options, which require specific facilities and are used less commonly.
+
+There is no prize for climbing higher than you need, and no shame in needing more than "just freezing." The right level is simply the one that lets *you* get the treatment done comfortably. A frank conversation about how anxious you actually feel is the starting point, and it lets your dentist recommend the least-involved option that will work for you.
+
+## Practical questions to ask before deciding
+
+If you are considering sedation, these questions help you and your dentist choose well:
+
+- **What options do you actually offer here**, and which suits my situation?
+- **What does each involve** on the day, and how will I feel afterward?
+- **Will I need someone to drive me home?** (Yes for oral and deeper sedation; inhaled sedation wears off quickly.)
+- **Are there health conditions or medications** that affect the choice?
+- **Is there an extra cost, and is any of it covered?**
+
+Because availability and suitability vary so much, these answers — from your own dental team — matter more than any general description. Use this article to know what to ask; rely on your dentist for what applies to you.
+
 ## Frequently asked questions
 
 **Will I be asleep for my root canal?**

@@ -67,6 +67,28 @@ During treatment you should feel pressure and vibration but not pain. Afterward,
 | 5. Seal | Canals filled with gutta-percha and sealed |
 | 6. Restore | Temporary, then usually a crown on back teeth |
 
+## Why each step matters
+
+Understanding the *purpose* behind the steps can make the whole procedure feel less mysterious and more reassuring:
+
+- **The anaesthetic** is why the procedure is comfortable — you should feel pressure, not pain, and can ask for more if needed.
+- **The rubber dam** keeps the tooth clean and dry and stops solutions and tiny instruments entering the rest of your mouth; a dry, isolated tooth is essential for a good result.
+- **Cleaning and shaping** removes the infected tissue and the bacteria driving the problem — this is the part that actually resolves the infection and pain.
+- **Sealing with gutta-percha** fills the emptied canals so bacteria cannot recolonise them, which is what makes the result last.
+- **The crown or filling** protects the tooth afterward so it can chew normally without fracturing.
+
+Each step is there for a reason; together they are what let a badly damaged tooth stay in your mouth and function for years.
+
+## Common misconceptions about the procedure
+
+A few myths cause needless worry, so it is worth clearing them up:
+
+- **"They remove the whole nerve and the tooth dies."** The pulp is removed, but the tooth stays in place, held by the surrounding tissues and protected by its restoration — it remains a working part of your mouth.
+- **"It takes several agonising appointments."** Most root canals are one or two comfortable visits under local anaesthetic.
+- **"A root canal makes you ill."** This claim, based on long-discredited century-old research, has been thoroughly rebutted by dental and endodontic bodies; root canal treatment is a safe, routine way to save a tooth.
+
+If any worry is holding you back, it is worth checking it against the facts — and asking your dentist directly, who would far rather answer your questions than have anxiety keep you from care.
+
 ## Frequently asked questions
 
 **Will I be awake during a root canal?**

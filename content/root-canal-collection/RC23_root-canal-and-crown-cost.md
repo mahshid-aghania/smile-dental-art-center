@@ -52,6 +52,21 @@ Budgeting is complicated by the fact that plans frequently cover the two parts *
 
 We do not list prices here because they depend on your tooth and plan; a written, itemised estimate after an exam is the accurate figure.
 
+## A simple way to budget the whole sequence
+
+Rather than thinking about a single "root canal price," budget the tooth as a small project with a few line items:
+
+- **The root canal itself**, priced by tooth type and number of canals.
+- **Diagnostic X-rays** needed to plan it.
+- **A core build-up or post**, *if* enough structure is missing to warrant one.
+- **The permanent crown** (for most back teeth), usually a separate appointment and fee.
+
+Ask your dentist for one estimate that lists all of these, then apply your coverage to each part (remembering the crown is often covered differently — see [does insurance cover a root canal](/blog/does-insurance-cover-root-canal)). What you want at the end is a single realistic out-of-pocket figure for the *finished* tooth, not just the first appointment.
+
+## Why finishing the job protects the money you've spent
+
+It is tempting, once the root canal is done and the tooth feels fine, to postpone the crown to spread the cost. For a back tooth this is a false economy. An unprotected, treated tooth is prone to fracture, and a bad fracture can render it unsavable — meaning the money spent on the root canal is lost along with the tooth, and you now face extraction plus a replacement. In that light, the crown is not an optional extra tacked onto the bill; it is what safeguards the investment you have already made. If budgeting for the crown is genuinely difficult, the better move is to talk to the clinic about timing and coverage (see [reading a dental estimate](/blog/reading-a-dental-estimate-root-canal)) rather than leaving the tooth exposed — the risks of that are spelled out in [delaying the crown after a root canal](/blog/delaying-the-crown-after-a-root-canal).
+
 ## Frequently asked questions
 
 **Why do I need a crown when the root canal is done — isn't the tooth fixed?**

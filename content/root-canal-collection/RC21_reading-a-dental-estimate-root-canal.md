@@ -71,6 +71,22 @@ Notice how the crown often sits in a different coverage category from the root c
 
 Reading the estimate is really about matching each coded item to what your plan will do with it. Once you can do that, the final number is no longer a mystery.
 
+## A worked example of how the numbers flow
+
+To make the pieces click together, here is how a typical estimate flows in principle (using no real fees — just the logic):
+
+1. **The office fee** for each coded item is listed — say, the root canal, the X-rays, and later the crown.
+2. **Your plan's eligible amount** for each code is applied; if the office fee is higher, note the gap.
+3. **The coverage percentage** for that category is applied to the eligible amount — often a higher percentage for the root canal (basic) and a lower one for the crown (major).
+4. **Your deductible** (if any) is accounted for.
+5. **The plan's payment** comes out, and **your portion** is the remainder plus any gap between office and plan fees.
+
+Seeing it as a flow — fee, eligible amount, percentage, deductible, your share — makes it much easier to spot *why* your out-of-pocket figure is what it is, and where a crown in a lower category changes the maths.
+
+## Timing treatment around your benefit year
+
+One practical lever the paperwork reveals is timing. Because most plans reset their annual maximum each benefit year, a root canal and crown that together approach your yearly cap might be more affordable if the two stages fall in different benefit years — for example, the root canal now and the crown early in the new year, if that is clinically acceptable. This is not always possible or advisable (an unprotected back tooth should not wait too long for its crown — see [delaying the crown after a root canal](/blog/delaying-the-crown-after-a-root-canal)), but it is worth asking your dentist whether the timing can be arranged to make the most of your coverage. Your estimate and remaining annual maximum are the numbers that tell you whether it is worth doing.
+
 ## Frequently asked questions
 
 **Is a predetermination a guarantee of payment?**

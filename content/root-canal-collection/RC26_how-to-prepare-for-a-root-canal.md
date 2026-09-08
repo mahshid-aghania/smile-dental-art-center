@@ -64,6 +64,29 @@ For most people, normal activities are fine afterward — the numbness wears off
 
 Whether you can drive and work straight after is covered in [work and exercise after a root canal](/blog/work-and-exercise-after-a-root-canal); for most, local anaesthetic alone does not stop you driving, but confirm if any sedation is planned.
 
+## A simple day-before and day-of checklist
+
+If you like a concrete list, here is the short version:
+
+**The day before**
+- Confirm the appointment time and how long to allow.
+- Sort out any medication questions with the dentist or pharmacist.
+- Get a good night's sleep if you can — being rested helps with nerves.
+- Stock up on a few soft foods for afterward.
+
+**The day of**
+- Eat a proper meal before you come (your mouth will be numb afterward).
+- Brush and floss as normal.
+- Go easy on caffeine if it makes you jittery; skip alcohol.
+- Arrive a few minutes early so you are not rushed.
+- Bring your questions, and mention any anxiety when you sit down.
+
+Ticking off a short list like this removes the low-grade worry of "have I forgotten something?" and lets you arrive calm.
+
+## Setting yourself up for an easy recovery
+
+A little forethought about *after* the appointment makes the rest of your day smoother. Because your mouth will be numb for a few hours and the tooth may be tender for a few days, it helps to have soft foods ready at home, to plan a lighter evening rather than a big social or physical commitment, and to know your aftercare in advance so you are not searching for it while frozen. If you have a temporary filling placed, remember to favour the other side when you do eat. None of this requires taking time off for a routine root canal — most people carry on normally — but a small amount of planning means the tenderness, if any, is a minor footnote to your day rather than a disruption. The specifics are in [recovery in the first 48 hours](/blog/root-canal-recovery-first-48-hours).
+
 ## Frequently asked questions
 
 **Should I eat before a root canal or come on an empty stomach?**
