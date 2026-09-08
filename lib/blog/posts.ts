@@ -10,7 +10,8 @@ export type BlogBlock =
   | { type: "ul"; items: string[] }
   | { type: "ol"; items: string[] }
   | { type: "h3"; text: string }
-  | { type: "callout"; text: string };
+  | { type: "callout"; text: string }
+  | { type: "table"; headers: string[]; rows: string[][] };
 
 export type BlogSection = {
   heading: string;
@@ -28,6 +29,13 @@ export type BlogPost = {
   excerpt: string;
   intro: string[];
   sections: BlogSection[];
+  /**
+   * Whether the article has been medically reviewed by the dentist. Defaults to
+   * true (existing posts). When false, the "Medically reviewed by" byline, the
+   * reviewer bio box and the JSON-LD reviewedBy/author-as-dentist claims are
+   * suppressed so the site never asserts a review that has not happened.
+   */
+  reviewed?: boolean;
   relatedPostSlugs?: string[];
   relatedServiceLinks?: { title: string; href: string }[];
   sources?: { title: string; url: string }[];
@@ -49,6 +57,7 @@ export const BLOG_PILLARS = [
   "Cosmetic Dentistry",
   "Family & Preventive Dentistry",
   "Emergency & Local",
+  "Root Canal & Endodontics",
 ] as const;
 
 export type BlogPillar = (typeof BLOG_PILLARS)[number];
@@ -115,6 +124,7 @@ export function estimateReadingTime(post: BlogPost): number {
       ...s.blocks.flatMap((b) => {
         if (b.type === "p" || b.type === "h3" || b.type === "callout") return [b.text];
         if (b.type === "ul" || b.type === "ol") return b.items;
+        if (b.type === "table") return [...b.headers, ...b.rows.flat()];
         return [];
       }),
     ]),

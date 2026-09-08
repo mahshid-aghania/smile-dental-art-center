@@ -48,6 +48,7 @@ const PILLAR_ICONS: Record<string, string> = {
   "Cosmetic Dentistry": "✨",
   "Family & Preventive Dentistry": "👨‍👩‍👧",
   "Emergency & Local": "🚨",
+  "Root Canal & Endodontics": "🩺",
 };
 
 const PILLAR_COLORS: Record<string, string> = {
@@ -56,6 +57,7 @@ const PILLAR_COLORS: Record<string, string> = {
   "Cosmetic Dentistry": "border-rose-400 bg-rose-50",
   "Family & Preventive Dentistry": "border-emerald-400 bg-emerald-50",
   "Emergency & Local": "border-orange-400 bg-orange-50",
+  "Root Canal & Endodontics": "border-teal-400 bg-teal-50",
 };
 
 export default function BlogIndexPage() {

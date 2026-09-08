@@ -71,6 +71,7 @@ const PILLAR_BADGE: Record<string, string> = {
   "Cosmetic Dentistry": "bg-rose-50 text-rose-700 border-rose-200",
   "Family & Preventive Dentistry": "bg-emerald-50 text-emerald-700 border-emerald-200",
   "Emergency & Local": "bg-orange-50 text-orange-700 border-orange-200",
+  "Root Canal & Endodontics": "bg-teal-50 text-teal-700 border-teal-200",
 };
 
 export default async function BlogPostPage({ params }: PageProps) {
@@ -81,6 +82,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   const path = `${BLOG_BASE}/${slug}`;
   const readMin = estimateReadingTime(post);
   const badgeClass = PILLAR_BADGE[post.pillar] ?? "bg-gray-50 text-gray-700 border-gray-200";
+  const reviewed = post.reviewed !== false;
 
   const crumbs = [
     { name: "Home", path: "/" },
@@ -98,6 +100,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       path,
       datePublished: BLOG_PUBLISHED,
       keywords: post.primaryKeyword,
+      reviewed,
     }),
   ]);
 
@@ -127,7 +130,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           <div className="mt-6 flex flex-wrap items-center gap-5 text-sm text-[var(--clinic-muted)]">
             <span className="flex items-center gap-1.5">
               <User className="size-4" aria-hidden />
-              Dr. Neda Kadivar, D.D.S.
+              {reviewed ? "Dr. Neda Kadivar, D.D.S." : "Smile Dental Arts Centre"}
             </span>
             <span className="flex items-center gap-1.5">
               <Calendar className="size-4" aria-hidden />
@@ -153,7 +156,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:flex lg:gap-12 lg:py-16">
         {/* Article body */}
         <article className="min-w-0 flex-1">
-          <DoctorBio variant="reviewer" />
+          {reviewed && <DoctorBio variant="reviewer" />}
 
           <BlogArticleBody post={post} />
 
