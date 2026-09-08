@@ -115,7 +115,13 @@ export function medicalProcedureSchema(name: string, description: string, path: 
   };
 }
 
-/** Article / MedicalWebPage authored and reviewed by the dentist (E-E-A-T). */
+/**
+ * Article / MedicalWebPage schema.
+ * By default it is authored and reviewed by the dentist (E-E-A-T). When
+ * `reviewed` is false, authorship is attributed to the clinic organization and
+ * the `reviewedBy` claim is omitted, so the structured data never asserts a
+ * medical review that has not actually taken place.
+ */
 export function articleSchema(opts: {
   headline: string;
   description: string;
@@ -123,7 +129,9 @@ export function articleSchema(opts: {
   datePublished: string;
   dateModified?: string;
   keywords?: string;
+  reviewed?: boolean;
 }) {
+  const reviewed = opts.reviewed !== false;
   return {
     "@type": "MedicalWebPage",
     "@id": `${abs(opts.path)}#article`,
@@ -136,8 +144,10 @@ export function articleSchema(opts: {
     ...(opts.keywords ? { keywords: opts.keywords } : {}),
     image: abs(OG_IMAGE),
     inLanguage: "en-CA",
-    author: { "@id": `${SITE_URL}${DOCTOR.bioHref}#person` },
-    reviewedBy: { "@id": `${SITE_URL}${DOCTOR.bioHref}#person` },
+    author: reviewed
+      ? { "@id": `${SITE_URL}${DOCTOR.bioHref}#person` }
+      : { "@id": `${SITE_URL}/#clinic` },
+    ...(reviewed ? { reviewedBy: { "@id": `${SITE_URL}${DOCTOR.bioHref}#person` } } : {}),
     publisher: { "@id": `${SITE_URL}/#clinic` },
     isPartOf: { "@id": `${SITE_URL}/#clinic` },
   };

@@ -84,6 +84,39 @@ export function BlogArticleBody({ post }: { post: BlogPost }) {
                       ))}
                     </ol>
                   );
+                if (block.type === "table")
+                  return (
+                    <div key={bi} className="overflow-x-auto">
+                      <table className="w-full border-collapse text-sm">
+                        <thead>
+                          <tr>
+                            {block.headers.map((h, hi) => (
+                              <th
+                                key={hi}
+                                className="border-b-2 border-[var(--clinic-navy)] bg-[var(--clinic-surface)] px-3 py-2 text-left font-semibold text-[var(--clinic-navy)]"
+                              >
+                                <RichText text={h} />
+                              </th>
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {block.rows.map((row, ri) => (
+                            <tr key={ri} className={ri % 2 ? "bg-[var(--clinic-surface)]/50" : ""}>
+                              {row.map((cell, ci) => (
+                                <td
+                                  key={ci}
+                                  className="border-b border-[var(--clinic-border)] px-3 py-2 align-top text-[var(--clinic-text)]"
+                                >
+                                  <RichText text={cell} />
+                                </td>
+                              ))}
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  );
                 return null;
               })}
             </div>
