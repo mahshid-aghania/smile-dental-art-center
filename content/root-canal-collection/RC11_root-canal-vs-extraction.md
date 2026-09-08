@@ -71,6 +71,21 @@ Useful questions to ask:
 
 The best decision balances the clinical picture with your priorities — comfort, longevity, time and budget. There is not always a single "correct" answer, but there is usually a *best fit* for you.
 
+## The hidden costs of the "just pull it" instinct
+
+Extraction can look like the simple, cheap option, and sometimes it genuinely is the right call. But it helps to see the full picture before defaulting to it, because a missing tooth rarely stays a simple gap:
+
+- **Neighbouring teeth can drift** into the space, and the tooth opposing the gap can over-erupt, gradually changing your bite.
+- **Bone at the site tends to shrink** over time once the root is gone, which can complicate a future implant or bridge.
+- **Chewing shifts to other teeth**, adding load elsewhere.
+- **The gap usually needs replacing** to prevent the above — and a replacement (implant, bridge or denture) carries its own cost and time.
+
+So the honest comparison is not "root canal versus a quick extraction," but "root canal versus extraction *plus* whatever replaces the tooth." Viewed that way, saving a restorable tooth is often the better value as well as the more conservative choice.
+
+## When extraction really is the better call
+
+None of this means saving the tooth at all costs. Extraction is the sensible route when a tooth genuinely cannot be predictably restored — a tooth split through the root, a fracture extending well below the gum, or a tooth with severe bone loss from advanced gum disease. In those cases, pouring resources into saving a tooth with a poor outlook does you no favours; removing it and planning a good replacement is the wiser investment. A trustworthy dentist will tell you honestly which situation you are in, rather than pushing to save every tooth or to pull at the first sign of trouble.
+
 ## Frequently asked questions
 
 **Isn't it easier to just pull the tooth?**

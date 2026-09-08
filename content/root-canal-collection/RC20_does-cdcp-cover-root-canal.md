@@ -58,6 +58,23 @@ A common and important point of confusion: the CDCP's coverage of root canals do
 - **For a retreatment, expect preauthorization** and allow time for it.
 - **Combine with a written estimate** — see [reading a dental estimate](/blog/reading-a-dental-estimate-root-canal) and, for private plans, [does insurance cover a root canal](/blog/does-insurance-cover-root-canal).
 
+## A realistic step-by-step for CDCP patients
+
+If you think the CDCP applies to you and you have a tooth that may need a root canal, here is a realistic sequence to avoid surprises:
+
+1. **Confirm your eligibility** on the official Government of Canada CDCP pages before treatment.
+2. **Get the tooth assessed**, since coverage requires that treatment be recommended by an oral health provider.
+3. **Have the clinic check coverage and your co-payment level** for the specific services planned — the root canal, and separately any crown.
+4. **For a retreatment, allow time for preauthorization**, which the CDCP requires before it will cover redoing a previous root canal.
+5. **Ask about any balance** between the provider's fee and the plan's established amounts, so you know your full out-of-pocket figure.
+6. **Keep your paperwork**, and pair it with a written estimate (see [reading a dental estimate](/blog/reading-a-dental-estimate-root-canal)).
+
+Working through these in order means you enter treatment knowing what is covered and what you will owe.
+
+## Covered is not the same as free
+
+The most common misunderstanding about the CDCP is equating "covered" with "no cost to me." In reality, the plan uses an income-based co-payment, so depending on your adjusted family net income you may be responsible for a percentage of the cost, and there can be a difference between the plan's established fees and a provider's fees that also falls to you. This is not a reason to avoid using the coverage — it can still substantially reduce what you pay — but it is a reason to check the specifics for your situation *before* treatment rather than assuming everything is free. Ask the clinic to walk you through your expected co-payment and any balance, so the final bill matches your expectations.
+
 ## Frequently asked questions
 
 **Will the CDCP pay for my whole root canal?**

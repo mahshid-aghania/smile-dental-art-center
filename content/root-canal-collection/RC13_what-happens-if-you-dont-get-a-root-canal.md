@@ -62,6 +62,19 @@ There is no reliable safe window. Some teeth stay quiet for a long time; others 
 - **Use holding measures wisely** — over-the-counter relief as directed and salt-water rinses ease symptoms but do not treat the cause.
 - **Decide deliberately** — if cost or anxiety is the barrier, tell your dentist; there may be options, and the alternatives to doing nothing are worth discussing.
 
+## If cost or fear is the real reason you're waiting
+
+Often the barrier to treatment is not that someone doesn't understand the risk — it is cost or anxiety. Both are worth naming, because both have better answers than doing nothing:
+
+- **If it's cost:** ask your dentist for a written, itemised estimate and check your coverage. Root canals are frequently covered in part by private plans and, for eligible patients, by the Canadian Dental Care Plan (see [does the CDCP cover a root canal](/blog/does-cdcp-cover-root-canal)). Crucially, the cost of treating the tooth now is usually *less* than the cost of extraction plus a replacement later — so waiting rarely saves money. Talk to the clinic rather than disappearing.
+- **If it's fear:** modern root canals are typically comfortable, and there are practical ways to manage anxiety (see [coping with root canal anxiety](/blog/coping-with-root-canal-anxiety)). Tell your dental team; they can pace the appointment and keep you informed.
+
+Whatever the barrier, a conversation with the clinic almost always beats silent delay.
+
+## A realistic sense of timing
+
+People frequently ask for a number — "how long have I got?" — and the honest answer is that there isn't a reliable one. Some infected teeth stay quiet for months; others flare into an abscess within days. The variability is exactly why waiting is a gamble: you cannot know which kind of tooth you have, and the downside of guessing wrong (a painful emergency, a lost tooth) is far larger than the effort of a prompt appointment. Rather than trying to time it, treat the diagnosis itself as the signal to act, especially since early treatment is usually simpler and more likely to save the tooth.
+
 ## Frequently asked questions
 
 **My tooth stopped hurting. Doesn't that mean I dodged it?**

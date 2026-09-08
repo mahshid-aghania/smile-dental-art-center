@@ -64,6 +64,22 @@ Ontario has a provincial dental fee guide published by the Ontario Dental Associ
 - **Ask about coverage** — whether the office can submit a predetermination to your insurer or check CDCP eligibility.
 - **Compare the right things** — weigh the cost of saving the tooth against the cost of extraction *plus* a replacement, not extraction alone (see [root canal vs extraction](/blog/root-canal-vs-extraction)).
 
+## How to compare quotes fairly
+
+If you are gathering more than one estimate, comparing them well means looking past the headline number:
+
+- **Check what's included.** Does the quote cover diagnosis and X-rays, any build-up, and the crown — or just the root canal itself? A lower number that excludes the crown is not really lower.
+- **Compare like tooth with like tooth.** A molar quote and a front-tooth quote are not comparable; make sure you are pricing the same tooth.
+- **Ask who is providing treatment.** General-practice and specialist (endodontist) fees can differ; a referral for a complex tooth may change the figure.
+- **Confirm coverage handling.** Will the office submit a predetermination to your insurer or check CDCP eligibility? That affects what *you* actually pay, not just the sticker price.
+- **Beware unusually low numbers.** A quote well below others may be omitting parts of the plan (like the crown) rather than genuinely cheaper.
+
+The most useful comparison is your estimated out-of-pocket cost for the *complete* job, not the procedure fee alone.
+
+## Value, not just price
+
+It is worth stepping back from the raw figure to think about value, because that is what actually matters for your mouth and your money over time. A root canal that saves a functional tooth — especially a hard-working molar — preserves your natural bite and the bone around the root, and avoids the cost and stages of replacing the tooth. Set against extraction plus an implant or bridge, saving a restorable tooth is often the better long-term value even when the up-front numbers look similar. This is not an argument for saving every tooth regardless (sometimes extraction is genuinely wiser), but a reminder that "cheapest today" and "best value over five years" are different questions. An itemised estimate, plus an honest conversation about the tooth's outlook, lets you judge both.
+
 ## Frequently asked questions
 
 **Why won't anyone just tell me the price up front?**

@@ -57,6 +57,21 @@ Where you sit is determined by the tests and X-rays described in [how dentists d
 
 The most useful conversation with your dentist covers: whether the pulp can still be saved, whether the tooth is restorable, and — if not — which replacement suits you. If you are exploring alternatives because of cost or anxiety, say so; there are often ways to address those directly rather than choosing a path that costs more later.
 
+## How to weigh the alternatives sensibly
+
+Faced with a list of options, it helps to have a way to think them through rather than reacting to the scariest or cheapest-sounding one. A useful order of questions:
+
+1. **Can the pulp still be saved?** If you have been caught early with reversible inflammation, a pulp-protecting approach may keep you out of a root canal altogether. This is the best-case scenario and worth asking about explicitly.
+2. **If not, is the tooth restorable?** If yes, the real choice is usually root canal (keep) versus extraction and replacement (remove). Keeping a restorable tooth is generally the more conservative option.
+3. **If the tooth must go, which replacement fits?** Here you compare implant, bridge and denture on cost, time, and effect on neighbouring teeth.
+4. **What does doing nothing lead to?** Since untreated infection progresses, "wait and see" is rarely a true alternative — it is usually just delay.
+
+Walking through these in order keeps the decision grounded in your actual situation rather than in fear or a single number.
+
+## Beware the false economy of the "cheapest" option
+
+It is natural to be drawn to whatever seems least expensive or least invasive in the moment — a course of antibiotics, or a straightforward extraction. But the cheapest step now is often not the cheapest outcome overall. Antibiotics that only postpone treatment can let a savable tooth deteriorate; an extraction without a replacement can trigger drifting teeth and bone loss that cost more to manage later. Genuinely comparing alternatives means looking at where each one leaves you in a year or five, not just at today's price tag. When cost is the driver, say so to your dentist — an honest conversation about estimates and coverage usually reveals better options than quietly choosing the path that looks cheapest today.
+
 ## Frequently asked questions
 
 **Is there a way to fix an infected tooth without a root canal or extraction?**

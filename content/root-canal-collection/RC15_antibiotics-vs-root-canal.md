@@ -55,6 +55,14 @@ For these reasons, dentists follow stewardship guidance: antibiotics are prescri
 - **Watch for urgent signs** — spreading facial swelling, fever, or difficulty breathing or swallowing — and seek immediate care (see [dental abscess warning signs](/blog/dental-abscess-warning-signs)).
 - **Take prescribed antibiotics as directed** if your dentist decides they are needed alongside treatment.
 
+## Why antibiotic stewardship matters here
+
+There is a bigger picture behind a dentist's reluctance to simply prescribe antibiotics for a tooth that needs treatment. Overusing antibiotics — taking them when they will not cure the problem, or repeatedly for the same untreated tooth — contributes to antibiotic resistance, where bacteria become harder to treat for everyone. Dental and public-health bodies actively promote "stewardship": using antibiotics only when they are genuinely needed and will help. Declining to hand out a course that cannot reach the infection inside your tooth is not your dentist being unhelpful; it is responsible practice that protects both you and the wider community. When antibiotics *are* the right call — for a spreading infection, say — they are used deliberately and alongside treating the tooth, not as a substitute for it.
+
+## What actually resolves the infection
+
+If antibiotics are not the answer, it is worth being clear about what is. Because the infection lives in the dead pulp sealed inside the tooth, resolving it means physically removing that tissue and sealing the space so bacteria cannot recolonise it. That is precisely what a root canal does, and it is why the procedure — not a pill — is the definitive treatment. In cases where the tooth cannot be saved, extraction removes the source instead. Either way, the cure is mechanical: clearing out the infected tissue. Antibiotics can play a supporting role around that, but they cannot replace it, and understanding this usually makes the treatment recommendation far easier to accept.
+
 ## Frequently asked questions
 
 **My dentist prescribed antibiotics — doesn't that mean I don't need the root canal?**

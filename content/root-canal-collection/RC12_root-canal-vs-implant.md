@@ -66,6 +66,21 @@ Ask:
 
 The decision blends the clinical reality (can the tooth be saved?) with your preferences (time, budget, how much you value keeping the natural tooth). A good dentist will tell you honestly when saving the tooth is worthwhile and when it is not.
 
+## Why keeping a natural tooth is usually the first consideration
+
+There is a principle behind the general lean toward saving a restorable tooth, and it is worth understanding rather than taking on faith. A natural tooth is attached to the jaw by a thin ligament that cushions chewing forces and gives subtle feedback about pressure and texture — something an implant, fused directly to bone, does not replicate in the same way. Keeping the natural root also helps preserve the bone around it. And a root canal keeps you within one, usually shorter, treatment pathway rather than the staged process of extraction, healing and implant placement. None of this makes implants inferior — they are an excellent solution for a tooth that is gone or unsavable — but it explains why "can we keep the real tooth?" is the question dentists tend to ask first.
+
+## Matching the option to your situation
+
+Because both treatments are good, the decision often comes down to your specific circumstances rather than one being universally superior:
+
+- **If the tooth is restorable** and you value keeping your natural tooth with fewer stages, a root canal and crown is usually the front-runner.
+- **If the tooth is unsavable or already gone**, an implant is a strong, durable replacement — with a bridge as an alternative (see [extraction and bridge vs root canal](/blog/extraction-and-bridge-vs-root-canal)).
+- **If bone or gum health is a concern**, that can affect implant suitability and is worth raising early.
+- **If time or the number of appointments matters to you**, the shorter root canal pathway may appeal when the tooth can be saved.
+
+The most useful thing you can do is ask your dentist to frame the choice around *your* tooth: is it restorable, and if so, what would tip you toward replacing it anyway?
+
 ## Frequently asked questions
 
 **Is an implant "better" because it's newer technology?**

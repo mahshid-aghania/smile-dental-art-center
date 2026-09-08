@@ -56,6 +56,21 @@ The overarching save-versus-remove logic — including what happens if you leave
 
 Every option needs upkeep. A treated-and-crowned tooth needs normal care and can last many years. A bridge also lasts many years but eventually may need replacing, requires diligent cleaning under the false tooth, and depends on its supporting teeth staying healthy — if one support fails, the whole bridge is affected. Neither is "permanent," so the realistic question is which fits your mouth and priorities best over time.
 
+## Living with a bridge: what to know long-term
+
+If a bridge is the right choice for you, it helps to know what owning one involves over the years, so the comparison with keeping your own tooth is fully informed:
+
+- **Cleaning takes extra care.** You cannot floss between the false tooth and its neighbours normally; you clean *underneath* the pontic with a floss threader or interdental aids. It becomes routine, but it is a daily extra step.
+- **The bridge depends on its supports.** If decay or gum problems affect one of the anchor teeth, the whole bridge can be jeopardised — so those supporting teeth need diligent care.
+- **Bone beneath the gap can change.** Because the root is gone, the bone under the pontic can shrink over time, which may eventually affect the fit or appearance.
+- **It has a lifespan.** A well-made bridge lasts many years, but like all dental work it may eventually need replacing.
+
+None of this makes a bridge a poor choice — it is a long-established, comfortable, fixed solution — but these realities are why keeping a healthy natural tooth, when possible, is often preferred.
+
+## The question that usually settles it
+
+When patients are torn between the two, one question tends to clarify things: *are the neighbouring teeth healthy and untouched?* If they are, a bridge means reshaping two sound teeth to solve a problem with one — a significant trade many people would rather avoid, tilting the decision toward saving the original tooth. If the neighbours already carry large fillings or crowns, using them as bridge supports costs you much less, and a bridge becomes more attractive, especially if the problem tooth is unsavable. Framing the decision around the neighbours, rather than only the troubled tooth, often makes the right answer clear.
+
 ## Frequently asked questions
 
 **Isn't a bridge simpler than a root canal?**

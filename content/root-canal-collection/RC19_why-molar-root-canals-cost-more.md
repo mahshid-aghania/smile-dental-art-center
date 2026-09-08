@@ -59,6 +59,21 @@ And remember the restoration: molars take heavy chewing forces, so a crown is ve
 
 It is worth reframing "expensive" as "more work to save a hard-working tooth." Molars do the bulk of your chewing, so keeping one is valuable. The fair comparison is not front-tooth versus molar pricing, but the cost of saving *that molar* versus extracting it and replacing it — a replacement molar (implant or bridge) is itself a significant undertaking. That broader comparison is in [root canal vs extraction](/blog/root-canal-vs-extraction).
 
+## More time, more materials, more skill
+
+It helps to see *why* extra canals translate into extra cost, because it is not simply "more expensive because it's a molar." Each additional canal in a tooth means the dentist must:
+
+- **Locate it** — sometimes canals are small or hidden, and finding them all is part of a thorough treatment.
+- **Measure its length accurately**, often with X-rays or electronic measurement, so it is cleaned to the right point.
+- **Clean and shape it individually** along its full length, which takes time and single-use instruments.
+- **Seal it completely**, adding to the materials used.
+
+A molar with three or four canals therefore involves several times the steps of a single-canal front tooth, plus the added difficulty of working at the back of the mouth. The fee reflects chair time, materials and skill — not an arbitrary premium on bigger teeth.
+
+## Why a costlier molar is often worth saving
+
+Because molars cost more to treat, some people wonder whether it is worth it — why not just extract? But molars do the heavy lifting of chewing, and losing one has real consequences: neighbouring teeth can drift, the opposing tooth can over-erupt, and replacing a molar with an implant or bridge is itself a significant undertaking, often costing more than the root canal and crown would have. So the higher fee to save a molar is better understood as the cost of preserving a hard-working tooth and avoiding a more involved replacement later. The fair comparison, as always, is saving the molar versus extracting *and replacing* it — see [root canal vs extraction](/blog/root-canal-vs-extraction) — not the molar fee in isolation.
+
 ## Frequently asked questions
 
 **Is a molar root canal always more expensive than a front tooth?**

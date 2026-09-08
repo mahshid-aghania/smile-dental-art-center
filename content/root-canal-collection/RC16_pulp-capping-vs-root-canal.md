@@ -63,6 +63,20 @@ None of this makes capping a bad idea when conditions are right — preserving a
 
 If a deep cavity or exposure is found, it is reasonable to ask: "Is my pulp still healthy enough to try to save?" and "If we cap it, what are the odds, and what happens if it doesn't work?" A dentist bases the answer on your symptoms, the size of the exposure, and X-rays — the diagnostic process in [how dentists diagnose a root canal](/blog/how-dentists-diagnose-root-canal). If capping is not suitable, understanding *why* helps the root canal recommendation make sense, and the broader menu of choices is surveyed in [alternatives to a root canal](/blog/alternatives-to-root-canal).
 
+## What to expect if you have a pulp cap
+
+If your dentist decides your pulp is healthy enough to try to protect, the appointment itself is usually similar to having a filling: the decay is removed, a protective material is placed over or near the pulp, and the tooth is sealed. What differs is the follow-up. Because the aim is to see whether the pulp settles and stays alive, your dentist will typically:
+
+- **Ask you to report symptoms** — lingering sensitivity, spontaneous pain or throbbing would suggest the pulp is not recovering.
+- **Check the tooth over time**, sometimes with vitality tests at later visits, to confirm the pulp is still healthy.
+- **Have a plan B ready** — if the pulp deteriorates, a root canal is the next step, and catching that early keeps it straightforward.
+
+Knowing this in advance helps you interpret any symptoms sensibly rather than assuming the cap has "failed" at the first twinge.
+
+## Weighing the gamble honestly
+
+Pulp capping is best thought of as a worthwhile bet rather than a sure thing. The upside is real — if it works, you keep a living pulp, with its natural sensation and defences, and avoid a root canal. The downside is modest but genuine: it may not hold, and you could need a root canal later anyway, having spent time and money on the attempt. For the right tooth — a small exposure, a healthy-looking pulp, reversible symptoms, often in a younger patient — most people feel the potential to save the pulp is worth the attempt. For a tooth with an irreversibly inflamed or dead pulp, there is no gamble to make: capping simply will not work, and a root canal is the appropriate treatment. The key is an honest conversation about which situation you are actually in, and what the realistic odds are for your tooth.
+
 ## Frequently asked questions
 
 **Can pulp capping always save me from a root canal?**
