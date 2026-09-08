@@ -107,23 +107,24 @@ export function ClinicPageView({ path, page }: ClinicPageViewProps) {
       </nav>
 
       <h1 className="clinic-heading text-3xl font-semibold text-[var(--clinic-navy)] sm:text-4xl">
-        {page.heading}
+        {showAppointmentForm ? "Request Your Dental Appointment" : page.heading}
       </h1>
 
-      <div className="prose-clinic mt-8 space-y-4 text-base leading-relaxed text-[var(--clinic-muted)]">
-        {page.paragraphs.map((paragraph, i) => (
-          <p key={`${i}-${paragraph.slice(0, 24)}`}>{paragraph}</p>
-        ))}
-      </div>
-
+      {/* Booking intent first: render the request form above the preparation copy. */}
       {showAppointmentForm && (
-        <div className="mt-12">
+        <div className="mt-8">
           <h2 className="clinic-heading mb-6 text-2xl font-semibold text-[var(--clinic-navy)]">
             Online appointment request
           </h2>
           <AppointmentForm />
         </div>
       )}
+
+      <div className="prose-clinic mt-8 space-y-4 text-base leading-relaxed text-[var(--clinic-muted)]">
+        {page.paragraphs.map((paragraph, i) => (
+          <p key={`${i}-${paragraph.slice(0, 24)}`}>{paragraph}</p>
+        ))}
+      </div>
 
       {showContactForm && (
         <div className="mt-12 grid gap-10 lg:grid-cols-2">

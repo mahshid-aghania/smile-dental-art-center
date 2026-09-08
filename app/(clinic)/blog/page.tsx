@@ -17,7 +17,8 @@ import { OG_IMAGE, PILLAR_PATH, SITE_URL } from "@/lib/implants/data";
 import { breadcrumbSchema, clinicSchema, graph } from "@/lib/implants/schema";
 import { Clock } from "lucide-react";
 
-const TITLE = "Dental Health Blog | Smile Dental Arts Centre, Markham";
+// Brand suffix is appended by the root metadata template in app/layout.tsx.
+const TITLE = "Dental Health Blog | Markham";
 const DESCRIPTION =
   "Expert articles on dental implants, Invisalign, cosmetic dentistry, family dental care and emergencies — reviewed by Dr. Neda Kadivar, D.D.S. in Markham.";
 

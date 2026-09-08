@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 
 import { BLOG_BASE, getAllBlogSlugs } from "@/lib/blog/posts";
 import { getAllClinicSlugs } from "@/lib/clinic/pages";
+import { REDIRECT_SOURCE_SLUGS } from "@/lib/clinic/redirects";
 import { getAllImplantTopicSlugs, PILLAR_PATH, SITE_URL } from "@/lib/implants/data";
 
 /** Priority + change frequency tuned per route type for crawl guidance. */
@@ -21,7 +22,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
   const staticRoutes = ["/", PILLAR_PATH, BLOG_BASE];
-  const clinicRoutes = getAllClinicSlugs().map((slug) => `/${slug}`);
+  // Exclude slugs that permanently redirect elsewhere so the sitemap only
+  // advertises final canonical URLs (see lib/clinic/redirects.ts).
+  const clinicRoutes = getAllClinicSlugs()
+    .filter((slug) => !REDIRECT_SOURCE_SLUGS.has(slug))
+    .map((slug) => `/${slug}`);
   const implantRoutes = getAllImplantTopicSlugs().map((slug) => `${PILLAR_PATH}/${slug}`);
   const blogRoutes = getAllBlogSlugs().map((slug) => `${BLOG_BASE}/${slug}`);
 

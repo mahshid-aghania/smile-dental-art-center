@@ -24,7 +24,8 @@ import {
   graph,
 } from "@/lib/implants/schema";
 
-const TITLE = "Dental Implants in Markham | Smile Dental Arts Centre";
+// Brand suffix is appended by the root metadata template in app/layout.tsx.
+const TITLE = "Dental Implants in Markham";
 const DESCRIPTION =
   "Permanent dental implants in Markham by Dr. Neda Kadivar, D.D.S., with 20+ years of experience. Single tooth, All-on-4 & implant dentures. Book a consultation.";
 

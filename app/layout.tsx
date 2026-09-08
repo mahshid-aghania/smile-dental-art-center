@@ -30,7 +30,7 @@ const DEFAULT_DESCRIPTION =
   "Looking for a dentist in Markham? Smile Dental Arts Centre offers Invisalign, dental implants, root canals, whitening & family dentistry. Book today.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://smiledentalartscentre.com"),
+  metadataBase: new URL("https://www.smiledentalartscentre.com"),
   title: {
     default: DEFAULT_TITLE,
     template: `%s | ${SITE_NAME}`,
