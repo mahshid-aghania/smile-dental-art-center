@@ -14,9 +14,22 @@ export function decodeClinicText(text: string): string {
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
+    .replace(/&#8216;/g, "'")
     .replace(/&#8217;/g, "'")
+    .replace(/&#8220;/g, '"')
+    .replace(/&#8221;/g, '"')
     .replace(/&#8211;/g, "–")
     .replace(/&#8212;/g, "—");
+}
+
+/**
+ * Strip a trailing brand segment (e.g. "| Smile Dental Arts Centre") from a
+ * page title. The root metadata template in `app/layout.tsx` re-appends the
+ * brand exactly once, so titles must not carry it themselves — otherwise the
+ * brand renders twice.
+ */
+export function stripBrandSuffix(title: string): string {
+  return title.replace(/\s*[|\-–—]\s*Smile Dental\b.*$/i, "").trim();
 }
 
 function cleanParagraphs(paragraphs: string[]): string[] {

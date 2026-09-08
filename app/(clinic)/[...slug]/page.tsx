@@ -7,6 +7,7 @@ import {
   getAllClinicSlugs,
   getClinicPage,
   slugArrayToPath,
+  stripBrandSuffix,
 } from "@/lib/clinic/pages";
 import { SITE_URL } from "@/lib/implants/data";
 import { breadcrumbSchema, graph, type Crumb } from "@/lib/implants/schema";
@@ -48,21 +49,22 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const description = page.paragraphs[0]?.slice(0, 160) ?? page.heading;
   const canonical = `/${path}`;
+  const title = stripBrandSuffix(page.title);
 
   return {
-    title: page.title,
+    title,
     description,
     alternates: { canonical },
     openGraph: {
       type: "website",
       url: canonical,
-      title: page.title,
+      title,
       description,
       images: ["/clinic/implants-hero.png"],
     },
     twitter: {
       card: "summary_large_image",
-      title: page.title,
+      title,
       description,
       images: ["/clinic/implants-hero.png"],
     },

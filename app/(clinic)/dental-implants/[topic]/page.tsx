@@ -11,6 +11,7 @@ import { RelatedImplantLinks } from "@/components/implants/RelatedImplantLinks";
 import { SchemaJsonLd } from "@/components/implants/SchemaJsonLd";
 import { StickyActionBar } from "@/components/implants/StickyActionBar";
 import { TrustBadges } from "@/components/implants/TrustBadges";
+import { stripBrandSuffix } from "@/lib/clinic/pages";
 import {
   getAllImplantTopicSlugs,
   getImplantTopic,
@@ -39,13 +40,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!data) return { title: "Page not found" };
 
   const path = `${PILLAR_PATH}/${topic}`;
+  const title = stripBrandSuffix(data.metaTitle);
   return {
-    title: data.metaTitle,
+    title,
     description: data.metaDescription,
     alternates: { canonical: path },
     robots: { index: true, follow: true },
     openGraph: {
-      title: data.metaTitle,
+      title,
       description: data.metaDescription,
       url: `${SITE_URL}${path}`,
       type: "article",
@@ -53,7 +55,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
     twitter: {
       card: "summary_large_image",
-      title: data.metaTitle,
+      title,
       description: data.metaDescription,
       images: [OG_IMAGE],
     },

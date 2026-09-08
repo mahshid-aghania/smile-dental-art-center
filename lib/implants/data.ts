@@ -1,7 +1,7 @@
 import { CLINIC } from "@/lib/clinic/content";
 
 /** Canonical site origin (no trailing slash). */
-export const SITE_URL = "https://smiledentalartscentre.com";
+export const SITE_URL = "https://www.smiledentalartscentre.com";
 
 /** Default OpenGraph image used across implant pages. */
 export const OG_IMAGE = "/clinic/implants-hero.png";
@@ -88,7 +88,7 @@ export const IMPLANT_OPTIONS: ImplantOption[] = [
     title: "Implant Cost in Markham",
     href: "/dental-implants/cost",
     description:
-      "Transparent pricing factors, financing options and how the CDCP may help with implant costs.",
+      "Transparent pricing factors, financing options and how private dental insurance may offset implant costs.",
   },
   {
     title: "Same-Day Implants",
@@ -212,7 +212,7 @@ export const IMPLANT_TOPICS: Record<string, ImplantTopic> = {
     navLabel: "Implant Cost",
     metaTitle: "Dental Implant Cost in Markham | Smile Dental Arts Centre",
     metaDescription:
-      "How much do dental implants cost in Markham? Learn the price factors, financing and how the CDCP may help. Reviewed by Dr. Neda Kadivar, D.D.S.",
+      "How much do dental implants cost in Markham? Learn the price factors, financing and how private insurance may help. Reviewed by Dr. Neda Kadivar, D.D.S.",
     h1: "Dental Implant Cost in Markham",
     lead: "The cost of a dental implant depends on your unique mouth — the number of teeth being replaced, whether you need bone grafting and the type of restoration. Here is an honest breakdown so you can plan with confidence.",
     procedureName: "Dental implant cost consultation",
@@ -238,10 +238,10 @@ export const IMPLANT_TOPICS: Record<string, ImplantTopic> = {
         ],
       },
       {
-        heading: "Financing and the Canadian Dental Care Plan (CDCP)",
+        heading: "Financing and insurance",
         body: [
-          "We believe a healthy smile should be attainable. Our Markham clinic offers flexible payment options and will help you understand whether the Canadian Dental Care Plan (CDCP) or your private insurance can offset part of your treatment.",
-          "Bring your insurance details to your consultation and our team will prepare a clear, written estimate before any treatment begins — no surprises.",
+          "We believe a healthy smile should be attainable. Our Markham clinic offers flexible payment options and will help you understand whether your private dental insurance can offset part of your treatment.",
+          "Please note that the Canadian Dental Care Plan (CDCP) does not cover implant-related procedures. Bring your insurance details to your consultation and our team will prepare a clear, written estimate before any treatment begins — no surprises.",
         ],
       },
     ],
@@ -254,7 +254,7 @@ export const IMPLANT_TOPICS: Record<string, ImplantTopic> = {
       {
         question: "Does insurance or the CDCP cover dental implants?",
         answer:
-          "Coverage varies by plan. Many private plans cover a portion of implant treatment, and the Canadian Dental Care Plan (CDCP) may help eligible patients. Our team will review your coverage and maximize any benefits available to you.",
+          "Coverage varies by plan. Many private plans cover a portion of implant treatment. The Canadian Dental Care Plan (CDCP), however, does not cover implant-related procedures. Our team will review your private coverage and help you make the most of any benefits available to you.",
       },
       {
         question: "Are payment plans available?",
@@ -638,7 +638,7 @@ export const IMPLANT_TOPICS: Record<string, ImplantTopic> = {
       {
         question: "How much do dental implants cost in Markham?",
         answer:
-          "Cost depends on the number of implants, the restoration type and whether grafting is needed. We provide a clear written estimate after your scan, and our team will review insurance and CDCP coverage with you.",
+          "Cost depends on the number of implants, the restoration type and whether grafting is needed. We provide a clear written estimate after your scan, and our team will review your private insurance coverage with you. Note that implant-related procedures are not covered by the Canadian Dental Care Plan (CDCP).",
       },
       {
         question: "How do I care for my dental implant?",

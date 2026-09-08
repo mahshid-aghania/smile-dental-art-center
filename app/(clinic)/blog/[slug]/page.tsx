@@ -20,6 +20,7 @@ import {
   getAllBlogSlugs,
   getBlogPost,
 } from "@/lib/blog/posts";
+import { stripBrandSuffix } from "@/lib/clinic/pages";
 import { OG_IMAGE, SITE_URL } from "@/lib/implants/data";
 import {
   articleSchema,
@@ -41,14 +42,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!post) return { title: "Article not found" };
 
   const path = `${BLOG_BASE}/${slug}`;
+  const title = stripBrandSuffix(post.seoTitle);
   return {
-    title: post.seoTitle,
+    title,
     description: post.metaDescription,
     keywords: post.primaryKeyword,
     alternates: { canonical: path },
     robots: { index: true, follow: true },
     openGraph: {
-      title: post.seoTitle,
+      title,
       description: post.metaDescription,
       url: `${SITE_URL}${path}`,
       type: "article",
@@ -56,7 +58,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
     twitter: {
       card: "summary_large_image",
-      title: post.seoTitle,
+      title,
       description: post.metaDescription,
       images: [OG_IMAGE],
     },
