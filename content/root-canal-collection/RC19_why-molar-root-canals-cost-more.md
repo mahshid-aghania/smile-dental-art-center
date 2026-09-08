@@ -88,6 +88,12 @@ Yes. Anatomy varies, and molars sometimes have an extra canal that is only found
 **Does the higher cost include the crown?**
 Usually not — the crown is a separate fee, and it is especially common after molar treatment because these teeth bear heavy chewing loads.
 
+**Is a premolar root canal priced like a front tooth or a molar?**
+Usually in between. Premolars typically have one or two canals — more than a front tooth's single canal but fewer than a molar's three or more — so their complexity, chair time and fee generally sit between the two.
+
+**Could two molars cost different amounts?**
+Yes. Even among molars, the number and shape of canals, how calcified or curved they are, and whether extra procedures (like a build-up) are needed can all vary, so two molar root canals are not always priced identically. This is why an exam-based estimate is more reliable than a flat "molar price."
+
 ## Get a tooth-specific estimate in Markham
 
 Because cost depends on which tooth and how many canals, the accurate number comes from an examination. Learn about [root canal treatment in Markham](/root-canal-markham) or [book an assessment](/appointments) for a written, itemised estimate.

@@ -77,6 +77,12 @@ No antibiotic can reliably reach dead pulp inside the tooth regardless of streng
 **Are there situations where antibiotics alone are appropriate?**
 As a definitive treatment for an infected tooth, no. Your dentist decides when antibiotics are a useful adjunct, but the tooth itself still needs treating.
 
+**Why won't my dentist just give me antibiotics for my toothache?**
+Because for a tooth infection they cannot cure the problem — they don't reach the dead pulp inside the tooth — and prescribing them when they won't help contributes to antibiotic resistance. Your dentist is following stewardship guidance, and will use antibiotics only when they genuinely add something alongside treating the tooth.
+
+**If I finish a course of antibiotics, will the tooth be safe to leave?**
+No. Once the course ends, the untreated source inside the tooth remains, and symptoms commonly return. The tooth still needs a root canal or extraction to resolve the infection for good.
+
 ## Treat the source in Markham
 
 If you have a tooth infection, the lasting fix is to treat the tooth — and we can tell you whether that means a root canal or another option. Learn about [root canal treatment in Markham](/root-canal-markham) or [book a visit](/appointments). Seek urgent care if you have spreading swelling or feel unwell.
