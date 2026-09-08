@@ -77,6 +77,12 @@ Not at all. It usually just reflects a tooth with more canals or more complex an
 **How long until the tooth is fully restored?**
 If a crown is needed, the full restoration can take a few weeks including separate appointments — even when the root canal itself is completed quickly.
 
+**Will I be in the chair the whole time without a break?**
+Not necessarily. For a longer molar appointment you can ask for short breaks, which many people find makes keeping the mouth open much more manageable. Tell your dentist if you need to pause.
+
+**Does a retreatment take longer than a first root canal?**
+Usually, yes. Redoing a previous root canal means removing the old filling material before re-cleaning and sealing, which adds steps and time — one reason complex retreatments are sometimes referred to a specialist.
+
 ## Plan your treatment in Markham
 
 For a realistic idea of how many visits and how much time your tooth will need, an assessment is the starting point. Learn about [root canal treatment in Markham](/root-canal-markham) or [book a consultation](/appointments).

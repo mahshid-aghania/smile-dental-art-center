@@ -83,6 +83,12 @@ Specialist fees can differ from general-practice fees. Ask about the expected co
 **Who restores the tooth after a specialist does the root canal?**
 Usually your general dentist places the final restoration (often a crown) and continues your regular care.
 
+**Can I ask to see an endodontist directly?**
+Practices vary, and many people are seen via a referral from their general dentist, who provides the records and X-rays. If you think your case is complex, it is reasonable to ask your dentist whether a specialist would help and how to arrange it.
+
+**Does seeing a specialist mean a better result?**
+For genuinely complex teeth, a specialist's extra training and equipment can improve the outcome. For routine cases, a general dentist is well equipped, and there is no added benefit to seeking a specialist. It is about matching the provider to the complexity of the tooth.
+
 ## Root canal care in Markham
 
 Whether your tooth is straightforward or would benefit from a referral, we can assess it and guide you to the right care. Learn about our [endodontic services](/dental-services/endodontics) and [root canal treatment in Markham](/root-canal-markham), or [book an assessment](/appointments).

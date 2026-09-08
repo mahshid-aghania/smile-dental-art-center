@@ -95,6 +95,12 @@ Many people do not — local anaesthetic plus a calm, informed approach is enoug
 **Will sedation be covered by insurance?**
 Coverage varies and some sedation is an additional cost. Ask the clinic and check your plan; this article does not quote fees.
 
+**Can I decide on sedation at the appointment, or do I need to arrange it in advance?**
+Some options — particularly oral or deeper sedation — need to be planned ahead (including arranging a ride home), so it is best to raise it when you book rather than on the day. Simple comfort measures, by contrast, can be requested any time.
+
+**Is it safe to combine sedation with local anaesthetic?**
+Local anaesthetic is used in virtually all root canals, including those with sedation, and dentists routinely plan the two together. Your dentist will assess what is appropriate for you based on your health and history.
+
 ## Talk about comfort in Markham
 
 If anxiety is on your mind, tell us — we can discuss what will make your treatment comfortable. Learn about [root canal treatment in Markham](/root-canal-markham) or [request an appointment](/appointments), and let the team know you are nervous when you book.

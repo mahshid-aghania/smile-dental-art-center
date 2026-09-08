@@ -82,6 +82,12 @@ Yes, a temporary filling seals it in the interim. Follow the care advice for tem
 **Can I ask to have it done in one visit?**
 You can discuss it, but the decision should be clinical. If your dentist advises two visits for a heavily infected tooth, that recommendation is in the tooth's interest.
 
+**Does a two-visit root canal cost more than a one-visit one?**
+Not necessarily — the fee usually reflects the tooth and its complexity rather than the number of visits. Ask your dentist for an estimate for your specific tooth; the crown afterward is a separate cost either way.
+
+**What if I can't make the second appointment for a while?**
+Tell your dentist. A temporary filling protects the tooth in the interim, but it is not meant to last indefinitely, so the second visit shouldn't be postponed for too long. If timing is difficult, your dentist can advise how long is safe.
+
 ## Discuss your treatment plan in Markham
 
 Whether your tooth needs one visit or two, we will explain the plan and why. Learn about [root canal treatment in Markham](/root-canal-markham) or [book a consultation](/appointments).
